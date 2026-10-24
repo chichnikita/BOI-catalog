@@ -6,6 +6,7 @@ from threading import Lock
 import argparse, json, mimetypes, math, re, io, hashlib, os
 from PIL import Image, UnidentifiedImageError
 from gm_actions import GMActions, COMMAND_GUIDE_UPDATES
+from class_filters import CLASSES, CLASS_BY_ID, ALL_CLASS_IDS, attach_requirements
 
 ROOT = Path(__file__).resolve().parent
 PROJECT = ROOT.parent
@@ -16,6 +17,9 @@ BY_UID = {e['uid']: e for e in ENTRIES}
 DESCRIPTION_PATH = ROOT / 'item-descriptions.json'
 DESCRIPTIONS = json.loads(DESCRIPTION_PATH.read_text(encoding='utf-8')) if DESCRIPTION_PATH.exists() else {}
 ITEM_CATEGORIES = {c['key'] for c in DATA['categories'] if c['namespace'].startswith('ItemID')}
+CLASS_REQUIREMENTS_PATH = ROOT / 'class-requirements.json'
+CLASS_REQUIREMENTS = json.loads(CLASS_REQUIREMENTS_PATH.read_text(encoding='utf-8')) if CLASS_REQUIREMENTS_PATH.exists() else {}
+CLASS_FILTER_CATEGORIES = attach_requirements(ENTRIES, CLASS_REQUIREMENTS)
 for entry in ENTRIES:
     if entry['category'] == 'commands' and entry['id'] in COMMAND_GUIDE_UPDATES:
         entry['fields'] = {**entry['fields'], **COMMAND_GUIDE_UPDATES[entry['id']]}
@@ -25,6 +29,7 @@ GM_ACTIONS = GMActions(ENTRIES, CATEGORIES, json.loads(GM_LINKS_PATH.read_text(e
 for entry in ENTRIES:
     descriptions = DESCRIPTIONS.get(entry['id'], {}) if entry['category'] in ITEM_CATEGORIES else {}
     entry['_search'] = ' '.join([entry['id'], entry['name'], CATEGORIES[entry['category']]['title'], *map(str, entry['fields'].values()),
+                                *(CLASS_BY_ID[value]['name'] for value in entry.get('classIds', [])),
                                 *(d['name'] + ' ' + d['text'] for d in descriptions.values())]).casefold()
 OVERRIDES_PATH = ROOT / 'user-images/overrides.json'
 OVERRIDES_PATH.parent.mkdir(exist_ok=True)
@@ -80,7 +85,8 @@ class Handler(BaseHTTPRequestHandler):
         if route == '/api/meta':
             return self.json({'version': DATA['version'], 'categories': DATA['categories'], 'total': len(ENTRIES),
                               'imageCount': DATA['imageCount'], 'assetCount': DATA['assetCount'], 'hero': DATA['hero'],
-                              'descriptionCount': len(DESCRIPTIONS)})
+                              'descriptionCount': len(DESCRIPTIONS), 'classes': CLASSES,
+                              'classFilterCategories': CLASS_FILTER_CATEGORIES})
         if route == '/api/entries':
             return self.search(query)
         if route.startswith('/api/entry/'):
@@ -118,6 +124,17 @@ class Handler(BaseHTTPRequestHandler):
             return self.json({'error': 'Категория не найдена'}, 400)
         if category == 'favorites' or favorite_ids is not None:
             items = [e for e in items if e['uid'] in (favorite_ids or set())]
+        class_id = query.get('class', '')
+        if class_id:
+            if class_id not in CLASS_BY_ID and class_id != 'shared':
+                return self.json({'error': 'Неизвестный класс персонажа'}, 400)
+            if query.get('shared', '1') not in ['0', '1']:
+                return self.json({'error': 'Проверь параметр общей экипировки'}, 400)
+            if class_id == 'shared':
+                items = [e for e in items if set(e.get('classIds', [])) == ALL_CLASS_IDS]
+            else:
+                items = [e for e in items if class_id in e.get('classIds', [])
+                         and (query.get('shared', '1') == '1' or set(e['classIds']) != ALL_CLASS_IDS)]
         if tokens:
             items = [e for e in items if all(token in e['_search'] for token in tokens)]
         if query.get('images') == '1':

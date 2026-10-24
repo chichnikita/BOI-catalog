@@ -7,7 +7,8 @@
     "test:catalog": "node BOI-Catalog/tools/check_catalog.mjs",
     "test:descriptions": "node BOI-Catalog/tools/check_descriptions.mjs",
     "test:gm": "node BOI-Catalog/tools/check_gm_actions.mjs",
-    "test": "npm run test:catalog && npm run test:descriptions && npm run test:gm"
+    "test:classes": "node BOI-Catalog/tools/check_class_filters.mjs",
+    "test": "npm run test:catalog && npm run test:descriptions && npm run test:gm && npm run test:classes"
   },
   "devDependencies": {
     "playwright": "1.62.1"

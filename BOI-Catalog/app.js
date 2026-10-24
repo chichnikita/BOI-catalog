@@ -36,7 +36,8 @@ try { favorites = new Set(JSON.parse(localStorage.getItem('boi-atlas-favorites')
 let view = localStorage.getItem('boi-atlas-view') || 'grid';
 let descriptionLanguage = localStorage.getItem('boi-atlas-description-language') || 'ru';
 let meta, categories, currentItems = [], selectedEntry = null, requestController, debounce, toastTimer, lastFocus;
-const state = {category:'home', q:'', page:1, images:false, boss:false, min:'', max:'', sort:'default'};
+const state = {category:'home', q:'', page:1, images:false, boss:false, min:'', max:'', sort:'default', classId:'', includeShared:true};
+const supportsClassFilter = category => ['all','favorites',...(meta?.classFilterCategories||[])].includes(category);
 const categoryIcon = category => categoryIcons[category] || 'gem';
 const color = category => categoryColors[category] || '#b7a786';
 const titleFor = category => ({home:'Обзор', all:'Все объекты', favorites:'Избранное'}[category] || categories?.get(category)?.title || 'Каталог');
@@ -107,6 +108,7 @@ function applyRoute() {
   if(!['home','all','favorites',...categories.keys()].includes(category)) { location.hash='home'; return; }
   if(state.category!==category) { state.q=''; $('#search').value=''; state.page=1; state.boss=false; state.min=''; state.max=''; $('#min-level').value=''; $('#max-level').value=''; }
   state.category=category;
+  if(!supportsClassFilter(category))state.classId='';
   renderNav(); updateHeader(); loadEntries();
   $('#sidebar').classList.remove('open'); $('#mobile-shade').classList.remove('open');
   const entry=new URLSearchParams(params).get('entry');
@@ -119,18 +121,23 @@ function updateHeader() {
   $('#catalog-title').innerHTML=home?'Из мира Odin <span class="heading-star">✦</span>':esc(state.q&&state.category==='home'?'Результаты поиска':titleFor(state.category));
   $('#section-kicker').textContent=home?'ИССЛЕДУЙ КОЛЛЕКЦИЮ':state.category==='commands'?'СПРАВОЧНИК АДМИНИСТРАТОРА':'КАТАЛОГ ТВОЕГО СЕРВЕРА';
   $('#boss-only').hidden=state.category!=='monsters';
+  $('#class-filter-row').hidden=!supportsClassFilter(state.category);
+  $('#class-filter').value=state.classId;
+  $('#class-shared-toggle').hidden=!state.classId||state.classId==='shared';
+  $('#include-shared').checked=state.includeShared;
   const download=$('#download'), category=categories.get(state.category);
   download.hidden=!category; if(category) { download.href='/download/'+encodeURIComponent(category.file); download.innerHTML=(state.category==='commands'?'Скачать TXT':'Скачать CSV')+' <span>↓</span>'; }
   $('#images-only').innerHTML=icon('image')+'С изображениями';
   $('#images-only').classList.toggle('selected',state.images); $('#images-only').setAttribute('aria-pressed',String(state.images));
   $('#boss-only').classList.toggle('selected',state.boss); $('#boss-only').setAttribute('aria-pressed',String(state.boss));
-  const active=Number(state.images)+Number(state.boss)+Number(Boolean(state.min))+Number(Boolean(state.max))+Number(state.sort!=='default');
+  const active=Number(state.images)+Number(state.boss)+Number(Boolean(state.min))+Number(Boolean(state.max))+Number(state.sort!=='default')+Number(Boolean(state.classId));
   $('#filter-count').hidden=!active; $('#filter-count').textContent=active;
 }
 async function loadEntries(scroll=false) {
   requestController?.abort(); requestController=new AbortController();
   const params=new URLSearchParams({category:state.category,q:state.q,page:state.page,sort:state.sort});
   if(state.images)params.set('images','1'); if(state.boss)params.set('boss','1'); if(state.min)params.set('min',state.min); if(state.max)params.set('max',state.max);
+  if(state.classId){params.set('class',state.classId);params.set('shared',state.includeShared?'1':'0');}
   if(state.category==='favorites')params.set('favorites',[...favorites].join(','));
   $('#results').classList.add('is-loading');
   try {
@@ -154,7 +161,7 @@ function renderResults(items) {
     return `<article class="entry-card ${command?'command-card':''}" style="--card-accent:${color(entry.category)}">
       <button class="card-open" data-open="${esc(entry.uid)}" aria-label="Открыть ${esc(title)}">
         <div class="card-image ${entry.imageInfo?.width>256?'wide-art':''}">${imageHTML(entry)}<span class="card-rune">✦</span></div>
-        <div class="card-body"><div class="card-type">${icon(categoryIcon(entry.category))}${esc(category.title)}${entry.boss?'<span class="boss-label">БОСС</span>':''}</div><h3>${esc(title)}</h3><div class="card-description">${command?esc(entry.name):entry.level!==null?`${esc(entry.levelLabel)}: <b>${entry.level}</b>`:esc(category.namespace)}</div>${entry.descriptionPreview?`<p class="card-tooltip-summary">${esc(entry.descriptionPreview)}</p>`:''}</div>
+        <div class="card-body"><div class="card-type">${icon(categoryIcon(entry.category))}${esc(category.title)}${entry.boss?'<span class="boss-label">БОСС</span>':''}</div><h3>${esc(title)}</h3><div class="card-description">${command?esc(entry.name):entry.level!==null?`${esc(entry.levelLabel)}: <b>${entry.level}</b>`:esc(category.namespace)}</div>${entry.classLabel?`<div class="card-class" title="${esc(entry.classLabel)}">${icon('person')}${esc(entry.classLabel)}</div>`:''}${entry.descriptionPreview?`<p class="card-tooltip-summary">${esc(entry.descriptionPreview)}</p>`:''}</div>
       </button><button class="favorite-button ${saved?'saved':''}" data-favorite="${esc(entry.uid)}" aria-label="${saved?'Убрать из избранного':'В избранное'}" aria-pressed="${saved}">${icon('star')}</button>
       <div class="card-foot"><span class="id-label">${command?'КОМАНДА':'ID'} <b>${esc(entry.id)}</b></span><button class="copy-button" data-copy="${esc(entry.id)}" aria-label="Скопировать ${esc(entry.id)}">${icon('copy')}</button></div>
     </article>`;
@@ -196,7 +203,7 @@ async function uploadImage(file) {
   const uid=selectedEntry.uid; $('#upload-status').textContent='Сохраняю изображение…';
   try {await api('/api/image/'+encodeURIComponent(uid),{method:'POST',headers:{'X-BOI-Local':'1','Content-Type':'application/octet-stream'},body:file});await openDetail(uid);loadEntries();notify('Изображение добавлено');}catch(error){$('#upload-status').textContent=error.message;}
 }
-function resetFilters() { state.images=false;state.boss=false;state.min='';state.max='';state.sort='default';state.page=1;$('#min-level').value='';$('#max-level').value='';$('#sort').value='default';updateHeader();loadEntries(); }
+function resetFilters() { state.images=false;state.boss=false;state.min='';state.max='';state.sort='default';state.classId='';state.includeShared=true;state.page=1;$('#min-level').value='';$('#max-level').value='';$('#sort').value='default';updateHeader();loadEntries(); }
 
 document.addEventListener('click',event=>{
   const button=event.target.closest('[data-copy],[data-favorite],[data-open],[data-page],[data-category],[data-retry],[data-empty-reset],[data-description-lang]'); if(!button)return;
@@ -227,6 +234,8 @@ $('#search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>{state.
 $('#filter-toggle').onclick=()=>{const open=$('#filter-panel').hidden;$('#filter-panel').hidden=!open;$('#filter-toggle').setAttribute('aria-expanded',String(open));};
 $('#images-only').onclick=()=>{state.images=!state.images;state.page=1;updateHeader();loadEntries();};
 $('#boss-only').onclick=()=>{state.boss=!state.boss;state.page=1;updateHeader();loadEntries();};
+$('#class-filter').onchange=event=>{state.classId=event.target.value;state.page=1;updateHeader();loadEntries();};
+$('#include-shared').onchange=event=>{state.includeShared=event.target.checked;state.page=1;updateHeader();loadEntries();};
 for(const [id,key] of [['min-level','min'],['max-level','max'],['sort','sort']])$('#'+id).onchange=()=>{state[key]=$('#'+id).value;state.page=1;updateHeader();loadEntries();};
 $('#reset-filters').onclick=resetFilters;
 for(const type of ['grid','list'])$('#'+type+'-view').onclick=()=>{view=type;localStorage.setItem('boi-atlas-view',type);renderResults(currentItems);};
@@ -235,7 +244,7 @@ $('#mobile-menu').onclick=()=>{$('#sidebar').classList.add('open');$('#mobile-sh
 $('#mobile-shade').onclick=()=>{$('#sidebar').classList.remove('open');$('#mobile-shade').classList.remove('open');};
 $('#search-icon').innerHTML=icon('search');$('#filter-icon').innerHTML=icon('filter');$('#grid-view').innerHTML=icon('grid');$('#list-view').innerHTML=icon('list');$('#mobile-menu').innerHTML=icon('menu');
 async function init() {
-  try {meta=await api('/api/meta');categories=new Map(meta.categories.map(c=>[c.key,c]));renderStats();if(meta.hero)$('#hero-art').style.backgroundImage=`url("${meta.hero}")`;$('#hero-count').textContent=`${meta.categories.length-1} категорий · ${format(meta.total-169)} записей`;window.addEventListener('hashchange',applyRoute);applyRoute();}
+  try {meta=await api('/api/meta');categories=new Map(meta.categories.map(c=>[c.key,c]));$('#class-filter').innerHTML='<option value="">Любой класс</option>'+meta.classes.map(c=>`<option value="${esc(c.id)}">${esc(c.label)} · ${esc(c.name)}</option>`).join('')+'<option value="shared">Общие для всех классов</option>';renderStats();if(meta.hero)$('#hero-art').style.backgroundImage=`url("${meta.hero}")`;$('#hero-count').textContent=`${meta.categories.length-1} категорий · ${format(meta.total-169)} записей`;window.addEventListener('hashchange',applyRoute);applyRoute();}
   catch(error){$('#results').innerHTML=`<div class="empty-state"><h3>Не удалось подключиться к каталогу</h3><p>Запусти Open-BOI-Catalog.cmd и обнови страницу.</p></div>`;$('#collection-meta').textContent=error.message;}
 }
 init();
