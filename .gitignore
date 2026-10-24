@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+_runtime/
+BOI-Catalog/user-images/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db

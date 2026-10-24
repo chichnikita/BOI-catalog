@@ -1,0 +1,32 @@
+﻿ФРАКЦИИ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\Faction.slk
+Область идентификатора: FactionID
+Записей: 21; разных ID внутри этой таблицы: 21.
+Название взято из текстового комментария строки.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Дружественные фракции ID | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+0 | player | 2;3;5;11;13;15;16;17;20 | 3
+1 | ordinary monster | 9;11;12 | 4
+2 | friendly to player | 0;8 | 5
+3 | escorting monster | 0;1;7;8 | 6
+4 |  | 5 | 7
+5 | yes-man | 0;1;2;3;4;6;7;8;9 | 8
+6 | TD | 0;8 | 9
+7 | small main line monster | 8 | 10
+8 | players transfer | 0;2;3;5;16;17;18 | 11
+9 | monster's friends | 0;1 | 12
+10 | ordinary monster's friends | 1 | 13
+11 | N/A?????,?????.???????? | 0;1 | 14
+12 | Vehicle Monster | 0;1;8 | 15
+13 | Demented Creature | 1 | 16
+14 | 370 Main Quest Boss | 1;9;11;12 | 17
+15 | New Yes-man | 0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20 | 18
+16 | 3.80 Main Quest | 0;1;2;8;11;15;20 | 19
+17 | 3.80 Main Quest | 0;1;2;8;11;15;20 | 20
+18 | 3.80 Main Quest | 0;1;8;11;15;16;17 | 21
+19 | 3.80 Main Quest | 0;1;2;8;11;15 | 22
+20 | friendly to player | 0;8;15;16;17;19 | 23

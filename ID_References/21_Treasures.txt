@@ -1,0 +1,53 @@
+﻿СОКРОВИЩА — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\Treasure\Treasure.slk
+Область идентификатора: Treasure.ID
+Записей: 42; разных ID внутри этой таблицы: 42.
+Внутренний ID сокровища. Для предмета смотри справочник «Предметы сокровищ».
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Редкость | Максимальное количество | Ценность сокровища | Очки исследования | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+1000 | Moai's Body | 1 | 10 | 10 | 100 | 3
+1001 | Moai's Soul | 4 | 10 | 41 | 100 | 4
+1002 | Volcano Ash of Rano Kau  | 2 | 10 | 21 | 100 | 5
+1003 | Volcano Ash of Rano Raraku | 2 | 10 | 21 | 100 | 6
+1004 | Volcano Ash of Rano Aru | 2 | 10 | 21 | 100 | 7
+1010 | Catastrophe Classics | 3 | 10 | 31 | 100 | 8
+1011 | Scepter of Disaster | 4 | 10 | 41 | 100 | 9
+1012 | Doctrine of Ocean | 2 | 10 | 21 | 100 | 10
+1013 | Zio Stone of the Sun | 1 | 10 | 10 | 100 | 11
+1014 | Bimini Rock | 1 | 10 | 10 | 100 | 12
+1015 | Poseidon's Spear | 2 | 10 | 21 | 100 | 13
+1016 | Poseidon's Crown | 4 | 10 | 41 | 100 | 14
+1020 | Harp of Storm | 2 | 10 | 21 | 100 | 15
+1021 | Ocean Heart | 1 | 10 | 10 | 100 | 16
+1022 | Seaserpent's Fury | 2 | 10 | 21 | 100 | 17
+1023 | Talimis's Eye | 4 | 10 | 41 | 100 | 18
+1024 | Siren's Eyering | 3 | 10 | 32 | 100 | 19
+1025 | Schilla's Necklace | 4 | 10 | 41 | 100 | 20
+1026 | Charybdis's Ring | 4 | 10 | 41 | 100 | 21
+1030 | Forest Totem | 1 | 10 | 10 | 100 | 22
+1031 | Mandala's Light | 1 | 10 | 10 | 100 | 23
+1032 | Mystic Tome - the Wheel of Time | 2 | 10 | 21 | 100 | 24
+1033 | Desperate Sword | 4 | 10 | 41 | 100 | 25
+1034 | Pali-Bhasa Classics | 3 | 10 | 31 | 100 | 26
+1035 | Sanskrit Classics | 3 | 10 | 31 | 100 | 27
+1036 | Stone of Destruction | 4 | 10 | 41 | 100 | 28
+1040 | Conqueror's Gold Helm | 1 | 10 | 10 | 100 | 29
+1041 | Memphis Staff  | 3 | 10 | 31 | 100 | 30
+1042 | World Tree Branch | 2 | 10 | 21 | 100 | 31
+1043 | Nether Classics | 1 | 10 | 10 | 100 | 32
+1044 | Anubis's Judgement | 3 | 10 | 31 | 100 | 33
+1045 | Horus' Piccolo | 4 | 10 | 41 | 100 | 34
+1046 | Death's Scythe | 3 | 10 | 31 | 100 | 35
+1050 | Queen's Crown | 1 | 10 | 10 | 100 | 36
+1051 | Gungnir | 4 | 10 | 41 | 100 | 37
+1052 | Sleipnir's Bell | 3 | 10 | 31 | 100 | 38
+1053 | Draupnir's Ring | 2 | 10 | 21 | 100 | 39
+1054 | Nibelungen's Ring | 4 | 10 | 41 | 100 | 40
+1055 | Legendary Nocturnal Pearl | 3 | 10 | 41 | 100 | 41
+1056 | Mermaid's Tears | 3 | 10 | 41 | 100 | 42
+1057 | Orpheus' Lute | 3 | 20 | 41 | 100 | 43
+1058 | Crystal Queen's Necklace | 3 | 20 | 41 | 100 | 44

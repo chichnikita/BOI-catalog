@@ -1,0 +1,681 @@
+﻿ОРУЖИЕ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\weapon.slk
+Область идентификатора: ItemID
+Записей: 670; разных ID внутри этой таблицы: 670.
+Названия и значения приведены как в таблице сервера.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Требуемый уровень | Класс | Тип оружия | Качество | Уровень экипировки | Двуручное | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+18000 | Trial Axe | 1 | Berzerker | TwoHandBlade | 1 | 0 | 1 | 3
+18001 | Courage Axe | 1 | Berzerker | TwoHandBlade | 1 | 0 | 1 | 4
+18002 | Courage Axe | 3 | Berzerker | TwoHandBlade | 2 | 0 | 1 | 5
+18003 | Courage Axe (Set) | 1 | Berzerker | TwoHandBlade | 2 | 0 | 1 | 6
+18004 | Courage Axe | 1 | Berzerker | TwoHandBlade | 3 | 0 | 1 | 7
+18005 | Courage Axe | 1 | Berzerker | TwoHandBlade | 3 | 0 | 1 | 8
+18010 | Strength Warhammer | 15 | Berzerker | DoubleHandBlade | 1 | 1 | 1 | 10
+18011 | Strength Warhammer | 15 | Berzerker | DoubleHandBlade | 1 | 1 | 1 | 11
+18012 | Strength Warhammer | 15 | Berzerker | DoubleHandBlade | 2 | 1 | 1 | 12
+18013 | Strength Warhammer (Set) | 15 | Berzerker | DoubleHandBlade | 2 | 1 | 1 | 13
+18014 | Strength Warhammer | 15 | Berzerker | DoubleHandBlade | 3 | 1 | 1 | 14
+18015 | Strength Warhammer | 15 | Berzerker | DoubleHandBlade | 3 | 1 | 1 | 15
+18020 | Overlord Longsword | 30 | Berzerker | TwoHandBlade | 1 | 2 | 1 | 17
+18021 | Overlord Longsword | 30 | Berzerker | TwoHandBlade | 1 | 2 | 1 | 18
+18022 | Overlord Longsword | 30 | Berzerker | TwoHandBlade | 2 | 2 | 1 | 19
+18023 | Overlord Longsword (Set) | 20 | Berzerker | TwoHandBlade | 2 | 2 | 1 | 20
+18024 | Overlord Longsword | 30 | Berzerker | TwoHandBlade | 3 | 2 | 1 | 21
+18025 | Overlord Longsword | 30 | Berzerker | TwoHandBlade | 3 | 2 | 1 | 22
+18029 | Ares' Strength Sword | 40 | Berzerker | DoubleHandBlade | 2 | 3 | 1 | 745
+18030 | Stark Sword | 45 | Berzerker | DoubleHandBlade | 1 | 3 | 1 | 24
+18031 | Stark Sword | 45 | Berzerker | DoubleHandBlade | 1 | 3 | 1 | 25
+18032 | Stark Sword | 45 | Berzerker | DoubleHandBlade | 2 | 3 | 1 | 26
+18033 | Stark Sword (Set) | 45 | Berzerker | DoubleHandBlade | 2 | 3 | 1 | 27
+18034 | Stark Sword | 45 | Berzerker | DoubleHandBlade | 3 | 3 | 1 | 28
+18035 | Stark Sword | 45 | Berzerker | DoubleHandBlade | 3 | 3 | 1 | 29
+18040 | Sky Blade | 60 | Berzerker | TwoHandBlade | 1 | 4 | 1 | 31
+18041 | Sky Blade | 60 | Berzerker | TwoHandBlade | 1 | 4 | 1 | 32
+18042 | Sky Blade | 60 | Berzerker | TwoHandBlade | 2 | 4 | 1 | 33
+18043 | Sky Blade (Set) | 60 | Berzerker | TwoHandBlade | 2 | 4 | 1 | 34
+18044 | Sky Blade | 60 | Berzerker | TwoHandBlade | 3 | 4 | 1 | 35
+18045 | Sky Blade | 60 | Berzerker | TwoHandBlade | 3 | 4 | 1 | 36
+18049 | Sky Blade | 60 | Berzerker | TwoHandBlade | 3 | 4 | 1 | 751
+18050 | Rage Axe | 75 | Berzerker | TwoHandBlade | 1 | 5 | 1 | 38
+18051 | Rage Axe | 75 | Berzerker | TwoHandBlade | 1 | 5 | 1 | 39
+18052 | Rage Axe | 75 | Berzerker | TwoHandBlade | 2 | 5 | 1 | 40
+18053 | Rage Axe (Set) | 75 | Berzerker | TwoHandBlade | 2 | 5 | 1 | 41
+18054 | Rage Axe | 75 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 42
+18055 | Rage Axe | 75 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 43
+18058 | Soulreaper's Axe | 75 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 757
+18059 | Soulreaper's Axe | 75 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 763
+18060 | Star Hammer | 90 | Berzerker | DoubleHandBlade | 1 | 6 | 1 | 45
+18061 | Star Hammer | 90 | Berzerker | DoubleHandBlade | 1 | 6 | 1 | 46
+18062 | Star Hammer | 90 | Berzerker | DoubleHandBlade | 2 | 6 | 1 | 47
+18063 | Star Hammer (Set) | 90 | Berzerker | DoubleHandBlade | 2 | 6 | 1 | 48
+18064 | Star Hammer | 90 | Berzerker | DoubleHandBlade | 3 | 6 | 1 | 49
+18065 | Star Hammer | 90 | Berzerker | DoubleHandBlade | 3 | 6 | 1 | 50
+18070 | Ultimate Blade | 105 | Berzerker | DoubleHandBlade | 1 | 7 | 1 | 52
+18071 | Ultimate Blade | 105 | Berzerker | DoubleHandBlade | 1 | 7 | 1 | 53
+18072 | Ultimate Blade | 105 | Berzerker | DoubleHandBlade | 2 | 7 | 1 | 54
+18073 | Ultimate Blade (Set) | 105 | Berzerker | DoubleHandBlade | 2 | 7 | 1 | 55
+18074 | Ultimate Blade | 105 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 56
+18075 | Ultimate Blade | 105 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 57
+18080 | Gaia Blade | 120 | Berzerker | DoubleHandBlade | 1 | 8 | 1 | 59
+18081 | Gaia Blade | 120 | Berzerker | DoubleHandBlade | 1 | 8 | 1 | 60
+18082 | Gaia Blade | 120 | Berzerker | DoubleHandBlade | 2 | 8 | 1 | 61
+18083 | Gaia Blade (Set) | 120 | Berzerker | DoubleHandBlade | 2 | 8 | 1 | 62
+18084 | Gaia Blade | 120 | Berzerker | DoubleHandBlade | 3 | 8 | 1 | 63
+18085 | Gaia Blade | 120 | Berzerker | DoubleHandBlade | 3 | 8 | 1 | 64
+18090 | Sunder Sword | 135 | Berzerker | DoubleHandBlade | 1 | 9 | 1 | 66
+18091 | Sunder Sword | 135 | Berzerker | DoubleHandBlade | 1 | 9 | 1 | 67
+18092 | Sunder Sword | 135 | Berzerker | DoubleHandBlade | 2 | 9 | 1 | 68
+18093 | Sunder Sword (Set) | 135 | Berzerker | DoubleHandBlade | 2 | 9 | 1 | 69
+18094 | Sunder Sword | 135 | Berzerker | DoubleHandBlade | 3 | 9 | 1 | 70
+18095 | Sunder Sword | 135 | Berzerker | DoubleHandBlade | 3 | 9 | 1 | 71
+18100 | Rage Axe | 75 | Berzerker | TwoHandBlade | 1 | 5 | 1 | 73
+18101 | Rage Axe | 75 | Berzerker | TwoHandBlade | 2 | 5 | 1 | 74
+18102 | Rage Axe | 75 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 75
+18103 | Ares' Sword (Soul) | 75 | Berzerker | DoubleHandBlade | 3 | 5 | 1 | 76
+18104 | Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 6 | 1 | 77
+18105 | Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 78
+18106 | Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 79
+18107 | Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 80
+18108 | Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 81
+18109 | Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 82
+18110 | Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 83
+18111 | [Charm] Angel Blade Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 84
+18112 | [Charm] Angel Edict Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 85
+18113 | [Charm] Angel Oath Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 86
+18114 | [Charm Spell] Angel Alliance Ares' Rage Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 87
+18115 | Ares' Firm Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 88
+18116 | Ares' Double-hand Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 89
+18117 | Ares' Double-hand Flame Axe (Soul) | 90 | Berzerker | TwoHandBlade | 3 | 5 | 1 | 90
+18118 | Relic I | 90 | Berzerker | TwoHandBlade | 5 | 5 | 1 | 91
+18119 | Relic II | 90 | Berzerker | TwoHandBlade | 5 | 5 | 1 | 92
+18120 | Relic III | 90 | Berzerker | DoubleHandBlade | 5 | 12 | 1 | 93
+18121 | Relic III | 90 | Berzerker | DoubleHandBlade | 5 | 12 | 1 | 94
+18122 | Relic III | 90 | Berzerker | DoubleHandBlade | 5 | 12 | 1 | 95
+18123 | Relic III | 90 | Berzerker | DoubleHandBlade | 5 | 12 | 1 | 96
+18124 | Conqueror Sword | 90 | Berzerker | DoubleHandBlade | 5 | 12 | 1 | 97
+18125 | Conqueror Sword | 90 | Berzerker | DoubleHandBlade | 5 | 12 | 1 | 98
+18200 | Ares' Sword (Soul) | 75 | Berzerker | DoubleHandBlade | 3 | 5 | 1 | 100
+18201 | Poseidon's Trident (Soul) | 75 | Champion | SingleHandBlade | 3 | 5 | 0 | 101
+18202 | Hades' Blade (Soul) | 75 | Slayer | Dagger | 3 | 5 | 1 | 102
+18203 | Hermes' Staff (Soul) | 75 | Magus | DoubleHandStick | 3 | 5 | 1 | 103
+18204 | Apollo's Wand (Soul) | 75 | Heretic | SingleHandStick | 3 | 5 | 0 | 104
+18210 | Ares' Sword (Soul+) | 90 | Berzerker | DoubleHandBlade | 3 | 6 | 1 | 106
+18211 | Poseidon's Trident (Soul+) | 90 | Champion | SingleHandBlade | 3 | 6 | 0 | 107
+18212 | Hades' Blade (Soul+) | 90 | Slayer | Dagger | 3 | 6 | 1 | 108
+18213 | Hermes' Staff (Soul+) | 90 | Magus | DoubleHandStick | 3 | 6 | 1 | 109
+18214 | Apollo's Wand (Soul+) | 90 | Heretic | SingleHandStick | 3 | 6 | 0 | 110
+18300 | Trial Sword | 1 | Champion | SingleHandBlade | 1 | 0 | 0 | 112
+18301 | Justice Sword | 1 | Champion | SingleHandBlade | 1 | 0 | 0 | 113
+18302 | Justice Sword | 3 | Champion | SingleHandBlade | 2 | 0 | 0 | 114
+18303 | Justice Sword (Set) | 1 | Champion | SingleHandBlade | 2 | 0 | 0 | 115
+18304 | Justice Sword | 1 | Champion | SingleHandBlade | 3 | 0 | 0 | 116
+18305 | Justice Sword | 1 | Champion | SingleHandBlade | 3 | 0 | 0 | 117
+18310 | Guardian Longsword | 15 | Champion | SingleHandBlade | 1 | 1 | 0 | 119
+18311 | Guardian Longsword | 15 | Champion | SingleHandBlade | 1 | 1 | 0 | 120
+18312 | Guardian Longsword | 15 | Champion | SingleHandBlade | 2 | 1 | 0 | 121
+18313 | Guardian Longsword (Set) | 15 | Champion | SingleHandBlade | 2 | 1 | 0 | 122
+18314 | Guardian Longsword | 15 | Champion | SingleHandBlade | 3 | 1 | 0 | 123
+18315 | Guardian Longsword | 15 | Champion | SingleHandBlade | 3 | 1 | 0 | 124
+18320 | General's Longsword | 30 | Champion | SingleHandBlade | 1 | 2 | 0 | 126
+18321 | General's Longsword | 30 | Champion | SingleHandBlade | 1 | 2 | 0 | 127
+18322 | General's Longsword | 30 | Champion | SingleHandBlade | 2 | 2 | 0 | 128
+18323 | General's Longsword (Set) | 20 | Champion | SingleHandBlade | 2 | 2 | 0 | 129
+18324 | General's Longsword | 30 | Champion | SingleHandBlade | 3 | 2 | 0 | 130
+18325 | General's Longsword | 30 | Champion | SingleHandBlade | 3 | 2 | 0 | 131
+18329 | Paladin's Sword | 40 | Champion | SingleHandBlade | 2 | 3 | 0 | 746
+18330 | Faith Longsword | 45 | Champion | SingleHandBlade | 1 | 3 | 0 | 133
+18331 | Faith Longsword | 45 | Champion | SingleHandBlade | 1 | 3 | 0 | 134
+18332 | Faith Longsword | 45 | Champion | SingleHandBlade | 2 | 3 | 0 | 135
+18333 | Faith Longsword (Set) | 45 | Champion | SingleHandBlade | 2 | 3 | 0 | 136
+18334 | Faith Longsword | 45 | Champion | SingleHandBlade | 3 | 3 | 0 | 137
+18335 | Faith Longsword | 45 | Champion | SingleHandBlade | 3 | 3 | 0 | 138
+18340 | Bloody Longsword | 60 | Champion | SingleHandBlade | 1 | 4 | 0 | 140
+18341 | Bloody Longsword | 60 | Champion | SingleHandBlade | 1 | 4 | 0 | 141
+18342 | Bloody Longsword | 60 | Champion | SingleHandBlade | 2 | 4 | 0 | 142
+18343 | Bloody Longsword (Set) | 60 | Champion | SingleHandBlade | 2 | 4 | 0 | 143
+18344 | Bloody Longsword | 60 | Champion | SingleHandBlade | 3 | 4 | 0 | 144
+18345 | Bloody Longsword | 60 | Champion | SingleHandBlade | 3 | 4 | 0 | 145
+18349 | Bloody Longsword | 60 | Champion | SingleHandBlade | 3 | 4 | 0 | 752
+18350 | Sacrifice Longsword | 75 | Champion | SingleHandBlade | 1 | 5 | 0 | 147
+18351 | Sacrifice Longsword | 75 | Champion | SingleHandBlade | 1 | 5 | 0 | 148
+18352 | Sacrifice Longsword | 75 | Champion | SingleHandBlade | 2 | 5 | 0 | 149
+18353 | Sacrifice Longsword (Set) | 75 | Champion | SingleHandBlade | 2 | 5 | 0 | 150
+18354 | Sacrifice Longsword | 75 | Champion | SingleHandBlade | 3 | 5 | 0 | 151
+18355 | Sacrifice Longsword | 75 | Champion | SingleHandBlade | 3 | 5 | 0 | 152
+18358 | Soulreaper's Sword | 75 | Champion | SingleHandBlade | 3 | 5 | 0 | 758
+18359 | Soulreaper's Sword | 75 | Champion | SingleHandBlade | 3 | 5 | 0 | 764
+18360 | Templar Longsword | 90 | Champion | SingleHandBlade | 1 | 6 | 0 | 154
+18361 | Templar Longsword | 90 | Champion | SingleHandBlade | 1 | 6 | 0 | 155
+18362 | Templar Longsword | 90 | Champion | SingleHandBlade | 2 | 6 | 0 | 156
+18363 | Templar Longsword (Set) | 90 | Champion | SingleHandBlade | 2 | 6 | 0 | 157
+18364 | Templar Longsword | 90 | Champion | SingleHandBlade | 3 | 6 | 0 | 158
+18365 | Templar Longsword | 90 | Champion | SingleHandBlade | 3 | 6 | 0 | 159
+18370 | Divine Longsword | 105 | Champion | SingleHandBlade | 1 | 7 | 0 | 161
+18371 | Divine Longsword | 105 | Champion | SingleHandBlade | 1 | 7 | 0 | 162
+18372 | Divine Longsword | 105 | Champion | SingleHandBlade | 2 | 7 | 0 | 163
+18373 | Divine Longsword (Set) | 105 | Champion | SingleHandBlade | 2 | 7 | 0 | 164
+18374 | Divine Longsword | 105 | Champion | SingleHandBlade | 3 | 7 | 0 | 165
+18375 | Divine Longsword | 105 | Champion | SingleHandBlade | 3 | 7 | 0 | 166
+18380 | Judgment Longsword | 120 | Champion | SingleHandBlade | 1 | 8 | 0 | 168
+18381 | Judgment Longsword | 120 | Champion | SingleHandBlade | 1 | 8 | 0 | 169
+18382 | Judgment Longsword | 120 | Champion | SingleHandBlade | 2 | 8 | 0 | 170
+18383 | Judgment Longsword (Set) | 120 | Champion | SingleHandBlade | 2 | 8 | 0 | 171
+18384 | Judgment Longsword | 120 | Champion | SingleHandBlade | 3 | 8 | 0 | 172
+18385 | Judgment Longsword | 120 | Champion | SingleHandBlade | 3 | 8 | 0 | 173
+18390 | Seal Longsword | 135 | Champion | SingleHandBlade | 1 | 9 | 0 | 175
+18391 | Seal Longsword | 135 | Champion | SingleHandBlade | 1 | 9 | 0 | 176
+18392 | Seal Longsword | 135 | Champion | SingleHandBlade | 2 | 9 | 0 | 177
+18393 | Seal Longsword (Set) | 135 | Champion | SingleHandBlade | 2 | 9 | 0 | 178
+18394 | Seal Longsword | 135 | Champion | SingleHandBlade | 3 | 9 | 0 | 179
+18395 | Seal Longsword | 135 | Champion | SingleHandBlade | 3 | 9 | 0 | 180
+18400 | Thunder Sword | 150 | Champion | SingleHandBlade | 1 | 10 | 0 | 182
+18401 | Thunder Sword | 150 | Champion | SingleHandBlade | 1 | 10 | 0 | 183
+18402 | Thunder Sword | 150 | Champion | SingleHandBlade | 2 | 10 | 0 | 184
+18403 | Thunder Sword (Set) | 150 | Champion | SingleHandBlade | 2 | 10 | 0 | 185
+18404 | Thunder Sword | 150 | Champion | SingleHandBlade | 3 | 10 | 0 | 186
+18405 | Thunder Sword | 150 | Champion | SingleHandBlade | 3 | 10 | 0 | 187
+18410 | Thunder Sword | 160 | Champion | SingleHandBlade | 1 | 11 | 0 | 189
+18411 | Thunder Sword | 160 | Champion | SingleHandBlade | 1 | 11 | 0 | 190
+18412 | Thunder Sword | 160 | Champion | SingleHandBlade | 2 | 11 | 0 | 191
+18413 | Thunder Sword (Set) | 160 | Champion | SingleHandBlade | 2 | 11 | 0 | 192
+18414 | Thunder Sword | 160 | Champion | SingleHandBlade | 3 | 11 | 0 | 193
+18415 | Thunder Sword | 160 | Champion | SingleHandBlade | 3 | 11 | 0 | 194
+18420 | Thunder Sword | 170 | Champion | SingleHandBlade | 1 | 12 | 0 | 196
+18421 | Thunder Sword | 170 | Champion | SingleHandBlade | 1 | 12 | 0 | 197
+18422 | Thunder Sword | 170 | Champion | SingleHandBlade | 2 | 12 | 0 | 198
+18423 | Thunder Sword (Set) | 170 | Champion | SingleHandBlade | 2 | 12 | 0 | 199
+18424 | Thunder Sword | 170 | Champion | SingleHandBlade | 3 | 12 | 0 | 200
+18425 | Thunder Sword | 170 | Champion | SingleHandBlade | 3 | 12 | 0 | 201
+18500 | Kronos' Sword (Soul) | 100 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 203
+18501 | Kronos' Sword (Soul) | 100 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 204
+18502 | Kronos' Sword (Soul) | 100 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 205
+18503 | Kronos' Sword (Soul) | 100 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 206
+18504 | Kronos' Sword (Soul) | 105 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 207
+18505 | Kronos' Sword (Soul) | 105 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 208
+18506 | Kronos' Sword (Soul) | 105 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 209
+18507 | Kronos' Sword (Soul) | 110 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 210
+18508 | Kronos' Sword (Soul) | 110 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 211
+18509 | Kronos' Sword (Soul) | 110 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 212
+18510 | Kronos' Sword (Soul) | 110 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 213
+18511 | Kronos' Sword (Soul) | 110 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 214
+18512 | Kronos' Sword (Soul) | 110 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 215
+18513 | Kronos' Sword (Soul) | 115 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 216
+18514 | Kronos' Sword (Soul) | 115 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 217
+18515 | Kronos' Sword (Soul) | 115 | Berzerker | DoubleHandBlade | 3 | 7 | 1 | 218
+18520 | Hyperion's Trident (Soul) | 100 | Champion | SingleHandBlade | 3 | 7 | 0 | 220
+18521 | Hyperion's Trident (Soul) | 100 | Champion | SingleHandBlade | 3 | 7 | 0 | 221
+18522 | Hyperion's Trident (Soul) | 100 | Champion | SingleHandBlade | 3 | 7 | 0 | 222
+18523 | Hyperion's Trident (Soul) | 100 | Champion | SingleHandBlade | 3 | 7 | 0 | 223
+18524 | Hyperion's Trident (Soul) | 105 | Champion | SingleHandBlade | 3 | 7 | 0 | 224
+18525 | Hyperion's Trident (Soul) | 105 | Champion | SingleHandBlade | 3 | 7 | 0 | 225
+18526 | Hyperion's Trident (Soul) | 105 | Champion | SingleHandBlade | 3 | 7 | 0 | 226
+18527 | Hyperion's Trident (Soul) | 110 | Champion | SingleHandBlade | 3 | 7 | 0 | 227
+18528 | Hyperion's Trident (Soul) | 110 | Champion | SingleHandBlade | 3 | 7 | 0 | 228
+18529 | Hyperion's Trident (Soul) | 110 | Champion | SingleHandBlade | 3 | 7 | 0 | 229
+18530 | Hyperion's Trident (Soul) | 110 | Champion | SingleHandBlade | 3 | 7 | 0 | 230
+18531 | Hyperion's Trident (Soul) | 110 | Champion | SingleHandBlade | 3 | 7 | 0 | 231
+18532 | Hyperion's Trident (Soul) | 110 | Champion | SingleHandBlade | 3 | 7 | 0 | 232
+18533 | Hyperion's Trident (Soul) | 115 | Champion | SingleHandBlade | 3 | 7 | 0 | 233
+18534 | Hyperion's Trident (Soul) | 115 | Champion | SingleHandBlade | 3 | 7 | 0 | 234
+18535 | Hyperion's Trident (Soul) | 115 | Champion | SingleHandBlade | 3 | 7 | 0 | 235
+18540 | Iapetus' Blades (Soul) | 100 | Slayer | Dagger | 3 | 7 | 1 | 237
+18541 | Iapetus' Blades (Soul) | 100 | Slayer | Dagger | 3 | 7 | 1 | 238
+18542 | Iapetus' Blades (Soul) | 100 | Slayer | Dagger | 3 | 7 | 1 | 239
+18543 | Iapetus' Blades (Soul) | 100 | Slayer | Dagger | 3 | 7 | 1 | 240
+18544 | Iapetus' Blades (Soul) | 105 | Slayer | Dagger | 3 | 7 | 1 | 241
+18545 | Iapetus' Blades (Soul) | 105 | Slayer | Dagger | 3 | 7 | 1 | 242
+18546 | Iapetus' Blades (Soul) | 105 | Slayer | Dagger | 3 | 7 | 1 | 243
+18547 | Iapetus' Blades (Soul) | 110 | Slayer | Dagger | 3 | 7 | 1 | 244
+18548 | Iapetus' Blades (Soul) | 110 | Slayer | Dagger | 3 | 7 | 1 | 245
+18549 | Iapetus' Blades (Soul) | 110 | Slayer | Dagger | 3 | 7 | 1 | 246
+18550 | Iapetus' Blades (Soul) | 110 | Slayer | Dagger | 3 | 7 | 1 | 247
+18551 | Iapetus' Blades (Soul) | 110 | Slayer | Dagger | 3 | 7 | 1 | 248
+18552 | Iapetus' Blades (Soul) | 110 | Slayer | Dagger | 3 | 7 | 1 | 249
+18553 | Iapetus' Blades (Soul) | 115 | Slayer | Dagger | 3 | 7 | 1 | 250
+18554 | Iapetus' Blades (Soul) | 115 | Slayer | Dagger | 3 | 7 | 1 | 251
+18555 | Iapetus' Blades (Soul) | 115 | Slayer | Dagger | 3 | 7 | 1 | 252
+18560 | Coeus' Staff (Soul) | 100 | Magus | DoubleHandStick | 3 | 7 | 1 | 254
+18561 | Coeus' Staff (Soul) | 100 | Magus | DoubleHandStick | 3 | 7 | 1 | 255
+18562 | Coeus' Staff (Soul) | 100 | Magus | DoubleHandStick | 3 | 7 | 1 | 256
+18563 | Coeus' Staff (Soul) | 100 | Magus | DoubleHandStick | 3 | 7 | 1 | 257
+18564 | Coeus' Staff (Soul) | 105 | Magus | DoubleHandStick | 3 | 7 | 1 | 258
+18565 | Coeus' Staff (Soul) | 105 | Magus | DoubleHandStick | 3 | 7 | 1 | 259
+18566 | Coeus' Staff (Soul) | 105 | Magus | DoubleHandStick | 3 | 7 | 1 | 260
+18567 | Coeus' Staff (Soul) | 110 | Magus | DoubleHandStick | 3 | 7 | 1 | 261
+18568 | Coeus' Staff (Soul) | 110 | Magus | DoubleHandStick | 3 | 7 | 1 | 262
+18569 | Coeus' Staff (Soul) | 110 | Magus | DoubleHandStick | 3 | 7 | 1 | 263
+18570 | Coeus' Staff (Soul) | 110 | Magus | DoubleHandStick | 3 | 7 | 1 | 264
+18571 | Coeus' Staff (Soul) | 110 | Magus | DoubleHandStick | 3 | 7 | 1 | 265
+18572 | Coeus' Staff (Soul) | 110 | Magus | DoubleHandStick | 3 | 7 | 1 | 266
+18573 | Coeus' Staff (Soul) | 115 | Magus | DoubleHandStick | 3 | 7 | 1 | 267
+18574 | Coeus' Staff (Soul) | 115 | Magus | DoubleHandStick | 3 | 7 | 1 | 268
+18575 | Coeus' Staff (Soul) | 115 | Magus | DoubleHandStick | 3 | 7 | 1 | 269
+18580 | Crius' Staff (Soul) | 100 | Heretic | SingleHandStick | 3 | 7 | 0 | 271
+18581 | Crius' Staff (Soul) | 100 | Heretic | SingleHandStick | 3 | 7 | 0 | 272
+18582 | Crius' Staff (Soul) | 100 | Heretic | SingleHandStick | 3 | 7 | 0 | 273
+18583 | Crius' Staff (Soul) | 100 | Heretic | SingleHandStick | 3 | 7 | 0 | 274
+18584 | Crius' Staff (Soul) | 105 | Heretic | SingleHandStick | 3 | 7 | 0 | 275
+18585 | Crius' Staff (Soul) | 105 | Heretic | SingleHandStick | 3 | 7 | 0 | 276
+18586 | Crius' Staff (Soul) | 105 | Heretic | SingleHandStick | 3 | 7 | 0 | 277
+18587 | Crius' Staff (Soul) | 110 | Heretic | SingleHandStick | 3 | 7 | 0 | 278
+18588 | Crius' Staff (Soul) | 110 | Heretic | SingleHandStick | 3 | 7 | 0 | 279
+18589 | Crius' Staff (Soul) | 110 | Heretic | SingleHandStick | 3 | 7 | 0 | 280
+18590 | Crius' Staff (Soul) | 110 | Heretic | SingleHandStick | 3 | 7 | 0 | 281
+18591 | Crius' Staff (Soul) | 110 | Heretic | SingleHandStick | 3 | 7 | 0 | 282
+18592 | Crius' Staff (Soul) | 110 | Heretic | SingleHandStick | 3 | 7 | 0 | 283
+18593 | Crius' Staff (Soul) | 115 | Heretic | SingleHandStick | 3 | 7 | 0 | 284
+18594 | Crius' Staff (Soul) | 115 | Heretic | SingleHandStick | 3 | 7 | 0 | 285
+18595 | Crius' Staff (Soul) | 115 | Heretic | SingleHandStick | 3 | 7 | 0 | 286
+18600 | Trial Daggers | 1 | Slayer | Dagger | 1 | 0 | 1 | 288
+18601 | Silent Dagger | 1 | Slayer | Dagger | 1 | 0 | 1 | 289
+18602 | Silent Dagger | 3 | Slayer | Dagger | 2 | 0 | 1 | 290
+18603 | Silent Dagger (Set) | 1 | Slayer | Dagger | 2 | 0 | 1 | 291
+18604 | Silent Dagger | 1 | Slayer | Dagger | 3 | 0 | 1 | 292
+18605 | Silent Dagger | 1 | Slayer | Dagger | 3 | 0 | 1 | 293
+18610 | Aggression Claw | 15 | Slayer | Dagger | 1 | 1 | 1 | 295
+18611 | Aggression Claw | 15 | Slayer | Dagger | 1 | 1 | 1 | 296
+18612 | Aggression Claw | 15 | Slayer | Dagger | 2 | 1 | 1 | 297
+18613 | Aggression Claw (Set) | 15 | Slayer | Dagger | 2 | 1 | 1 | 298
+18614 | Aggression Claw | 15 | Slayer | Dagger | 3 | 1 | 1 | 299
+18615 | Aggression Claw | 15 | Slayer | Dagger | 3 | 1 | 1 | 300
+18620 | Slaughter Claw | 30 | Slayer | Dagger | 1 | 2 | 1 | 302
+18621 | Slaughter Claw | 30 | Slayer | Dagger | 1 | 2 | 1 | 303
+18622 | Slaughter Claw | 30 | Slayer | Dagger | 2 | 2 | 1 | 304
+18623 | Slaughter Claw (Set) | 20 | Slayer | Dagger | 2 | 2 | 1 | 305
+18624 | Slaughter Claw | 30 | Slayer | Dagger | 3 | 2 | 1 | 306
+18625 | Slaughter Claw | 30 | Slayer | Dagger | 3 | 2 | 1 | 307
+18629 | Hitman Claw | 40 | Slayer | Dagger | 2 | 3 | 1 | 747
+18630 | Destruction Claw | 45 | Slayer | Dagger | 1 | 3 | 1 | 309
+18631 | Destruction Claw | 45 | Slayer | Dagger | 1 | 3 | 1 | 310
+18632 | Destruction Claw | 45 | Slayer | Dagger | 2 | 3 | 1 | 311
+18633 | Destruction Claw (Set) | 45 | Slayer | Dagger | 2 | 3 | 1 | 312
+18634 | Destruction Claw | 45 | Slayer | Dagger | 3 | 3 | 1 | 313
+18635 | Destruction Claw | 45 | Slayer | Dagger | 3 | 3 | 1 | 314
+18640 | Dragonfang Handblade | 60 | Slayer | Dagger | 1 | 4 | 1 | 316
+18641 | Dragonfang Handblade | 60 | Slayer | Dagger | 1 | 4 | 1 | 317
+18642 | Dragonfang Handblade | 60 | Slayer | Dagger | 2 | 4 | 1 | 318
+18643 | Dragonfang Handblade (Set) | 60 | Slayer | Dagger | 2 | 4 | 1 | 319
+18644 | Dragonfang Handblade | 60 | Slayer | Dagger | 3 | 4 | 1 | 320
+18645 | Dragonfang Handblade | 60 | Slayer | Dagger | 3 | 4 | 1 | 321
+18649 | Dragonfang Handblade | 60 | Slayer | Dagger | 3 | 4 | 1 | 753
+18650 | Assault Handblade | 75 | Slayer | Dagger | 1 | 5 | 1 | 323
+18651 | Assault Handblade | 75 | Slayer | Dagger | 1 | 5 | 1 | 324
+18652 | Assault Handblade | 75 | Slayer | Dagger | 2 | 5 | 1 | 325
+18653 | Assault Handblade (Set) | 75 | Slayer | Dagger | 2 | 5 | 1 | 326
+18654 | Assault Handblade | 75 | Slayer | Dagger | 3 | 5 | 1 | 327
+18655 | Assault Handblade | 75 | Slayer | Dagger | 3 | 5 | 1 | 328
+18658 | Soulreaper's Handblade | 75 | Slayer | Dagger | 3 | 5 | 1 | 759
+18659 | Soulreaper's Handblade | 75 | Slayer | Dagger | 3 | 5 | 1 | 765
+18660 | Sabotage Claw | 90 | Slayer | Dagger | 1 | 6 | 1 | 330
+18661 | Sabotage Claw | 90 | Slayer | Dagger | 1 | 6 | 1 | 331
+18662 | Sabotage Claw | 90 | Slayer | Dagger | 2 | 6 | 1 | 332
+18663 | Sabotage Claw (Set) | 90 | Slayer | Dagger | 2 | 6 | 1 | 333
+18664 | Sabotage Claw | 90 | Slayer | Dagger | 3 | 6 | 1 | 334
+18665 | Sabotage Claw | 90 | Slayer | Dagger | 3 | 6 | 1 | 335
+18670 | Darkness Dagger | 105 | Slayer | Dagger | 1 | 7 | 1 | 337
+18671 | Darkness Dagger | 105 | Slayer | Dagger | 1 | 7 | 1 | 338
+18672 | Darkness Dagger | 105 | Slayer | Dagger | 2 | 7 | 1 | 339
+18673 | Darkness Dagger (Set) | 105 | Slayer | Dagger | 2 | 7 | 1 | 340
+18674 | Darkness Dagger | 105 | Slayer | Dagger | 3 | 7 | 1 | 341
+18675 | Darkness Dagger | 105 | Slayer | Dagger | 3 | 7 | 1 | 342
+18680 | Bloodlust Dagger | 120 | Slayer | Dagger | 1 | 8 | 1 | 344
+18681 | Bloodlust Dagger | 120 | Slayer | Dagger | 1 | 8 | 1 | 345
+18682 | Bloodlust Dagger | 120 | Slayer | Dagger | 2 | 8 | 1 | 346
+18683 | Bloodlust Dagger (Set) | 120 | Slayer | Dagger | 2 | 8 | 1 | 347
+18684 | Bloodlust Dagger | 120 | Slayer | Dagger | 3 | 8 | 1 | 348
+18685 | Bloodlust Dagger | 120 | Slayer | Dagger | 3 | 8 | 1 | 349
+18690 | Stealth Dagger | 135 | Slayer | Dagger | 1 | 9 | 1 | 351
+18691 | Stealth Dagger | 135 | Slayer | Dagger | 1 | 9 | 1 | 352
+18692 | Stealth Dagger | 135 | Slayer | Dagger | 2 | 9 | 1 | 353
+18693 | ????(?) | 135 | Slayer | Dagger | 2 | 9 | 1 | 354
+18694 | Stealth Dagger | 135 | Slayer | Dagger | 3 | 9 | 1 | 355
+18695 | Stealth Dagger | 135 | Slayer | Dagger | 3 | 9 | 1 | 356
+18700 | Assassin Dagger | 150 | Slayer | Dagger | 1 | 10 | 1 | 358
+18701 | Assassin Dagger | 150 | Slayer | Dagger | 1 | 10 | 1 | 359
+18702 | Assassin Dagger | 150 | Slayer | Dagger | 2 | 10 | 1 | 360
+18703 | Assassin Dagger (Set) | 150 | Slayer | Dagger | 2 | 10 | 1 | 361
+18704 | Assassin Dagger | 150 | Slayer | Dagger | 3 | 10 | 1 | 362
+18705 | Assassin Dagger | 150 | Slayer | Dagger | 3 | 10 | 1 | 363
+18710 | Lightning Dagger | 160 | Slayer | Dagger | 1 | 11 | 1 | 365
+18711 | Lightning Dagger | 160 | Slayer | Dagger | 1 | 11 | 1 | 366
+18712 | Lightning Dagger | 160 | Slayer | Dagger | 2 | 11 | 1 | 367
+18713 | Lightning Dagger (Set) | 160 | Slayer | Dagger | 2 | 11 | 1 | 368
+18714 | Lightning Dagger | 160 | Slayer | Dagger | 3 | 11 | 1 | 369
+18715 | Lightning Dagger | 160 | Slayer | Dagger | 3 | 11 | 1 | 370
+18720 | Lightning Dagger | 170 | Slayer | Dagger | 1 | 12 | 1 | 372
+18721 | Lightning Dagger | 170 | Slayer | Dagger | 1 | 12 | 1 | 373
+18722 | Lightning Dagger | 170 | Slayer | Dagger | 2 | 12 | 1 | 374
+18723 | Lightning Dagger (Set) | 170 | Slayer | Dagger | 2 | 12 | 1 | 375
+18724 | Lightning Dagger | 170 | Slayer | Dagger | 3 | 12 | 1 | 376
+18725 | Lightning Dagger | 170 | Slayer | Dagger | 3 | 12 | 1 | 377
+18900 | Trial Staff | 1 | Magus | DoubleHandStick | 1 | 0 | 1 | 379
+18901 | Wisdom Staff | 1 | Magus | DoubleHandStick | 1 | 0 | 1 | 380
+18902 | Wisdom Staff | 3 | Magus | DoubleHandStick | 2 | 0 | 1 | 381
+18903 | ????(?) | 1 | Magus | DoubleHandStick | 2 | 0 | 1 | 382
+18904 | Wisdom Staff | 1 | Magus | DoubleHandStick | 3 | 0 | 1 | 383
+18905 | Wisdom Staff | 1 | Magus | DoubleHandStick | 3 | 0 | 1 | 384
+18910 | Arcane Staff | 15 | Magus | DoubleHandStick | 1 | 1 | 1 | 386
+18911 | Arcane Staff | 15 | Magus | DoubleHandStick | 1 | 1 | 1 | 387
+18912 | Arcane Staff | 15 | Magus | DoubleHandStick | 2 | 1 | 1 | 388
+18913 | Arcane Staff (Set) | 15 | Magus | DoubleHandStick | 2 | 1 | 1 | 389
+18914 | Arcane Staff | 15 | Magus | DoubleHandStick | 3 | 1 | 1 | 390
+18915 | Arcane Staff | 15 | Magus | DoubleHandStick | 3 | 1 | 1 | 391
+18920 | Elemental Staff | 30 | Magus | DoubleHandStick | 1 | 2 | 1 | 393
+18921 | Elemental Staff | 30 | Magus | DoubleHandStick | 1 | 2 | 1 | 394
+18922 | Elemental Staff | 30 | Magus | DoubleHandStick | 2 | 2 | 1 | 395
+18923 | Elemental Staff (Set) | 20 | Magus | DoubleHandStick | 2 | 2 | 1 | 396
+18924 | Elemental Staff | 30 | Magus | DoubleHandStick | 3 | 2 | 1 | 397
+18925 | Elemental Staff | 30 | Magus | DoubleHandStick | 3 | 2 | 1 | 398
+18929 | Myth's Arcane Staff | 40 | Magus | DoubleHandStick | 2 | 3 | 1 | 748
+18930 | Earthen Staff | 45 | Magus | DoubleHandStick | 1 | 3 | 1 | 400
+18931 | Earthen Staff | 45 | Magus | DoubleHandStick | 1 | 3 | 1 | 401
+18932 | Earthen Staff | 45 | Magus | DoubleHandStick | 2 | 3 | 1 | 402
+18933 | Earthen Staff (Set) | 45 | Magus | DoubleHandStick | 2 | 3 | 1 | 403
+18934 | Earthen Staff | 45 | Magus | DoubleHandStick | 3 | 3 | 1 | 404
+18935 | Earthen Staff | 45 | Magus | DoubleHandStick | 3 | 3 | 1 | 405
+18940 | Planet Staff | 60 | Magus | DoubleHandStick | 1 | 4 | 1 | 407
+18941 | Planet Staff | 60 | Magus | DoubleHandStick | 1 | 4 | 1 | 408
+18942 | Planet Staff | 60 | Magus | DoubleHandStick | 2 | 4 | 1 | 409
+18943 | Planet Staff (Set) | 60 | Magus | DoubleHandStick | 2 | 4 | 1 | 410
+18944 | Planet Staff | 60 | Magus | DoubleHandStick | 3 | 4 | 1 | 411
+18945 | Planet Staff | 60 | Magus | DoubleHandStick | 3 | 4 | 1 | 412
+18949 | Planet Staff | 60 | Magus | DoubleHandStick | 3 | 4 | 1 | 754
+18950 | Mystery Staff | 75 | Magus | DoubleHandStick | 1 | 5 | 1 | 414
+18951 | Mystery Staff | 75 | Magus | DoubleHandStick | 1 | 5 | 1 | 415
+18952 | Mystery Staff | 75 | Magus | DoubleHandStick | 2 | 5 | 1 | 416
+18953 | Mystery Staff (Set) | 75 | Magus | DoubleHandStick | 2 | 5 | 1 | 417
+18954 | Mystery Staff | 75 | Magus | DoubleHandStick | 3 | 5 | 1 | 418
+18955 | Mystery Staff | 75 | Magus | DoubleHandStick | 3 | 5 | 1 | 419
+18958 | Soulreaper's Staff | 75 | Magus | DoubleHandStick | 3 | 5 | 1 | 760
+18959 | Soulreaper's Staff | 75 | Magus | DoubleHandStick | 3 | 5 | 1 | 766
+18960 | Divinity Staff | 90 | Magus | DoubleHandStick | 1 | 6 | 1 | 421
+18961 | Divinity Staff | 90 | Magus | DoubleHandStick | 1 | 6 | 1 | 422
+18962 | Divinity Staff | 90 | Magus | DoubleHandStick | 2 | 6 | 1 | 423
+18963 | Divinity Staff (Set) | 90 | Magus | DoubleHandStick | 2 | 6 | 1 | 424
+18964 | Divinity Staff | 90 | Magus | DoubleHandStick | 3 | 6 | 1 | 425
+18965 | Divinity Staff | 90 | Magus | DoubleHandStick | 3 | 6 | 1 | 426
+18970 | Spark Staff | 105 | Magus | DoubleHandStick | 1 | 7 | 1 | 428
+18971 | Spark Staff | 105 | Magus | DoubleHandStick | 1 | 7 | 1 | 429
+18972 | Spark Staff | 105 | Magus | DoubleHandStick | 2 | 7 | 1 | 430
+18973 | Spark Staff (Set) | 105 | Magus | DoubleHandStick | 2 | 7 | 1 | 431
+18974 | Spark Staff | 105 | Magus | DoubleHandStick | 3 | 7 | 1 | 432
+18975 | Spark Staff | 105 | Magus | DoubleHandStick | 3 | 7 | 1 | 433
+18980 | Silverwing Staff | 120 | Magus | DoubleHandStick | 1 | 8 | 1 | 435
+18981 | Silverwing Staff | 120 | Magus | DoubleHandStick | 1 | 8 | 1 | 436
+18982 | Silverwing Staff | 120 | Magus | DoubleHandStick | 2 | 8 | 1 | 437
+18983 | Silverwing Staff (Set) | 120 | Magus | DoubleHandStick | 2 | 8 | 1 | 438
+18984 | Silverwing Staff | 120 | Magus | DoubleHandStick | 3 | 8 | 1 | 439
+18985 | Silverwing Staff | 120 | Magus | DoubleHandStick | 3 | 8 | 1 | 440
+18990 | Soul Staff | 135 | Magus | DoubleHandStick | 1 | 9 | 1 | 442
+18991 | Soul Staff | 135 | Magus | DoubleHandStick | 1 | 9 | 1 | 443
+18992 | Soul Staff | 135 | Magus | DoubleHandStick | 2 | 9 | 1 | 444
+18993 | Soul Staff (Set) | 135 | Magus | DoubleHandStick | 2 | 9 | 1 | 445
+18994 | Soul Staff | 135 | Magus | DoubleHandStick | 3 | 9 | 1 | 446
+18995 | Soul Staff | 135 | Magus | DoubleHandStick | 3 | 9 | 1 | 447
+19000 | Thundercloud Staff | 150 | Magus | DoubleHandStick | 1 | 10 | 1 | 449
+19001 | Thundercloud Staff | 150 | Magus | DoubleHandStick | 1 | 10 | 1 | 450
+19002 | Thundercloud Staff | 150 | Magus | DoubleHandStick | 2 | 10 | 1 | 451
+19003 | Thundercloud Staff (Set) | 150 | Magus | DoubleHandStick | 2 | 10 | 1 | 452
+19004 | Thundercloud Staff | 150 | Magus | DoubleHandStick | 3 | 10 | 1 | 453
+19005 | Thundercloud Staff | 150 | Magus | DoubleHandStick | 3 | 10 | 1 | 454
+19010 | Divinity Staff | 160 | Magus | DoubleHandStick | 1 | 11 | 1 | 456
+19011 | Divinity Staff | 160 | Magus | DoubleHandStick | 1 | 11 | 1 | 457
+19012 | Divinity Staff | 160 | Magus | DoubleHandStick | 2 | 11 | 1 | 458
+19013 | Divinity Staff (Set) | 160 | Magus | DoubleHandStick | 2 | 11 | 1 | 459
+19014 | Divinity Staff | 160 | Magus | DoubleHandStick | 3 | 11 | 1 | 460
+19015 | Divinity Staff | 160 | Magus | DoubleHandStick | 3 | 11 | 1 | 461
+19020 | Divinity Staff | 170 | Magus | DoubleHandStick | 1 | 12 | 1 | 463
+19021 | Divinity Staff | 170 | Magus | DoubleHandStick | 1 | 12 | 1 | 464
+19022 | Divinity Staff | 170 | Magus | DoubleHandStick | 2 | 12 | 1 | 465
+19023 | Divinity Staff (Set) | 170 | Magus | DoubleHandStick | 2 | 12 | 1 | 466
+19024 | Divinity Staff | 170 | Magus | DoubleHandStick | 3 | 12 | 1 | 467
+19025 | Divinity Staff | 170 | Magus | DoubleHandStick | 3 | 12 | 1 | 468
+19200 | Trial Wand | 1 | Heretic | SingleHandStick | 1 | 0 | 0 | 470
+19201 | Hope Staff | 1 | Heretic | SingleHandStick | 1 | 0 | 0 | 471
+19202 | Hope Staff | 3 | Heretic | SingleHandStick | 2 | 0 | 0 | 472
+19203 | Hope Staff (Set) | 1 | Heretic | SingleHandStick | 2 | 0 | 0 | 473
+19204 | Hope Staff | 1 | Heretic | SingleHandStick | 3 | 0 | 0 | 474
+19205 | Hope Staff | 1 | Heretic | SingleHandStick | 3 | 0 | 0 | 475
+19210 | Peace Staff | 15 | Heretic | SingleHandStick | 1 | 1 | 0 | 477
+19211 | Peace Staff | 15 | Heretic | SingleHandStick | 1 | 1 | 0 | 478
+19212 | Peace Staff | 15 | Heretic | SingleHandStick | 2 | 1 | 0 | 479
+19213 | Peace Staff (Set) | 15 | Heretic | SingleHandStick | 2 | 1 | 0 | 480
+19214 | Peace Staff | 15 | Heretic | SingleHandStick | 3 | 1 | 0 | 481
+19215 | Peace Staff | 15 | Heretic | SingleHandStick | 3 | 1 | 0 | 482
+19220 | Sanctity Scepter | 30 | Heretic | SingleHandStick | 1 | 2 | 0 | 484
+19221 | Sanctity Scepter | 30 | Heretic | SingleHandStick | 1 | 2 | 0 | 485
+19222 | Sanctity Scepter | 30 | Heretic | SingleHandStick | 2 | 2 | 0 | 486
+19223 | Sanctity Scepter (Set) | 20 | Heretic | SingleHandStick | 2 | 2 | 0 | 487
+19224 | Sanctity Scepter | 30 | Heretic | SingleHandStick | 3 | 2 | 0 | 488
+19225 | Sanctity Scepter | 30 | Heretic | SingleHandStick | 3 | 2 | 0 | 489
+19229 | Sage Staff | 40 | Heretic | SingleHandStick | 2 | 3 | 0 | 749
+19230 | Glowing Wand | 45 | Heretic | SingleHandStick | 1 | 3 | 0 | 491
+19231 | Glowing Wand | 45 | Heretic | SingleHandStick | 1 | 3 | 0 | 492
+19232 | Glowing Wand | 45 | Heretic | SingleHandStick | 2 | 3 | 0 | 493
+19233 | Glowing Wand (Set) | 45 | Heretic | SingleHandStick | 2 | 3 | 0 | 494
+19234 | Glowing Wand | 45 | Heretic | SingleHandStick | 3 | 3 | 0 | 495
+19235 | Glowing Wand | 45 | Heretic | SingleHandStick | 3 | 3 | 0 | 496
+19240 | Angelic Scepter | 60 | Heretic | SingleHandStick | 1 | 4 | 0 | 498
+19241 | Angelic Scepter | 60 | Heretic | SingleHandStick | 1 | 4 | 0 | 499
+19242 | Angelic Scepter | 60 | Heretic | SingleHandStick | 2 | 4 | 0 | 500
+19243 | Angelic Scepter (Set) | 60 | Heretic | SingleHandStick | 2 | 4 | 0 | 501
+19244 | Angelic Scepter | 60 | Heretic | SingleHandStick | 3 | 4 | 0 | 502
+19245 | Angelic Scepter | 60 | Heretic | SingleHandStick | 3 | 4 | 0 | 503
+19249 | Angelic Scepter | 60 | Heretic | SingleHandStick | 3 | 4 | 0 | 755
+19250 | Ritual Wand | 75 | Heretic | SingleHandStick | 1 | 5 | 0 | 505
+19251 | Ritual Wand | 75 | Heretic | SingleHandStick | 1 | 5 | 0 | 506
+19252 | Ritual Wand | 75 | Heretic | SingleHandStick | 2 | 5 | 0 | 507
+19253 | Ritual Wand (Set) | 75 | Heretic | SingleHandStick | 2 | 5 | 0 | 508
+19254 | Ritual Wand | 75 | Heretic | SingleHandStick | 3 | 5 | 0 | 509
+19255 | Ritual Wand | 75 | Heretic | SingleHandStick | 3 | 5 | 0 | 510
+19258 | Soulreaper's Wand | 75 | Heretic | SingleHandStick | 3 | 5 | 0 | 761
+19259 | Soulreaper's Wand | 75 | Heretic | SingleHandStick | 3 | 5 | 0 | 767
+19260 | Glory Wand | 90 | Heretic | SingleHandStick | 1 | 6 | 0 | 512
+19261 | Glory Wand | 90 | Heretic | SingleHandStick | 1 | 6 | 0 | 513
+19262 | Glory Wand | 90 | Heretic | SingleHandStick | 2 | 6 | 0 | 514
+19263 | Glory Wand (Set) | 90 | Heretic | SingleHandStick | 2 | 6 | 0 | 515
+19264 | Glory Wand | 90 | Heretic | SingleHandStick | 3 | 6 | 0 | 516
+19265 | Glory Wand | 90 | Heretic | SingleHandStick | 3 | 6 | 0 | 517
+19270 | Fairy Wand | 105 | Heretic | SingleHandStick | 1 | 7 | 0 | 519
+19271 | Fairy Wand | 105 | Heretic | SingleHandStick | 1 | 7 | 0 | 520
+19272 | Fairy Wand | 105 | Heretic | SingleHandStick | 2 | 7 | 0 | 521
+19273 | Fairy Wand (Set) | 105 | Heretic | SingleHandStick | 2 | 7 | 0 | 522
+19274 | Fairy Wand | 105 | Heretic | SingleHandStick | 3 | 7 | 0 | 523
+19275 | Fairy Wand | 105 | Heretic | SingleHandStick | 3 | 7 | 0 | 524
+19280 | Salvation Wand | 120 | Heretic | SingleHandStick | 1 | 8 | 0 | 526
+19281 | Salvation Wand | 120 | Heretic | SingleHandStick | 1 | 8 | 0 | 527
+19282 | Salvation Wand | 120 | Heretic | SingleHandStick | 2 | 8 | 0 | 528
+19283 | Salvation Wand (Set) | 120 | Heretic | SingleHandStick | 2 | 8 | 0 | 529
+19284 | Salvation Wand | 120 | Heretic | SingleHandStick | 3 | 8 | 0 | 530
+19285 | Salvation Wand | 120 | Heretic | SingleHandStick | 3 | 8 | 0 | 531
+19290 | Phoenix Wand | 135 | Heretic | SingleHandStick | 1 | 9 | 0 | 533
+19291 | Phoenix Wand | 135 | Heretic | SingleHandStick | 1 | 9 | 0 | 534
+19292 | Phoenix Wand | 135 | Heretic | SingleHandStick | 2 | 9 | 0 | 535
+19293 | Phoenix Wand (Set) | 135 | Heretic | SingleHandStick | 2 | 9 | 0 | 536
+19294 | Phoenix Wand | 135 | Heretic | SingleHandStick | 3 | 9 | 0 | 537
+19295 | Phoenix Wand | 135 | Heretic | SingleHandStick | 3 | 9 | 0 | 538
+19300 | Crystal Scepter | 150 | Heretic | SingleHandStick | 1 | 10 | 0 | 540
+19301 | Crystal Scepter | 150 | Heretic | SingleHandStick | 1 | 10 | 0 | 541
+19302 | Crystal Scepter | 150 | Heretic | SingleHandStick | 2 | 10 | 0 | 542
+19303 | Crystal Scepter (Set) | 150 | Heretic | SingleHandStick | 2 | 10 | 0 | 543
+19304 | Crystal Scepter | 150 | Heretic | SingleHandStick | 3 | 10 | 0 | 544
+19305 | Crystal Scepter | 150 | Heretic | SingleHandStick | 3 | 10 | 0 | 545
+19310 | Glory Wand | 160 | Heretic | SingleHandStick | 1 | 11 | 0 | 547
+19311 | Glory Wand | 160 | Heretic | SingleHandStick | 1 | 11 | 0 | 548
+19312 | Glory Wand | 160 | Heretic | SingleHandStick | 2 | 11 | 0 | 549
+19313 | Glory Wand (Set) | 160 | Heretic | SingleHandStick | 2 | 11 | 0 | 550
+19314 | Glory Wand | 160 | Heretic | SingleHandStick | 3 | 11 | 0 | 551
+19315 | Glory Wand | 160 | Heretic | SingleHandStick | 3 | 11 | 0 | 552
+19320 | Glory Wand | 170 | Heretic | SingleHandStick | 1 | 12 | 0 | 554
+19321 | Glory Wand | 170 | Heretic | SingleHandStick | 1 | 12 | 0 | 555
+19322 | Glory Wand | 170 | Heretic | SingleHandStick | 2 | 12 | 0 | 556
+19323 | Glory Wand (Set) | 170 | Heretic | SingleHandStick | 2 | 12 | 0 | 557
+19324 | Glory Wand | 170 | Heretic | SingleHandStick | 3 | 12 | 0 | 558
+19325 | Glory Wand | 170 | Heretic | SingleHandStick | 3 | 12 | 0 | 559
+19400 | Soul Sword  | 3 | Summoner  | SingleHandStick | 2 | 0 | 0 | 561
+19401 | Trial Sword | 1 | Summoner  | SingleDecorSword | 1 | 0 | 0 | 562
+19402 | Soul Sword Set  | 1 | Summoner  | SingleDecorSword | 2 | 0 | 0 | 563
+19403 | Signature Sword  | 15 | Summoner  | SingleDecorSword | 1 | 1 | 0 | 564
+19404 | Signature Sword Set  | 15 | Summoner  | SingleDecorSword | 2 | 1 | 0 | 565
+19405 | Essence Sword  | 30 | Summoner  | SingleDecorSword | 1 | 2 | 0 | 566
+19406 | Essence Sword Set  | 20 | Summoner  | SingleDecorSword | 2 | 2 | 0 | 567
+19407 | Psychic Sword  | 45 | Summoner  | SingleDecorSword | 1 | 3 | 0 | 568
+19408 | Psychic Sword Set  | 45 | Summoner  | SingleDecorSword | 2 | 3 | 0 | 569
+19409 | Covenant Sword  | 60 | Summoner  | SingleDecorSword | 1 | 4 | 0 | 570
+19410 | Covenant Sword Set  | 60 | Summoner  | SingleDecorSword | 2 | 4 | 0 | 571
+19411 | Meditation Sword  | 75 | Summoner  | SingleDecorSword | 1 | 5 | 0 | 572
+19412 | Meditation Sword Set  | 75 | Summoner  | SingleDecorSword | 2 | 5 | 0 | 573
+19413 | Inhibition Sword  | 90 | Summoner  | SingleDecorSword | 1 | 6 | 0 | 574
+19414 | Inhibition Sword Set  | 90 | Summoner  | SingleDecorSword | 2 | 6 | 0 | 575
+19501 | Trial Axe | 1 | Berzerker | DoubleHandBlade | 1 | 0 | 1 | 577
+19502 | Depleted | 1 | Champion | SingleHandBlade | 1 | 0 | 0 | 578
+19503 | Depleted | 1 | Slayer | Dagger | 1 | 0 | 1 | 579
+19504 | Depleted | 1 | Magus | DoubleHandStick | 1 | 0 | 1 | 580
+19505 | Depleted | 1 | Heretic | SingleHandStick | 1 | 0 | 0 | 581
+19506 | Overlord Longsword (Set) | 20 | Berzerker | TwoHandBlade | 2 | 2 | 1 | 582
+19507 | General's Longsword (Set) | 20 | Champion | SingleHandBlade | 2 | 2 | 0 | 583
+19508 | Slaughter Claw (Set) | 20 | Slayer | Dagger | 2 | 2 | 1 | 584
+19509 | Elemental Staff (Set) | 20 | Magus | DoubleHandStick | 2 | 2 | 1 | 585
+19510 | Sanctity Scepter (Set) | 20 | Heretic | SingleHandStick | 2 | 2 | 0 | 586
+19511 | Magician's Magic Wand | 1 | Berzerker | SingleHandBlade | 1 | 1 | 1 | 587
+19512 | Magician's Magic Wand | 1 | Champion | SingleHandBlade | 1 | 1 | 0 | 588
+19513 | Magician's Magic Wand | 1 | Slayer | SingleHandBlade | 1 | 1 | 1 | 589
+19514 | Magician's Magic Wand | 1 | Magus | SingleHandStick | 1 | 1 | 1 | 590
+19515 | Magician's Magic Wand | 1 | Heretic | SingleHandStick | 1 | 1 | 0 | 591
+19516 | Overlord Longsword | 30 | Berzerker | TwoHandBlade | 2 | 2 | 1 | 592
+19517 | General's Longsword | 30 | Champion | SingleHandBlade | 2 | 2 | 0 | 596
+19518 | Slaughter Claw | 30 | Slayer | Dagger | 2 | 2 | 1 | 600
+19519 | Elemental Staff | 30 | Magus | DoubleHandStick | 2 | 2 | 1 | 604
+19520 | Sanctity Scepter | 30 | Heretic | SingleHandStick | 2 | 2 | 0 | 608
+19521 | Stark Sword | 45 | Berzerker | DoubleHandBlade | 2 | 3 | 1 | 593
+19522 | Faith Longsword | 45 | Champion | SingleHandBlade | 2 | 3 | 0 | 597
+19523 | Destruction Claw | 45 | Slayer | Dagger | 2 | 3 | 1 | 601
+19524 | Earthen Staff | 45 | Magus | DoubleHandStick | 2 | 3 | 1 | 605
+19525 | Glowing Wand | 45 | Heretic | SingleHandStick | 2 | 3 | 0 | 609
+19526 | Sky Blade | 60 | Berzerker | TwoHandBlade | 2 | 4 | 1 | 594
+19527 | Bloody Longsword | 60 | Champion | SingleHandBlade | 2 | 4 | 0 | 598
+19528 | Dragonfang Handblade | 60 | Slayer | Dagger | 2 | 4 | 1 | 602
+19529 | Planet Staff | 60 | Magus | DoubleHandStick | 2 | 4 | 1 | 606
+19530 | Angelic Scepter | 60 | Heretic | SingleHandStick | 2 | 4 | 0 | 610
+19531 | Rage Axe | 75 | Berzerker | TwoHandBlade | 2 | 5 | 1 | 595
+19532 | Sacrifice Longsword | 75 | Champion | SingleHandBlade | 2 | 5 | 0 | 599
+19533 | Assault Handblade | 75 | Slayer | Dagger | 2 | 5 | 1 | 603
+19534 | Mystery Staff | 75 | Magus | DoubleHandStick | 2 | 5 | 1 | 607
+19535 | Ritual Wand | 75 | Heretic | SingleHandStick | 2 | 5 | 0 | 611
+19536 | Conqueror Sword | 30 | Berzerker | DoubleHandBlade | 2 | 3 | 1 | 612
+19537 | Templar Longsword | 30 | Champion | SingleHandBlade | 2 | 3 | 0 | 613
+19538 | Assassin Dagger | 30 | Slayer | Dagger | 2 | 3 | 1 | 614
+19539 | Soul Staff | 30 | Magus | DoubleHandStick | 2 | 3 | 1 | 615
+19540 | Fairy Staff | 30 | Heretic | SingleHandStick | 2 | 3 | 0 | 616
+19541 | Mortal Mageblade | 30 | Summoner  | SingleDecorSword | 2 | 3 | 0 | 617
+19550 | Essence Sword  | 30 | Summoner  | SingleDecorSword | 2 | 2 | 0 | 619
+19551 | Essence Sword Set  | 20 | Summoner  | SingleDecorSword | 2 | 2 | 0 | 620
+19552 | Psychic Sword  | 45 | Summoner  | SingleDecorSword | 2 | 3 | 0 | 621
+19580 | Melete's Divine Blade (Soul)  | 45 | Summoner  | SingleDecorSword | 3 | 3 | 0 | 623
+19581 | Melete's Divine Blade (Soul+) | 60 | Summoner  | SingleDecorSword | 3 | 4 | 0 | 624
+19582 | Rhea's Divine Blade (Soul)  | 75 | Summoner  | SingleDecorSword | 3 | 5 | 0 | 625
+19583 | Rhea's Divine Blade (Soul+) | 90 | Summoner  | SingleDecorSword | 3 | 6 | 0 | 626
+19584 | Ostasos' Sword (Soul)  | 100 | Summoner  | SingleDecorSword | 3 | 7 | 0 | 627
+19585 | Aitna's Divine Blade (Soul)  | 115 | Summoner  | SingleDecorSword | 3 | 7 | 0 | 628
+19586 | Aitna's Divine Blade (Deity) | 115 | Summoner  | SingleDecorSword | 3 | 7 | 0 | 629
+19601 | Heracles' Axe(Soul) | 45 | Berzerker | DoubleHandBlade | 3 | 3 | 1 | 631
+19602 | Achilles' Sword(Soul) | 45 | Champion | SingleHandBlade | 3 | 3 | 0 | 632
+19603 | Thanatos' Blade(Soul) | 45 | Slayer | TwoHandBlade | 3 | 3 | 1 | 633
+19604 | Prometheus' Staff(Soul) | 45 | Magus | DoubleHandStick | 3 | 3 | 1 | 634
+19605 | Themis' Wand(Soul) | 45 | Heretic | SingleHandStick | 3 | 3 | 0 | 635
+19606 | Heracles' Axe (Soul+) | 60 | Berzerker | DoubleHandBlade | 3 | 4 | 1 | 637
+19607 | Achilles' Sword(Soul+) | 60 | Champion | SingleHandBlade | 3 | 4 | 0 | 638
+19608 | Thanatos' Blade(Soul+) | 60 | Slayer | Dagger | 3 | 4 | 1 | 639
+19609 | Prometheus' Staff (Soul+) | 60 | Magus | DoubleHandStick | 3 | 4 | 1 | 640
+19610 | Themis' Wand(Soul+) | 60 | Heretic | SingleHandStick | 3 | 4 | 0 | 641
+19611 | Ares' Sword (Soul) | 75 | Berzerker | DoubleHandBlade | 3 | 5 | 1 | 643
+19612 | Poseidon's Trident (Soul) | 75 | Champion | SingleHandBlade | 3 | 5 | 0 | 644
+19613 | Hades' Blade (Soul) | 75 | Slayer | Dagger | 3 | 5 | 1 | 645
+19614 | Hermes' Staff (Soul) | 75 | Magus | DoubleHandStick | 3 | 5 | 1 | 646
+19615 | Apollo's Wand (Soul) | 75 | Heretic | SingleHandStick | 3 | 5 | 0 | 647
+19616 | Ares' Sword (Soul+) | 90 | Berzerker | DoubleHandBlade | 3 | 6 | 1 | 649
+19617 | Poseidon's Trident (Soul+) | 90 | Champion | SingleHandBlade | 3 | 6 | 0 | 650
+19618 | Hades' Blade (Soul+) | 90 | Slayer | Dagger | 3 | 6 | 1 | 651
+19619 | Hermes' Staff (Soul+) | 90 | Magus | DoubleHandStick | 3 | 6 | 1 | 652
+19620 | Apollo's Wand (Soul+) | 90 | Heretic | SingleHandStick | 3 | 6 | 0 | 653
+19621 | Khaos' Blade (Soul) | 115 | Berzerker | DoubleHandBlade | 3 | 8 | 1 | 655
+19622 | Eros' Halberd (Soul) | 115 | Champion | SingleHandBlade | 3 | 8 | 0 | 656
+19623 | Tartarus' Blade (Soul) | 115 | Slayer | Dagger | 3 | 8 | 1 | 657
+19624 | Nyx' Staff (Soul) | 115 | Magus | DoubleHandStick | 3 | 8 | 1 | 658
+19625 | Erebus' Wand (Soul) | 115 | Heretic | SingleHandStick | 3 | 8 | 0 | 659
+19626 | Primal Khaos' Blade (Soul) | 115 | Berzerker | DoubleHandBlade | 3 | 8 | 1 | 661
+19627 | Primal Eros' Halberd (Soul) | 115 | Champion | SingleHandBlade | 3 | 8 | 0 | 662
+19628 | Primal Tartarus' Blade (Soul) | 115 | Slayer | Dagger | 3 | 8 | 1 | 663
+19629 | Primal Nyx' Staff (Soul) | 115 | Magus | DoubleHandStick | 3 | 8 | 1 | 664
+19630 | Primal Erebus' Wand (Soul) | 115 | Heretic | SingleHandStick | 3 | 8 | 0 | 665
+19631 | Surya's Longsword (Soul) | 120 | Berzerker | DoubleHandBlade | 3 | 9 | 1 | 667
+19632 | Vulcanus' Trident (Soul) | 120 | Champion | SingleHandBlade | 3 | 9 | 0 | 668
+19633 | Vali's Blade (Soul) | 120 | Slayer | Dagger | 3 | 9 | 1 | 669
+19634 | Eurynome's Staff (Soul) | 120 | Magus | DoubleHandStick | 3 | 9 | 1 | 670
+19635 | Tethys' Wand (Soul) | 120 | Heretic | SingleHandStick | 3 | 9 | 0 | 671
+19636 | Aether's Divine Blade (Soul) | 120 | Summoner  | SingleDecorSword | 3 | 9 | 0 | 672
+19637 | Primal Surya's Longsword (Soul) | 120 | Berzerker | DoubleHandBlade | 3 | 9 | 1 | 674
+19638 | Primal Vulcanus' Halberd (Soul) | 120 | Champion | SingleHandBlade | 3 | 9 | 0 | 675
+19639 | Primal Valli's Blade (Soul) | 120 | Slayer | Dagger | 3 | 9 | 1 | 676
+19640 | Primal Eurynome's Staff (Soul) | 120 | Magus | DoubleHandStick | 3 | 9 | 1 | 677
+19641 | Primal Tethys' Wand (Soul) | 120 | Heretic | SingleHandStick | 3 | 9 | 0 | 678
+19642 | Primal Aether's Divine Blade (Soul) | 120 | Summoner  | SingleDecorSword | 3 | 9 | 0 | 679
+19643 | Uranus' Sword (Soul) | 120 | Berzerker | DoubleHandBlade | 3 | 10 | 1 | 681
+19644 | Talos' Trident (Soul) | 120 | Champion | SingleHandBlade | 3 | 10 | 0 | 682
+19645 | Phoebe's Knife (Soul) | 120 | Slayer | Dagger | 3 | 10 | 1 | 683
+19646 | Oceanus' Staff (Soul) | 120 | Magus | DoubleHandStick | 3 | 10 | 1 | 684
+19647 | Vesta's Cudgel (Soul) | 120 | Heretic | SingleHandStick | 3 | 10 | 0 | 685
+19648 | Hecate's Blade (Soul) | 120 | Summoner  | SingleDecorSword | 3 | 10 | 0 | 686
+19649 | Primal Uranus' Sword (Soul) | 120 | Berzerker | DoubleHandBlade | 3 | 10 | 1 | 688
+19650 | Primal Talos' Trident (Soul) | 120 | Champion | SingleHandBlade | 3 | 10 | 0 | 689
+19651 | Primal Phoebe's Knife (Soul) | 120 | Slayer | Dagger | 3 | 10 | 1 | 690
+19652 | Primal Oceanus' Staff (Soul) | 120 | Magus | DoubleHandStick | 3 | 10 | 1 | 691
+19653 | Primal Vesta's Cudgel (Soul) | 120 | Heretic | SingleHandStick | 3 | 10 | 0 | 692
+19654 | Primal Hecate's Blade (Soul) | 120 | Summoner  | SingleDecorSword | 3 | 10 | 0 | 693
+19803 | Heracles' Axe(Soul) | 45 | Berzerker | DoubleHandBlade | 3 | 3 | 1 | 695
+19804 | Heracles' Axe (Soul+) | 60 | Berzerker | DoubleHandBlade | 3 | 4 | 1 | 701
+19806 | Ares' Sword (Soul) | 75 | Berzerker | DoubleHandBlade | 3 | 5 | 1 | 707
+19807 | Ares' Sword (Soul+) | 90 | Berzerker | DoubleHandBlade | 3 | 6 | 1 | 713
+19808 | Heracles' Axe(Soul) | 45 | Berzerker | DoubleHandBlade | 3 | 3 | 1 | 719
+19809 | Heracles' Axe (Soul+) | 60 | Berzerker | DoubleHandBlade | 3 | 4 | 1 | 725
+19823 | Achilles' Sword(Soul) | 45 | Champion | SingleHandBlade | 3 | 3 | 0 | 696
+19824 | Achilles' Sword(Soul+) | 60 | Champion | SingleHandBlade | 3 | 4 | 0 | 702
+19826 | Poseidon's Trident (Soul) | 75 | Champion | SingleHandBlade | 3 | 5 | 0 | 708
+19827 | Poseidon's Trident (Soul+) | 90 | Champion | SingleHandBlade | 3 | 6 | 0 | 714
+19828 | Achilles' Sword(Soul) | 45 | Champion | SingleHandBlade | 3 | 3 | 0 | 720
+19829 | Achilles' Sword(Soul+) | 60 | Champion | SingleHandBlade | 3 | 4 | 0 | 726
+19843 | Thanatos' Blade(Soul) | 45 | Slayer | TwoHandBlade | 3 | 3 | 1 | 697
+19844 | Thanatos' Blade(Soul+) | 60 | Slayer | Dagger | 3 | 4 | 1 | 703
+19846 | Hades' Blade (Soul) | 75 | Slayer | Dagger | 3 | 5 | 1 | 709
+19847 | Hades' Blade (Soul+) | 90 | Slayer | Dagger | 3 | 6 | 1 | 715
+19848 | Thanatos' Blade(Soul) | 45 | Slayer | TwoHandBlade | 3 | 3 | 1 | 721
+19849 | Thanatos' Blade(Soul+) | 60 | Slayer | Dagger | 3 | 4 | 1 | 727
+19863 | Prometheus' Staff(Soul) | 45 | Magus | DoubleHandStick | 3 | 3 | 1 | 698
+19864 | Prometheus' Staff (Soul+) | 60 | Magus | DoubleHandStick | 3 | 4 | 1 | 704
+19866 | Hermes' Staff (Soul) | 75 | Magus | DoubleHandStick | 3 | 5 | 1 | 710
+19867 | Hermes' Staff (Soul+) | 90 | Magus | DoubleHandStick | 3 | 6 | 1 | 716
+19868 | Prometheus' Staff(Soul) | 45 | Magus | DoubleHandStick | 3 | 3 | 1 | 722
+19869 | Prometheus' Staff (Soul+) | 60 | Magus | DoubleHandStick | 3 | 4 | 1 | 728
+19883 | Themis' Wand(Soul) | 45 | Heretic | SingleHandStick | 3 | 3 | 0 | 699
+19884 | Themis' Wand(Soul+) | 60 | Heretic | SingleHandStick | 3 | 4 | 0 | 705
+19886 | Apollo's Wand (Soul) | 75 | Heretic | SingleHandStick | 3 | 5 | 0 | 711
+19887 | Apollo's Wand (Soul+) | 90 | Heretic | SingleHandStick | 3 | 6 | 0 | 717
+19888 | Themis' Wand(Soul) | 45 | Heretic | SingleHandStick | 3 | 3 | 0 | 723
+19889 | Themis' Wand(Soul+) | 60 | Heretic | SingleHandStick | 3 | 4 | 0 | 729
+19901 | Thunderfire Hammer | 16 | Berzerker | DoubleHandBlade | 2 | 1 | 1 | 731
+19902 | Sawtooth Sword | 16 | Champion | SingleHandBlade | 2 | 1 | 0 | 732
+19903 | Crab Claws | 16 | Slayer | TwoHandBlade | 2 | 1 | 1 | 733
+19904 | Devil Staff | 16 | Magus | DoubleHandStick | 2 | 1 | 1 | 734
+19905 | Dragonfang Staff | 16 | Heretic | SingleHandStick | 2 | 1 | 0 | 735
+19906 | Netherlord Sword  | 16 | Summoner  | SingleDecorSword | 2 | 1 | 0 | 736
+19991 | Initial Gear-Berzerker | 1 | Berzerker | TwoHandBlade | 1 | 1 | 1 | 738
+19992 | Initial Gear-Champion | 1 | Champion | SingleHandBlade | 1 | 1 | 0 | 739
+19993 | Initial Gear-Slayer | 1 | Slayer | TwoHandBlade | 1 | 1 | 1 | 740
+19994 | Initial Gear-Magus | 1 | Magus | TwoHandBlade | 1 | 1 | 1 | 741
+19995 | Initial Gear-Heretic | 1 | Heretic | TwoHandBlade | 1 | 1 | 0 | 742
+19996 | Create Weapon Summoner  | 1 | Summoner  | SingleDecorSword | 1 | 1 | 0 | 743

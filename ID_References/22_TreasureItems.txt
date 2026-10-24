@@ -1,0 +1,53 @@
+﻿ПРЕДМЕТЫ СОКРОВИЩ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\Treasure\TreasureItem.slk
+Область идентификатора: ItemID
+Записей: 42; разных ID внутри этой таблицы: 42.
+Связывает ID предмета с внутренним ID из Treasure.slk.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Внутренний ID сокровища | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+44047 | Legendary Nocturnal Pearl | 1055 | 41
+44241 | Mermaid's Tears | 1056 | 42
+44444 | Orpheus' Lute | 1057 | 43
+44790 | Crystal Queen's Necklace | 1058 | 44
+65102 | Moai's Body | 1000 | 3
+65103 | Moai's Soul | 1001 | 4
+65104 | Volcano Ash of Rano Kau  | 1002 | 5
+65105 | Volcano Ash of Rano Raraku | 1003 | 6
+65106 | Volcano Ash of Rano Aru | 1004 | 7
+65112 | Catastrophe Classics | 1010 | 8
+65113 | Scepter of Disaster | 1011 | 9
+65114 | Doctrine of Ocean | 1012 | 10
+65115 | Zio Stone of the Sun | 1013 | 11
+65116 | Bimini Rock | 1014 | 12
+65117 | Poseidon's Spear | 1015 | 13
+65118 | Poseidon's Crown | 1016 | 14
+65122 | Harp of Storm | 1020 | 15
+65123 | Ocean Heart | 1021 | 16
+65124 | Seaserpent's Fury | 1022 | 17
+65125 | Talimis's Eye | 1023 | 18
+65126 | Siren's Eyering | 1024 | 19
+65127 | Schilla's Necklace | 1025 | 20
+65128 | Charybdis's Ring | 1026 | 21
+65132 | Forest Totem | 1030 | 22
+65133 | Mandala's Light | 1031 | 23
+65134 | Mystic Tome - the Wheel of Time | 1032 | 24
+65135 | Desperate Sword | 1033 | 25
+65136 | Pali-Bhasa Classics | 1034 | 26
+65137 | Sanskrit Classics | 1035 | 27
+65138 | Stone of Destruction | 1036 | 28
+65142 | Conqueror's Gold Helm | 1040 | 29
+65143 | Memphis Staff  | 1041 | 30
+65144 | World Tree Branch | 1042 | 31
+65145 | Nether Classics | 1043 | 32
+65146 | Anubis's Judgement | 1044 | 33
+65147 | Horus' Piccolo | 1045 | 34
+65148 | Death's Scythe | 1046 | 35
+65152 | Queen's Crown | 1050 | 36
+65153 | Gungnir | 1051 | 37
+65154 | Sleipnir's Bell | 1052 | 38
+65155 | Draupnir's Ring | 1053 | 39
+65156 | Nibelungen's Ring | 1054 | 40

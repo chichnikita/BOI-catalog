@@ -1,0 +1,18 @@
+﻿ИНСТРУМЕНТЫ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\tool.slk
+Область идентификатора: ItemID
+Записей: 7; разных ID внутри этой таблицы: 7.
+Названия и значения приведены как в таблице сервера.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | ToolNum — исходное поле | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+19912 | Collector | 7200 | 3
+19913 | Advanced Collector | 21600 | 4
+19914 | Advanced Collector | 21600 | 5
+19915 | Celebeam Particle Extractor (Quest) | 100 | 6
+19916 | Celebeam Particle Extractor | 4800 | 7
+19917 | Celebeam Particle Extractor | 4800 | 8
+59787 | Miner's Pickaxe | 2000 | 9

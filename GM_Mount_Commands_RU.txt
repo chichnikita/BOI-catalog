@@ -1,0 +1,622 @@
+﻿GM-КОМАНДЫ И КАТАЛОГ МАУНТОВ — BOI ODIN
+Русская памятка для BOI_Odin_4th_Anniversary_Win
+Составлена: 24.10.2026
+
+1. КАК ПОЛУЧИТЬ МАУНТА
+
+Команды вводятся в игровой чат отдельными сообщениями.
+Сначала включи доступ:
+  /setpower
+
+Получить маунта напрямую:
+  /addrider ID_МАУНТА
+
+Пример — Крылья Одина, Odin's Wings:
+  /addrider 1206
+
+Формат с одним ID взят из присланного руководства Menoz.
+В локальной краткой памятке также упоминается второй параметр
+«количество»: /addrider ID_МАУНТА 1. Как именно обработчик текущей сборки
+разбирает этот дополнительный параметр, не проверено.
+В примерах этого файла используется формат из руководства Menoz.
+
+Другой способ — получить предмет и использовать его из инвентаря:
+  /additem ID_ПРЕДМЕТА КОЛИЧЕСТВО
+
+Пример предмета Крыльев Одина:
+  /additem 62141 1
+
+Скрипт предмета 62141 вызывает AddRider для ID 1206.
+После использования предмета открой список маунтов и выбери его для езды.
+
+ID маунта и предмета различаются:
+  /addrider 1206   — ID из Rider.slk.
+  /additem 62141 1 — ID из item.slk.
+
+Обозначения ID_МАУНТА и ID_ПРЕДМЕТА заменяются числами.
+Все примеры — отдельные варианты действий; вводить весь каталог не нужно.
+
+2. ПОДБОРКА МАУНТОВ С ПРОВЕРЕННЫМИ ПРЕДМЕТАМИ
+
+Названия взяты из сервера; в русском клиенте они могут отличаться.
+Связь предмета с маунтом проверена через ItemScript.slk и скрипт предмета.
+Срок указан по полю Duration таблицы Rider.slk.
+
+Phoenix — маунт Phoenix
+  Rider ID: 111; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 111
+  Предмет:  /additem 62046 1
+
+Odin's Wings — маунт Odin's Wings
+  Rider ID: 1206; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1206
+  Предмет:  /additem 62141 1
+
+Frigga's Light — маунт Frigga's Light
+  Rider ID: 1201; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1201
+  Предмет:  /additem 62140 1
+
+Phoenixplume Dragon — маунт Phoenixplume Dragon
+  Rider ID: 1211; Rank: 4; срок: бессрочный.
+  Напрямую: /addrider 1211
+  Предмет:  /additem 62142 1
+
+Skydragon — маунт Skydragon
+  Rider ID: 1171; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1171
+  Предмет:  /additem 62123 1
+
+Temporal Drake — маунт Temporal Drake
+  Rider ID: 1166; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1166
+  Предмет:  /additem 62121 1
+
+Obsidian Turtle — маунт Obsidian Turtle
+  Rider ID: 1176; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1176
+  Предмет:  /additem 62125 1
+
+Thunder Scorpion — маунт Red Venom
+  Rider ID: 1116; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1116
+  Предмет:  /additem 62079 1
+
+Love Boat — маунт Love Boat
+  Rider ID: 1227; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1227
+  Предмет:  /additem 62148 1
+
+Burning Sky — маунт Burning Sky
+  Rider ID: 1243; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1243
+  Предмет:  /additem 62152 1
+
+Crystal Maid — маунт Crystal Maid
+  Rider ID: 1248; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1248
+  Предмет:  /additem 62153 1
+
+Cancer — маунт Cancer
+  Rider ID: 1253; Rank: 0; срок: бессрочный.
+  Напрямую: /addrider 1253
+  Предмет:  /additem 62157 1
+
+Sleipnir — маунт Sleipnir
+  Rider ID: 75; Rank: 4; срок: бессрочный.
+  Напрямую: /addrider 75
+  Предмет:  /additem 62156 1
+
+Sleipnir — маунт Sleipnir
+  Rider ID: 2004; Rank: 4; срок: 30 дн..
+  Напрямую: /addrider 2004
+  Предмет:  /additem 62146 1
+
+3. УЛУЧШЕНИЕ МАУНТОВ
+
+В Rider.slk у разных рангов одного маунта отдельные ID.
+Поля UpgradeID и DegradeID связывают ступени улучшения.
+Нулевой UpgradeID означает, что следующая ступень в этой записи не задана.
+
+Пример цепочки Крыльев Одина:
+  Rank 0: ID 1206; следующая ступень: 1207.
+  Rank 1: ID 1207; следующая ступень: 1208.
+  Rank 2: ID 1208; следующая ступень: 1209.
+  Rank 3: ID 1209; следующая ступень: 1210.
+  Rank 4: ID 1210; следующая ступень: 0.
+
+Получить отдельного маунта сразу с Rank 4 по формату руководства:
+  /addrider 1210
+
+Это команда добавления маунта. Она не описана как улучшение уже имеющегося.
+
+Для улучшения через игровую систему в Rider.slk указаны допустимые камни.
+Основные предметы:
+  60503 — Common Mount Gem.
+  60504 — Elite Mount Gem.
+  60505 — MP Mount Gem.
+
+Пример выдачи 10 камней Elite Mount Gem:
+  /additem 60504 10
+
+У Крыльев Одина поле ItemID содержит 60504, 60491 и 60489.
+Используй материал, указанный для конкретного маунта: типы камней различаются.
+Выдача камней сама по себе не запускает улучшение.
+
+Поля, относящиеся к улучшению:
+  Rank            — ранг записи.
+  Series          — серия маунта.
+  UpgradeID       — ID следующей ступени.
+  DegradeID        — ID предыдущей ступени.
+  ItemID          — ID материалов улучшения, а не предмета получения маунта.
+  ItemCount       — количество материала по таблице.
+  StrengthenRate  — параметр вероятности улучшения.
+  LuckyRate       — параметр удачи.
+  LuckyAccumulate — параметр накопления удачи.
+
+Формула вероятности и влияние удачи по одному файлу не подтверждены.
+Значения StrengthenRate здесь не объявляются точными процентами.
+
+4. СРОК, КЛАСС И УСЛОВИЯ ИСПОЛЬЗОВАНИЯ
+
+Duration = 0 означает бессрочного маунта по заголовку Rider.slk.
+Положительное Duration задано в минутах.
+
+Два разных варианта Sleipnir:
+  /additem 62156 1 — Rider ID 75, Duration 0, бессрочный.
+  /additem 62146 1 — Rider ID 2004, Duration 43200, 30 дней.
+
+Начало отсчёта и поведение таймера в офлайне здесь не проверены.
+
+У отдельных маунтов есть ограничения класса и уровня.
+Например, скрипт предмета Darkcharger 62002 требует уровень от 25
+и код класса profession = 4. Сопоставление этого кода русскому названию класса
+в этой памятке не устанавливается.
+
+В полном каталоге Profession показан как исходный числовой код.
+Даже при Profession = 0 условия использования предмета могут задаваться
+его скриптом. Запись в каталоге не означает универсальную доступность
+маунта для любого персонажа и карты.
+
+5. СКОРОСТЬ, НАВЫКИ И ДРУГИЕ ПАРАМЕТРЫ
+
+В Rider.slk есть ссылки на статусы Status / StatusLevel и навыки
+Skill1–Skill3 / SkillLevel1–SkillLevel3. Характеристики конкретного маунта
+нужно сверять с соответствующими таблицами статусов и навыков.
+
+Проверенной отдельной GM-команды для установки скорости, качества или
+ранга именно маунта в просмотренных материалах не найдено.
+Команды /setpetgrowthrate, /setpetquality и /setpetlevel описывают питомцев;
+к маунтам их применять как аналог не следует.
+
+Ниже сохранены названия, ID, ранг, срок, серия, числовое поле MutiCount,
+код Profession и ID следующей ступени.
+MutiCount приведён как исходный параметр таблицы; доступность совместной
+езды дополнительно зависит от реализации и условий игры.
+Точное сравнение скорости маунтов этот каталог не содержит.
+
+6. ПОЛНЫЙ КАТАЛОГ RIDER.SLK
+
+Всего записей: 383. Улучшенные и временные варианты считаются отдельно.
+Названия сохранены из сервера, включая повторяющиеся имена и N/A.
+Rank — значение поля в таблице; одинаковое имя не означает одинаковый ранг.
+Следующий ID 0 — следующая ступень не задана.
+
+ID | Название | Rank | Series | Срок | MutiCount | Profession | Следующий ID | Команда
+1 | Charger | 0 | 1 | бессрочный | 1 | 2 | 2 | /addrider 1
+2 | Trained Charger | 1 | 1 | бессрочный | 1 | 2 | 3 | /addrider 2
+3 | Armored Charger | 2 | 1 | бессрочный | 1 | 2 | 4 | /addrider 3
+4 | Royal Charger | 3 | 1 | бессрочный | 1 | 2 | 5 | /addrider 4
+5 | Hoof of Glory | 4 | 1 | бессрочный | 1 | 2 | 0 | /addrider 5
+6 | Direwolf | 0 | 2 | бессрочный | 1 | 3 | 7 | /addrider 6
+7 | Trained Direwolf | 1 | 2 | бессрочный | 1 | 3 | 8 | /addrider 7
+8 | Wild Direwolf | 2 | 2 | бессрочный | 1 | 3 | 9 | /addrider 8
+9 | Bloodlust Direwolf | 3 | 2 | бессрочный | 1 | 3 | 10 | /addrider 9
+10 | Chief Direwolf | 4 | 2 | бессрочный | 1 | 3 | 0 | /addrider 10
+11 | Dark Charger | 0 | 3 | бессрочный | 1 | 4 | 12 | /addrider 11
+12 | Trained Dark Charger | 1 | 3 | бессрочный | 1 | 4 | 13 | /addrider 12
+13 | Horn of Evil | 2 | 3 | бессрочный | 1 | 4 | 14 | /addrider 13
+14 | Demon Horn | 3 | 3 | бессрочный | 1 | 4 | 15 | /addrider 14
+15 | Horn of Inferno | 4 | 3 | бессрочный | 1 | 4 | 0 | /addrider 15
+16 | Griffin | 0 | 4 | бессрочный | 1 | 0 | 17 | /addrider 16
+17 | Trained Griffin | 1 | 4 | бессрочный | 1 | 0 | 18 | /addrider 17
+18 | Ether Griffin | 2 | 4 | бессрочный | 1 | 0 | 19 | /addrider 18
+19 | Storm Griffin | 3 | 4 | бессрочный | 1 | 0 | 20 | /addrider 19
+20 | Meteor Griffin | 4 | 4 | бессрочный | 1 | 0 | 0 | /addrider 20
+21 | Ostrich | 0 | 5 | бессрочный | 1 | 5 | 22 | /addrider 21
+22 | Raptor Ostrich | 1 | 5 | бессрочный | 1 | 5 | 23 | /addrider 22
+23 | Agile Ostrich | 2 | 5 | бессрочный | 1 | 5 | 24 | /addrider 23
+24 | Hurtling Ostrich | 3 | 5 | бессрочный | 1 | 5 | 25 | /addrider 24
+25 | Gale Ostrich | 4 | 5 | бессрочный | 1 | 5 | 0 | /addrider 25
+26 | Ostrich | 0 | 6 | бессрочный | 1 | 1 | 27 | /addrider 26
+27 | Brutal Ostrich | 1 | 6 | бессрочный | 1 | 1 | 28 | /addrider 27
+28 | Thunder Dinosaur | 2 | 6 | бессрочный | 1 | 1 | 29 | /addrider 28
+29 | Ancient Dinosaur | 3 | 6 | бессрочный | 1 | 1 | 30 | /addrider 29
+30 | Sharp Clawed Dinosaur | 4 | 6 | бессрочный | 1 | 1 | 0 | /addrider 30
+31 | Snow Bear | 0 | 7 | бессрочный | 1 | 0 | 32 | /addrider 31
+32 | Armed Snow Bear | 1 | 7 | бессрочный | 1 | 0 | 33 | /addrider 32
+33 | Iceberg Snow Bear | 2 | 7 | бессрочный | 1 | 0 | 34 | /addrider 33
+34 | Legendary Snow Bear | 3 | 7 | бессрочный | 1 | 0 | 35 | /addrider 34
+35 | King Snow Bear | 4 | 7 | бессрочный | 1 | 0 | 0 | /addrider 35
+36 | Mechabeast 1 | 0 | 8 | бессрочный | 1 | 0 | 37 | /addrider 36
+37 | Mechabeast 2 | 1 | 8 | бессрочный | 1 | 0 | 38 | /addrider 37
+38 | Mechabeast 3 | 2 | 8 | бессрочный | 1 | 0 | 39 | /addrider 38
+39 | Mechabeast 4 | 3 | 8 | бессрочный | 1 | 0 | 40 | /addrider 39
+40 | Mechabeast 4 EX | 4 | 8 | бессрочный | 1 | 0 | 0 | /addrider 40
+41 | Kirin | 0 | 9 | бессрочный | 1 | 0 | 42 | /addrider 41
+42 | Trained Kirin | 1 | 9 | бессрочный | 1 | 0 | 43 | /addrider 42
+43 | Lightning Kirin | 2 | 9 | бессрочный | 1 | 0 | 44 | /addrider 43
+44 | Historic Kirin | 3 | 9 | бессрочный | 1 | 0 | 45 | /addrider 44
+45 | Eternal Kirin | 4 | 9 | бессрочный | 1 | 0 | 0 | /addrider 45
+46 | Rhino | 0 | 10 | бессрочный | 1 | 0 | 47 | /addrider 46
+47 | Trained Rhino | 1 | 10 | бессрочный | 1 | 0 | 48 | /addrider 47
+48 | Rapid Rhino | 2 | 10 | бессрочный | 1 | 0 | 49 | /addrider 48
+49 | Shadow Rhino | 3 | 10 | бессрочный | 1 | 0 | 50 | /addrider 49
+50 | Restless Rhino | 4 | 10 | бессрочный | 1 | 0 | 0 | /addrider 50
+51 | Bone Oryx | 0 | 11 | бессрочный | 1 | 0 | 52 | /addrider 51
+52 | Trained Bone Oryx | 1 | 11 | бессрочный | 1 | 0 | 53 | /addrider 52
+53 | Enchanted Bone Oryx | 2 | 11 | бессрочный | 1 | 0 | 54 | /addrider 53
+54 | Possessed Bone Oryx | 3 | 11 | бессрочный | 1 | 0 | 55 | /addrider 54
+55 | Original Bone Oryx | 4 | 11 | бессрочный | 1 | 0 | 0 | /addrider 55
+56 | Mammoth | 0 | 12 | бессрочный | 1 | 0 | 57 | /addrider 56
+57 | Trained Mammoth | 1 | 12 | бессрочный | 1 | 0 | 58 | /addrider 57
+58 | Ferocious Mammoth | 2 | 12 | бессрочный | 1 | 0 | 59 | /addrider 58
+59 | Extinct Mammoth | 3 | 12 | бессрочный | 1 | 0 | 60 | /addrider 59
+60 | Ice Lion | 4 | 12 | бессрочный | 1 | 0 | 0 | /addrider 60
+61 | Bone Dragon | 0 | 13 | бессрочный | 1 | 0 | 62 | /addrider 61
+62 | Furious Bone Dragon | 1 | 13 | бессрочный | 1 | 0 | 63 | /addrider 62
+63 | Dreadful Bone Dragon | 2 | 13 | бессрочный | 1 | 0 | 64 | /addrider 63
+64 | Cruel Bone Dragon | 3 | 13 | бессрочный | 1 | 0 | 65 | /addrider 64
+65 | Death Bone Dragon | 4 | 13 | бессрочный | 1 | 0 | 0 | /addrider 65
+66 | Speed Bike | 0 | 14 | бессрочный | 1 | 0 | 67 | /addrider 66
+67 | Flame Speed Bike | 1 | 14 | бессрочный | 1 | 0 | 68 | /addrider 67
+68 | Doomed Speed Bike | 2 | 14 | бессрочный | 1 | 0 | 69 | /addrider 68
+69 | Death Speed Bike | 3 | 14 | бессрочный | 1 | 0 | 70 | /addrider 69
+70 | Ghostride Speed Bike | 4 | 14 | бессрочный | 1 | 0 | 0 | /addrider 70
+71 | Wind Rider | 0 | 15 | бессрочный | 1 | 0 | 72 | /addrider 71
+72 | Elven Friend | 1 | 15 | бессрочный | 1 | 0 | 73 | /addrider 72
+73 | Sacred Walker | 2 | 15 | бессрочный | 1 | 0 | 74 | /addrider 73
+74 | Ultimate Pegasus | 3 | 15 | бессрочный | 1 | 0 | 75 | /addrider 74
+75 | Sleipnir | 4 | 15 | бессрочный | 1 | 0 | 0 | /addrider 75
+76 | Behemoth Chariot | 0 | 16 | бессрочный | 2 | 0 | 77 | /addrider 76
+77 | Tribal Chariot | 1 | 16 | бессрочный | 3 | 0 | 78 | /addrider 77
+78 | Rampaging Chariot | 2 | 16 | бессрочный | 4 | 0 | 79 | /addrider 78
+79 | War Smoke Chariot | 3 | 16 | бессрочный | 5 | 0 | 80 | /addrider 79
+80 | Soul of War | 4 | 16 | бессрочный | 6 | 0 | 0 | /addrider 80
+81 | Arcane Relic | 0 | 17 | бессрочный | 1 | 0 | 82 | /addrider 81
+82 | Crystal Relic | 1 | 17 | бессрочный | 1 | 0 | 83 | /addrider 82
+83 | Rune Relic | 2 | 17 | бессрочный | 1 | 0 | 84 | /addrider 83
+84 | Divine Relic | 3 | 17 | бессрочный | 1 | 0 | 85 | /addrider 84
+85 | Abysmal Relic | 4 | 17 | бессрочный | 1 | 0 | 0 | /addrider 85
+86 | Classic Kart | 0 | 18 | бессрочный | 1 | 0 | 87 | /addrider 86
+87 | Comfortable Kart | 1 | 18 | бессрочный | 1 | 0 | 88 | /addrider 87
+88 | Fashionable Kart | 2 | 18 | бессрочный | 1 | 0 | 89 | /addrider 88
+89 | Supreme Kart | 3 | 18 | бессрочный | 1 | 0 | 90 | /addrider 89
+90 | BOI Kart | 4 | 18 | бессрочный | 1 | 0 | 0 | /addrider 90
+91 | Cute Rabbit | 0 | 19 | бессрочный | 1 | 0 | 92 | /addrider 91
+92 | Clever Rabbit | 1 | 19 | бессрочный | 1 | 0 | 93 | /addrider 92
+93 | Princess Rabbit | 2 | 19 | бессрочный | 1 | 0 | 94 | /addrider 93
+94 | Noble Rabbit | 3 | 19 | бессрочный | 1 | 0 | 95 | /addrider 94
+95 | Royal Rabbit | 4 | 19 | бессрочный | 2 | 0 | 0 | /addrider 95
+96 | Terror Wheel | 0 | 20 | бессрочный | 2 | 0 | 97 | /addrider 96
+97 | Monster Wheel | 1 | 20 | бессрочный | 2 | 0 | 98 | /addrider 97
+98 | Fury Wheel | 2 | 20 | бессрочный | 2 | 0 | 99 | /addrider 98
+99 | Steampunk Wheel | 3 | 20 | бессрочный | 2 | 0 | 100 | /addrider 99
+100 | Wheel of Death | 4 | 20 | бессрочный | 2 | 0 | 0 | /addrider 100
+101 | Dragonfish | 0 | 21 | бессрочный | 1 | 0 | 102 | /addrider 101
+102 | Gold Dragonfish | 1 | 21 | бессрочный | 1 | 0 | 103 | /addrider 102
+103 | Heavenly Dragonfish | 2 | 21 | бессрочный | 1 | 0 | 104 | /addrider 103
+104 | Fortunate Dragonfish | 3 | 21 | бессрочный | 1 | 0 | 105 | /addrider 104
+105 | Starry Dragonfish | 4 | 21 | бессрочный | 1 | 0 | 0 | /addrider 105
+106 | Flying Elephant | 0 | 22 | бессрочный | 1 | 0 | 107 | /addrider 106
+107 | Buddha Elephant | 1 | 22 | бессрочный | 1 | 0 | 108 | /addrider 107
+108 | Karma Elephant | 2 | 22 | бессрочный | 1 | 0 | 109 | /addrider 108
+109 | Magic Elephant | 3 | 22 | бессрочный | 1 | 0 | 110 | /addrider 109
+110 | Emirate Elephant | 4 | 22 | бессрочный | 1 | 0 | 0 | /addrider 110
+111 | Phoenix | 0 | 24 | бессрочный | 1 | 0 | 112 | /addrider 111
+112 | Divined Phoenix | 1 | 24 | бессрочный | 1 | 0 | 113 | /addrider 112
+113 | Glory Phoenix | 2 | 24 | бессрочный | 1 | 0 | 114 | /addrider 113
+114 | Reborn Phoenix | 3 | 24 | бессрочный | 1 | 0 | 115 | /addrider 114
+115 | Wings of Nirvana | 4 | 24 | бессрочный | 1 | 0 | 0 | /addrider 115
+116 | Harp of Love | 0 | 25 | бессрочный | 2 | 0 | 117 | /addrider 116
+117 | Whispers in the Forest | 1 | 25 | бессрочный | 2 | 0 | 118 | /addrider 117
+118 | Wish of Life | 2 | 25 | бессрочный | 2 | 0 | 119 | /addrider 118
+119 | Lucky Star | 3 | 25 | бессрочный | 2 | 0 | 120 | /addrider 119
+120 | Orpheus's Aria | 4 | 25 | бессрочный | 2 | 0 | 0 | /addrider 120
+201 | Angelic Armor | 0 | 23 | бессрочный | 1 | 0 | 202 | /addrider 201
+202 | Effulgent Armor | 1 | 23 | бессрочный | 1 | 0 | 203 | /addrider 202
+203 | Scarlet Armor | 2 | 23 | бессрочный | 1 | 0 | 204 | /addrider 203
+204 | Fallen Armor | 3 | 23 | бессрочный | 1 | 0 | 205 | /addrider 204
+205 | Feathers of Heaven | 4 | 23 | бессрочный | 1 | 0 | 0 | /addrider 205
+206 | Wings of Night | 0 | 26 | бессрочный | 1 | 0 | 207 | /addrider 206
+207 | Wings of Twilight | 1 | 26 | бессрочный | 1 | 0 | 208 | /addrider 207
+208 | Wings of Void | 2 | 26 | бессрочный | 1 | 0 | 209 | /addrider 208
+209 | Wings of Cloud | 3 | 26 | бессрочный | 1 | 0 | 210 | /addrider 209
+210 | Wings of Soulreaper | 4 | 26 | бессрочный | 1 | 0 | 0 | /addrider 210
+211 | Giant Lizard | 0 | 27 | бессрочный | 1 | 6 | 212 | /addrider 211
+212 | Marsh Lizard | 1 | 27 | бессрочный | 1 | 6 | 213 | /addrider 212
+213 | Primitive Lizard | 2 | 27 | бессрочный | 1 | 6 | 214 | /addrider 213
+214 | Enraged Lizard | 3 | 27 | бессрочный | 1 | 6 | 215 | /addrider 214
+215 | Steel Teeth | 4 | 27 | бессрочный | 1 | 6 | 0 | /addrider 215
+216 | Steel Teeth | 4 | 27 | бессрочный | 1 | 0 | 0 | /addrider 216
+1001 | Black Dragon | 0 | 50 | бессрочный | 1 | 0 | 1002 | /addrider 1001
+1002 | Darkness Dragon | 1 | 50 | бессрочный | 1 | 0 | 1003 | /addrider 1002
+1003 | Abyss Dragon | 2 | 50 | бессрочный | 1 | 0 | 1004 | /addrider 1003
+1004 | Purgatory Dragon | 3 | 50 | бессрочный | 1 | 0 | 1005 | /addrider 1004
+1005 | Cataclysm | 4 | 50 | бессрочный | 1 | 0 | 0 | /addrider 1005
+1006 | Leo | 0 | 51 | бессрочный | 1 | 0 | 1007 | /addrider 1006
+1007 | Trained Lion | 1 | 51 | бессрочный | 1 | 0 | 1008 | /addrider 1007
+1008 | Grassland Preyer | 2 | 51 | бессрочный | 1 | 0 | 1009 | /addrider 1008
+1009 | Grassland Roarer | 3 | 51 | бессрочный | 1 | 0 | 1010 | /addrider 1009
+1010 | King of the Grassland | 4 | 51 | бессрочный | 1 | 0 | 0 | /addrider 1010
+1011 | Griffin | 0 | 52 | бессрочный | 1 | 0 | 1012 | /addrider 1011
+1012 | Trained Griffin | 1 | 52 | бессрочный | 1 | 0 | 1013 | /addrider 1012
+1013 | Ether Griffin | 2 | 52 | бессрочный | 1 | 0 | 1014 | /addrider 1013
+1014 | Storm Griffin | 3 | 52 | бессрочный | 1 | 0 | 1015 | /addrider 1014
+1015 | Meteor Griffin | 4 | 52 | бессрочный | 1 | 0 | 0 | /addrider 1015
+1016 | Magic Carpet | 0 | 53 | бессрочный | 1 | 0 | 1017 | /addrider 1016
+1017 | Magic Carpet | 1 | 53 | бессрочный | 1 | 0 | 1018 | /addrider 1017
+1018 | Magic Carpet | 2 | 53 | бессрочный | 1 | 0 | 1019 | /addrider 1018
+1019 | Magic Carpet | 3 | 53 | бессрочный | 1 | 0 | 1020 | /addrider 1019
+1020 | Magic Carpet | 4 | 53 | бессрочный | 1 | 0 | 0 | /addrider 1020
+1021 | Leo | 0 | 54 | бессрочный | 1 | 0 | 1022 | /addrider 1021
+1022 | Trained Lion | 1 | 54 | бессрочный | 1 | 0 | 1023 | /addrider 1022
+1023 | Grassland Preyer | 2 | 54 | бессрочный | 1 | 0 | 1024 | /addrider 1023
+1024 | Grassland Roarer | 3 | 54 | бессрочный | 1 | 0 | 1025 | /addrider 1024
+1025 | King of the Grassland | 4 | 54 | бессрочный | 1 | 0 | 0 | /addrider 1025
+1026 | Ghost Tiger | 0 | 55 | бессрочный | 1 | 0 | 1027 | /addrider 1026
+1027 | Specter Tiger | 1 | 55 | бессрочный | 1 | 0 | 1028 | /addrider 1027
+1028 | Wraith Tiger | 2 | 55 | бессрочный | 1 | 0 | 1029 | /addrider 1028
+1029 | Vampire Tiger | 3 | 55 | бессрочный | 1 | 0 | 1030 | /addrider 1029
+1030 | Illusion of Death | 4 | 55 | бессрочный | 1 | 0 | 0 | /addrider 1030
+1031 | Hoof of Glory | 4 | 56 | бессрочный | 1 | 0 | 0 | /addrider 1031
+1032 | Chief Direwolf | 4 | 57 | бессрочный | 1 | 0 | 0 | /addrider 1032
+1033 | Horn of Inferno | 4 | 58 | бессрочный | 1 | 0 | 0 | /addrider 1033
+1034 | Gale Ostrich | 4 | 59 | бессрочный | 1 | 0 | 0 | /addrider 1034
+1035 | Sharp Clawed Dinosaur | 4 | 60 | бессрочный | 1 | 0 | 0 | /addrider 1035
+1036 | Reindeer | 0 | 61 | бессрочный | 1 | 0 | 1037 | /addrider 1036
+1037 | Swift Reindeer | 1 | 61 | бессрочный | 1 | 0 | 1038 | /addrider 1037
+1038 | Colorful Reindeer | 2 | 61 | бессрочный | 1 | 0 | 1039 | /addrider 1038
+1039 | Rainbow Reindeer | 3 | 61 | бессрочный | 1 | 0 | 1040 | /addrider 1039
+1040 | Happy Word | 4 | 61 | бессрочный | 1 | 0 | 0 | /addrider 1040
+1041 | Energized Spider | 0 | 62 | бессрочный | 1 | 0 | 1042 | /addrider 1041
+1042 | Berserk Spider | 1 | 62 | бессрочный | 1 | 0 | 1043 | /addrider 1042
+1043 | Bloodthirsty Spider | 2 | 62 | бессрочный | 1 | 0 | 1044 | /addrider 1043
+1044 | Hadesbolt Spider | 3 | 62 | бессрочный | 1 | 0 | 1045 | /addrider 1044
+1045 | Soul Reaper | 4 | 62 | бессрочный | 1 | 0 | 0 | /addrider 1045
+1046 | Polar Dog Sled | 0 | 63 | бессрочный | 1 | 0 | 1047 | /addrider 1046
+1047 | Reinforced Polar Dog Sled | 1 | 63 | бессрочный | 1 | 0 | 1048 | /addrider 1047
+1048 | Swift Polar Dog Sled | 2 | 63 | бессрочный | 1 | 0 | 1049 | /addrider 1048
+1049 | Flying Arctic Sled | 3 | 63 | бессрочный | 1 | 0 | 1050 | /addrider 1049
+1050 | Polar Ranger | 4 | 63 | бессрочный | 1 | 0 | 0 | /addrider 1050
+1051 | Christmas Sled | 0 | 64 | бессрочный | 2 | 0 | 1052 | /addrider 1051
+1052 | Lucky Christmas Sled | 1 | 64 | бессрочный | 2 | 0 | 1053 | /addrider 1052
+1053 | Luxurious Christmas Sled | 2 | 64 | бессрочный | 2 | 0 | 1054 | /addrider 1053
+1054 | Royal Christmas Sled | 3 | 64 | бессрочный | 2 | 0 | 1055 | /addrider 1054
+1055 | Fleeting Light | 4 | 64 | бессрочный | 2 | 0 | 0 | /addrider 1055
+1056 | Ghost Horse | 0 | 65 | бессрочный | 1 | 0 | 1057 | /addrider 1056
+1057 | Flame Horse | 1 | 65 | бессрочный | 1 | 0 | 1058 | /addrider 1057
+1058 | Terror Horse | 2 | 65 | бессрочный | 1 | 0 | 1059 | /addrider 1058
+1059 | Hell Horse | 3 | 65 | бессрочный | 1 | 0 | 1060 | /addrider 1059
+1060 | Death Messenger | 4 | 65 | бессрочный | 1 | 0 | 0 | /addrider 1060
+1061 | Eastern Lion | 0 | 66 | бессрочный | 1 | 0 | 1062 | /addrider 1061
+1062 | Fortified Eastern Lion | 1 | 66 | бессрочный | 1 | 0 | 1063 | /addrider 1062
+1063 | Antique Eastern Lion | 2 | 66 | бессрочный | 1 | 0 | 1064 | /addrider 1063
+1064 | Royal Eastern Lion | 3 | 66 | бессрочный | 1 | 0 | 1065 | /addrider 1064
+1065 | Prime Eastern Lion | 4 | 66 | бессрочный | 1 | 0 | 0 | /addrider 1065
+1066 | Night's Romance | 0 | 67 | бессрочный | 2 | 0 | 1067 | /addrider 1066
+1067 | Night's Romance | 1 | 67 | бессрочный | 2 | 0 | 1068 | /addrider 1067
+1068 | Night's Romance | 2 | 67 | бессрочный | 2 | 0 | 1069 | /addrider 1068
+1069 | Night's Romance | 3 | 67 | бессрочный | 2 | 0 | 1070 | /addrider 1069
+1070 | Night's Romance | 4 | 67 | бессрочный | 2 | 0 | 0 | /addrider 1070
+1071 | Shadow Dragon | 0 | 68 | бессрочный | 2 | 0 | 1072 | /addrider 1071
+1072 | Advanced Shadow Dragon | 1 | 68 | бессрочный | 2 | 0 | 1073 | /addrider 1072
+1073 | Armored Shadow Dragon | 2 | 68 | бессрочный | 2 | 0 | 1074 | /addrider 1073
+1074 | Lord Shadow Dragon | 3 | 68 | бессрочный | 2 | 0 | 1075 | /addrider 1074
+1075 | Supreme Shadow Dragon | 4 | 68 | бессрочный | 2 | 0 | 0 | /addrider 1075
+1076 | Cerberus | 0 | 69 | бессрочный | 1 | 0 | 1077 | /addrider 1076
+1077 | Cerberus | 1 | 69 | бессрочный | 1 | 0 | 1078 | /addrider 1077
+1078 | Cerberus | 2 | 69 | бессрочный | 1 | 0 | 1079 | /addrider 1078
+1079 | Cerberus | 3 | 69 | бессрочный | 1 | 0 | 1080 | /addrider 1079
+1080 | Cerberus | 4 | 69 | бессрочный | 1 | 0 | 0 | /addrider 1080
+1081 | Spacecraft | 0 | 70 | бессрочный | 6 | 0 | 1082 | /addrider 1081
+1082 | Spacecraft | 1 | 70 | бессрочный | 6 | 0 | 1083 | /addrider 1082
+1083 | Spacecraft | 2 | 70 | бессрочный | 6 | 0 | 1084 | /addrider 1083
+1084 | Spacecraft | 3 | 70 | бессрочный | 6 | 0 | 1085 | /addrider 1084
+1085 | Spacecraft | 4 | 70 | бессрочный | 6 | 0 | 0 | /addrider 1085
+1086 | Dragonhawk | 0 | 71 | бессрочный | 1 | 0 | 1087 | /addrider 1086
+1087 | Dragonhawk | 1 | 71 | бессрочный | 1 | 0 | 1088 | /addrider 1087
+1088 | Dragonhawk | 2 | 71 | бессрочный | 1 | 0 | 1089 | /addrider 1088
+1089 | Dragonhawk | 3 | 71 | бессрочный | 1 | 0 | 1090 | /addrider 1089
+1090 | Dragonhawk | 4 | 71 | бессрочный | 1 | 0 | 0 | /addrider 1090
+1091 | Man of Iron | 0 | 72 | бессрочный | 2 | 0 | 1092 | /addrider 1091
+1092 | Man of Iron II | 1 | 72 | бессрочный | 2 | 0 | 1093 | /addrider 1092
+1093 | Man of Iron III | 2 | 72 | бессрочный | 2 | 0 | 1094 | /addrider 1093
+1094 | Man of Iron IV | 3 | 72 | бессрочный | 2 | 0 | 1095 | /addrider 1094
+1095 | Man of Iron V | 4 | 72 | бессрочный | 2 | 0 | 0 | /addrider 1095
+1096 | Motorboat | 0 | 73 | бессрочный | 1 | 0 | 1097 | /addrider 1096
+1097 | High Speed Motorboat | 1 | 73 | бессрочный | 1 | 0 | 1098 | /addrider 1097
+1098 | Luxurious Motorboat | 2 | 73 | бессрочный | 1 | 0 | 1099 | /addrider 1098
+1099 | Noble Motorboat | 3 | 73 | бессрочный | 1 | 0 | 1100 | /addrider 1099
+1100 | Breaking Waves | 4 | 73 | бессрочный | 1 | 0 | 0 | /addrider 1100
+1116 | Red Venom | 0 | 77 | бессрочный | 1 | 0 | 1117 | /addrider 1116
+1117 | Red Venom | 1 | 77 | бессрочный | 1 | 0 | 1118 | /addrider 1117
+1118 | Red Venom | 2 | 77 | бессрочный | 1 | 0 | 1119 | /addrider 1118
+1119 | Red Venom | 3 | 77 | бессрочный | 1 | 0 | 1120 | /addrider 1119
+1120 | Red Venom | 4 | 77 | бессрочный | 1 | 0 | 0 | /addrider 1120
+1121 | Abyssal Steed | 0 | 78 | бессрочный | 1 | 0 | 1122 | /addrider 1121
+1122 | Abyssal Steed | 1 | 78 | бессрочный | 1 | 0 | 1123 | /addrider 1122
+1123 | Abyssal Steed | 2 | 78 | бессрочный | 1 | 0 | 1124 | /addrider 1123
+1124 | Abyssal Steed | 3 | 78 | бессрочный | 1 | 0 | 1125 | /addrider 1124
+1125 | Abyssal Steed | 4 | 78 | бессрочный | 1 | 0 | 0 | /addrider 1125
+1126 | New Year's Beast | 0 | 79 | бессрочный | 1 | 0 | 1127 | /addrider 1126
+1127 | Tamed Kirin | 1 | 79 | бессрочный | 1 | 0 | 1128 | /addrider 1127
+1128 | Friendly Kirin | 2 | 79 | бессрочный | 1 | 0 | 1129 | /addrider 1128
+1129 | Dedicated Kirin | 3 | 79 | бессрочный | 1 | 0 | 1130 | /addrider 1129
+1130 | Faithful Kirin | 4 | 79 | бессрочный | 1 | 0 | 0 | /addrider 1130
+1131 | Cyclops Kugor | 0 | 80 | бессрочный | 1 | 0 | 1132 | /addrider 1131
+1132 | Cyclops Grunt | 1 | 80 | бессрочный | 1 | 0 | 1133 | /addrider 1132
+1133 | Cyclops Soldier | 2 | 80 | бессрочный | 1 | 0 | 1134 | /addrider 1133
+1134 | Cyclops Knight | 3 | 80 | бессрочный | 1 | 0 | 1135 | /addrider 1134
+1135 | Cyclops General | 4 | 80 | бессрочный | 1 | 0 | 0 | /addrider 1135
+1136 | Stoneskin Shark | 0 | 81 | бессрочный | 1 | 0 | 1137 | /addrider 1136
+1137 | Plated Shark | 1 | 81 | бессрочный | 1 | 0 | 1138 | /addrider 1137
+1138 | Tiger Shark | 2 | 81 | бессрочный | 1 | 0 | 1139 | /addrider 1138
+1139 | Ancient Shark | 3 | 81 | бессрочный | 1 | 0 | 1140 | /addrider 1139
+1140 | Brilliant Shark | 4 | 81 | бессрочный | 1 | 0 | 0 | /addrider 1140
+1141 | N/A17173???? | 0 | 82 | бессрочный | 1 | 0 | 1142 | /addrider 1141
+1142 | N/A??17173???? | 1 | 82 | бессрочный | 1 | 0 | 1143 | /addrider 1142
+1143 | N/A??17173???? | 2 | 82 | бессрочный | 1 | 0 | 1144 | /addrider 1143
+1144 | N/A??17173???? | 3 | 82 | бессрочный | 1 | 0 | 1145 | /addrider 1144
+1145 | N/A??17173???? | 4 | 82 | бессрочный | 1 | 0 | 0 | /addrider 1145
+1146 | Demonlord | 0 | 83 | бессрочный | 1 | 0 | 1147 | /addrider 1146
+1147 | Strong Demonlord | 1 | 83 | бессрочный | 1 | 0 | 1148 | /addrider 1147
+1148 | Armored Demonlord | 2 | 83 | бессрочный | 1 | 0 | 1149 | /addrider 1148
+1149 | Imperial Demonlord | 3 | 83 | бессрочный | 1 | 0 | 1150 | /addrider 1149
+1150 | Supreme Demonlord | 4 | 83 | бессрочный | 1 | 0 | 0 | /addrider 1150
+1151 | Chimera Spider | 0 | 84 | бессрочный | 1 | 0 | 1152 | /addrider 1151
+1152 | Chimera Spider | 1 | 84 | бессрочный | 1 | 0 | 1153 | /addrider 1152
+1153 | Chimera Spider | 2 | 84 | бессрочный | 1 | 0 | 1154 | /addrider 1153
+1154 | Chimera Spider | 3 | 84 | бессрочный | 1 | 0 | 1155 | /addrider 1154
+1155 | Chimera Spider | 4 | 84 | бессрочный | 1 | 0 | 0 | /addrider 1155
+1156 | Charming Fox | 0 | 85 | бессрочный | 1 | 0 | 1157 | /addrider 1156
+1157 | Charming Fox | 1 | 85 | бессрочный | 1 | 0 | 1158 | /addrider 1157
+1158 | Charming Fox | 2 | 85 | бессрочный | 1 | 0 | 1159 | /addrider 1158
+1159 | Charming Fox | 3 | 85 | бессрочный | 1 | 0 | 1160 | /addrider 1159
+1160 | Iris Fox | 4 | 85 | бессрочный | 1 | 0 | 0 | /addrider 1160
+1161 | Queen Spider | 0 | 86 | бессрочный | 1 | 0 | 1162 | /addrider 1161
+1162 | Queen Spider | 1 | 86 | бессрочный | 1 | 0 | 1163 | /addrider 1162
+1163 | Queen Spider | 2 | 86 | бессрочный | 1 | 0 | 1164 | /addrider 1163
+1164 | Queen Spider | 3 | 86 | бессрочный | 1 | 0 | 1165 | /addrider 1164
+1165 | Ultimate Spider Queen | 4 | 86 | бессрочный | 1 | 0 | 0 | /addrider 1165
+1166 | Temporal Drake | 0 | 87 | бессрочный | 1 | 0 | 1167 | /addrider 1166
+1167 | Ethereal Drake | 1 | 87 | бессрочный | 1 | 0 | 1168 | /addrider 1167
+1168 | Astral Drake | 2 | 87 | бессрочный | 1 | 0 | 1169 | /addrider 1168
+1169 | Corporeal Drake | 3 | 87 | бессрочный | 1 | 0 | 1170 | /addrider 1169
+1170 | Chrono Drake | 4 | 87 | бессрочный | 1 | 0 | 0 | /addrider 1170
+1171 | Skydragon | 0 | 88 | бессрочный | 1 | 0 | 1172 | /addrider 1171
+1172 | Lifeblood Skydragon | 1 | 88 | бессрочный | 1 | 0 | 1173 | /addrider 1172
+1173 | Sunbloom Skydragon | 2 | 88 | бессрочный | 1 | 0 | 1174 | /addrider 1173
+1174 | Flamelicked Skydragon | 3 | 88 | бессрочный | 1 | 0 | 1175 | /addrider 1174
+1175 | Frostlit Skydragon | 4 | 88 | бессрочный | 1 | 0 | 0 | /addrider 1175
+1176 | Obsidian Turtle | 0 | 89 | бессрочный | 1 | 0 | 1177 | /addrider 1176
+1177 | Obsidian Turtle of Fortune | 1 | 89 | бессрочный | 1 | 0 | 1178 | /addrider 1177
+1178 | Obsidian Turtle of Immortality | 2 | 89 | бессрочный | 1 | 0 | 1179 | /addrider 1178
+1179 | Obsidian Turtle of Damnation | 3 | 89 | бессрочный | 1 | 0 | 1180 | /addrider 1179
+1180 | Obsidian Turtle of Supremacy | 4 | 89 | бессрочный | 1 | 0 | 0 | /addrider 1180
+1181 | Star of Luck | 0 | 90 | бессрочный | 1 | 0 | 1182 | /addrider 1181
+1182 | Star of Luck | 1 | 90 | бессрочный | 1 | 0 | 1183 | /addrider 1182
+1183 | Star of Luck | 2 | 90 | бессрочный | 1 | 0 | 1184 | /addrider 1183
+1184 | Star of Luck | 3 | 90 | бессрочный | 1 | 0 | 1185 | /addrider 1184
+1185 | Star of Luck | 4 | 90 | бессрочный | 1 | 0 | 0 | /addrider 1185
+1186 | Waxing Moon Jaden Rabbit | 0 | 91 | бессрочный | 2 | 0 | 1187 | /addrider 1186
+1187 | Waning Moon Jaden Rabbit | 1 | 91 | бессрочный | 2 | 0 | 1188 | /addrider 1187
+1188 | Quarter Moon Jaden Rabbit | 2 | 91 | бессрочный | 2 | 0 | 1189 | /addrider 1188
+1189 | New Moon Jaden Rabbit | 3 | 91 | бессрочный | 2 | 0 | 1190 | /addrider 1189
+1190 | Palace of the Moon | 4 | 91 | бессрочный | 2 | 0 | 0 | /addrider 1190
+1191 | Bragi's Wheel | 0 | 92 | бессрочный | 1 | 0 | 1192 | /addrider 1191
+1192 | Bragi's Wheel | 1 | 92 | бессрочный | 1 | 0 | 1193 | /addrider 1192
+1193 | Bragi's Wheel | 2 | 92 | бессрочный | 1 | 0 | 1194 | /addrider 1193
+1194 | Bragi's Wheel | 3 | 92 | бессрочный | 1 | 0 | 1195 | /addrider 1194
+1195 | Bragi's Wheel | 4 | 92 | бессрочный | 1 | 0 | 0 | /addrider 1195
+1196 | Hel's Fury | 0 | 93 | бессрочный | 1 | 0 | 1197 | /addrider 1196
+1197 | Hel's Fury | 1 | 93 | бессрочный | 1 | 0 | 1198 | /addrider 1197
+1198 | Hel's Fury | 2 | 93 | бессрочный | 1 | 0 | 1199 | /addrider 1198
+1199 | Hel's Fury | 3 | 93 | бессрочный | 1 | 0 | 1200 | /addrider 1199
+1200 | Hel's Fury | 4 | 93 | бессрочный | 1 | 0 | 0 | /addrider 1200
+1201 | Frigga's Light | 0 | 94 | бессрочный | 1 | 0 | 1202 | /addrider 1201
+1202 | Frigga's Light | 1 | 94 | бессрочный | 1 | 0 | 1203 | /addrider 1202
+1203 | Frigga's Light | 2 | 94 | бессрочный | 1 | 0 | 1204 | /addrider 1203
+1204 | Frigga's Light | 3 | 94 | бессрочный | 1 | 0 | 1205 | /addrider 1204
+1205 | Frigga's Light | 4 | 94 | бессрочный | 1 | 0 | 0 | /addrider 1205
+1206 | Odin's Wings | 0 | 95 | бессрочный | 1 | 0 | 1207 | /addrider 1206
+1207 | Odin's Wings | 1 | 95 | бессрочный | 1 | 0 | 1208 | /addrider 1207
+1208 | Odin's Wings | 2 | 95 | бессрочный | 1 | 0 | 1209 | /addrider 1208
+1209 | Odin's Wings | 3 | 95 | бессрочный | 1 | 0 | 1210 | /addrider 1209
+1210 | Odin's Wings | 4 | 95 | бессрочный | 1 | 0 | 0 | /addrider 1210
+1211 | Phoenixplume Dragon | 4 | 96 | бессрочный | 1 | 0 | 0 | /addrider 1211
+1212 | Nether Dragon | 0 | 97 | бессрочный | 1 | 0 | 1213 | /addrider 1212
+1213 | Fallen Nether Dragon | 1 | 97 | бессрочный | 1 | 0 | 1214 | /addrider 1213
+1214 | Fiendish Nether Dragon | 2 | 97 | бессрочный | 1 | 0 | 1215 | /addrider 1214
+1215 | Fiendish Nether Dragonlord | 3 | 97 | бессрочный | 1 | 0 | 1216 | /addrider 1215
+1216 | Devastator - Saxton | 4 | 97 | бессрочный | 1 | 0 | 0 | /addrider 1216
+1217 | Christmas Sled | 0 | 98 | бессрочный | 2 | 0 | 1218 | /addrider 1217
+1218 | Christmas Sled | 1 | 98 | бессрочный | 2 | 0 | 1219 | /addrider 1218
+1219 | Christmas Sled | 2 | 98 | бессрочный | 2 | 0 | 1220 | /addrider 1219
+1220 | Christmas Sled | 3 | 98 | бессрочный | 2 | 0 | 1221 | /addrider 1220
+1221 | Christmas Sled | 4 | 98 | бессрочный | 2 | 0 | 0 | /addrider 1221
+1222 | Wings of Swiftness | 0 | 99 | бессрочный | 1 | 0 | 1223 | /addrider 1222
+1223 | Wings of Swiftness | 1 | 99 | бессрочный | 1 | 0 | 1224 | /addrider 1223
+1224 | Wings of Swiftness | 2 | 99 | бессрочный | 1 | 0 | 1225 | /addrider 1224
+1225 | Wings of Swiftness | 3 | 99 | бессрочный | 1 | 0 | 1226 | /addrider 1225
+1226 | Wings of Swiftness | 4 | 99 | бессрочный | 1 | 0 | 0 | /addrider 1226
+1227 | Love Boat | 0 | 100 | бессрочный | 2 | 0 | 1228 | /addrider 1227
+1228 | Love Boat | 1 | 100 | бессрочный | 2 | 0 | 1229 | /addrider 1228
+1229 | Love Boat | 2 | 100 | бессрочный | 2 | 0 | 1230 | /addrider 1229
+1230 | Love Boat | 3 | 100 | бессрочный | 2 | 0 | 1231 | /addrider 1230
+1231 | Love Boat | 4 | 100 | бессрочный | 2 | 0 | 0 | /addrider 1231
+1232 | Pandal | 4 | 101 | бессрочный | 1 | 0 | 0 | /addrider 1232
+1233 | Whispers of Spring | 0 | 102 | бессрочный | 2 | 0 | 1234 | /addrider 1233
+1234 | Whispers of Spring | 1 | 102 | бессрочный | 2 | 0 | 1235 | /addrider 1234
+1235 | Whispers of Spring | 2 | 102 | бессрочный | 2 | 0 | 1236 | /addrider 1235
+1236 | Whispers of Spring | 3 | 102 | бессрочный | 2 | 0 | 1237 | /addrider 1236
+1237 | Whispers of Spring | 4 | 102 | бессрочный | 2 | 0 | 0 | /addrider 1237
+1238 | Conqueror | 0 | 103 | бессрочный | 1 | 0 | 1239 | /addrider 1238
+1239 | Conqueror | 1 | 103 | бессрочный | 1 | 0 | 1240 | /addrider 1239
+1240 | Conqueror | 2 | 103 | бессрочный | 1 | 0 | 1241 | /addrider 1240
+1241 | Conqueror | 3 | 103 | бессрочный | 1 | 0 | 1242 | /addrider 1241
+1242 | Conqueror | 4 | 103 | бессрочный | 1 | 0 | 0 | /addrider 1242
+1243 | Burning Sky | 0 | 104 | бессрочный | 1 | 0 | 1244 | /addrider 1243
+1244 | Burning Sky | 1 | 104 | бессрочный | 1 | 0 | 1245 | /addrider 1244
+1245 | Burning Sky | 2 | 104 | бессрочный | 1 | 0 | 1246 | /addrider 1245
+1246 | Burning Sky | 3 | 104 | бессрочный | 1 | 0 | 1247 | /addrider 1246
+1247 | Burning Sky | 4 | 104 | бессрочный | 1 | 0 | 0 | /addrider 1247
+1248 | Crystal Maid | 0 | 105 | бессрочный | 1 | 0 | 1249 | /addrider 1248
+1249 | Crystal Maid | 1 | 105 | бессрочный | 1 | 0 | 1250 | /addrider 1249
+1250 | Crystal Maid | 2 | 105 | бессрочный | 1 | 0 | 1251 | /addrider 1250
+1251 | Crystal Maid | 3 | 105 | бессрочный | 1 | 0 | 1252 | /addrider 1251
+1252 | Crystal Maid | 4 | 105 | бессрочный | 1 | 0 | 0 | /addrider 1252
+1253 | Cancer | 0 | 106 | бессрочный | 2 | 0 | 1254 | /addrider 1253
+1254 | Cancer | 1 | 106 | бессрочный | 2 | 0 | 1255 | /addrider 1254
+1255 | Cancer | 2 | 106 | бессрочный | 2 | 0 | 1256 | /addrider 1255
+1256 | Cancer | 3 | 106 | бессрочный | 2 | 0 | 1257 | /addrider 1256
+1257 | Cancer | 4 | 106 | бессрочный | 2 | 0 | 0 | /addrider 1257
+2000 | Starry Dragonfish | 4 | 201 | 7 дн. | 1 | 0 | 0 | /addrider 2000
+2001 | Abysmal Relic | 4 | 202 | 7 дн. | 1 | 0 | 0 | /addrider 2001
+2002 | BOI Kart | 4 | 203 | 7 дн. | 1 | 0 | 0 | /addrider 2002
+2003 | Spacecraft | 4 | 204 | бессрочный | 6 | 0 | 0 | /addrider 2003
+2004 | Sleipnir | 4 | 205 | 30 дн. | 1 | 0 | 0 | /addrider 2004
+
+7. ИСТОЧНИКИ И ПРОВЕРКА
+
+Синтаксис /addrider ID и /setpower — из присланного руководства:
+[GM] Basic of Developer Commands, Menoz / LeRaz0r, 11.02.2013.
+https://www.elitepvpers.com/forum/battle-immortals/2418748-gm-basic-developer-commands.html
+
+Локальная краткая памятка с вариантом дополнительного параметра:
+  WOI LC customise Tutorials\English Customise Help\GM Command Tips.txt
+
+Таблицы текущего сервера:
+  BOI_Odin_4th_Anniversary_Win\GameServer\Slk\Rider.slk
+  BOI_Odin_4th_Anniversary_Win\GameServer\Slk\item.slk
+  BOI_Odin_4th_Anniversary_Win\GameServer\Slk\Script\ItemScript.slk
+
+Скрипты выбранных предметов относительно GameServer:
+  62046 -> 111: Script\Item\ZuoJi\zj_fenghuang_item62046.s
+  62141 -> 1206: Script\Item\ZuoJi\62141-aodingzhiyi.s
+  62140 -> 1201: Script\Item\ZuoJi\62140-fulijia.s
+  62142 -> 1211: Script\Item\ZuoJi\62142-fengyulong.s
+  62123 -> 1171: Script\Item\ZuoJi\zj_yungong_62123.s
+  62121 -> 1166: Script\Item\ZuoJi\zj_xianxiangyao_62121.s
+  62125 -> 1176: Script\Item\ZuoJi\zj_xuanwu_62125.s
+  62079 -> 1116: Script\Item\ZuoJi\zj_xiezi_item62079.s
+  62148 -> 1227: Script\Item\ZuoJi\62148-langmanbaobei.s
+  62152 -> 1243: Script\Item\ZuoJi\62152-fantianlieyan.s
+  62153 -> 1248: Script\Item\ZuoJi\62153-shuijingshizhe.s
+  62157 -> 1253: Script\Item\ZuoJi\62157-juxiezuo.s
+  62156 -> 75: Script\Item\ZuoJi\62156-sileipuniya.s
+  62146 -> 2004: Script\Item\ZuoJi\62146-sileipuniya.s
+
+ID, названия, ранги, сроки и связи выбранных предметов проверены по файлам.
+При подготовке памятки GM-команды в игре не выполнялись,
+серверные таблицы и данные персонажей не изменялись.

@@ -1,0 +1,691 @@
+﻿ЗЕЛЬЯ И ВОССТАНОВЛЕНИЕ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\restore.slk
+Область идентификатора: ItemID (RestoreID)
+Записей: 680; разных ID внутри этой таблицы: 680.
+Названия и значения приведены как в таблице сервера.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Требуемый уровень | Восстановление HP | Восстановление MP | HP процент — поле | MP процент — поле | Персонаж или питомец — поле | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+6001 | Minor Potion of Life | 1 | 200 | 0 | 0 | 0 | 0 | 3
+6002 | Small Potion of Life | 1 | 500 | 0 | 0 | 0 | 0 | 4
+6003 | Potion of Life | 1 | 900 | 0 | 0 | 0 | 0 | 5
+6004 | Major Potion of Life | 1 | 1400 | 0 | 0 | 0 | 0 | 6
+6005 | Super Potion of Life | 1 | 2200 | 0 | 0 | 0 | 0 | 7
+6006 | Minor Magic Potion | 1 | 0 | 200 | 0 | 0 | 0 | 8
+6007 | Small Magic Potion | 1 | 0 | 500 | 0 | 0 | 0 | 9
+6008 | Magic Potion | 1 | 0 | 900 | 0 | 0 | 0 | 10
+6009 | Major Magic Potion | 1 | 0 | 1400 | 0 | 0 | 0 | 11
+6010 | Super Magic Potion | 1 | 0 | 2200 | 0 | 0 | 0 | 12
+6011 | Solargrass | 1 | 500 | 0 | 0 | 0 | 0 | 13
+6012 | Fountain of Healing | 1 | 1000 | 0 | 0 | 0 | 0 | 14
+6013 | Holywater of Recovery | 1 | 1600 | 0 | 0 | 0 | 0 | 15
+6014 | Tears of the Valkyrie | 1 | 3200 | 0 | 0 | 0 | 0 | 16
+6015 | Herb of Magic | 1 | 0 | 500 | 0 | 0 | 0 | 17
+6016 | Fountain of Mana | 1 | 0 | 1000 | 0 | 0 | 0 | 18
+6017 | Water of Divinity | 1 | 0 | 1600 | 0 | 0 | 0 | 19
+6018 | Tears of Artemis | 1 | 0 | 3200 | 0 | 0 | 0 | 20
+6019 | Steak | 1 | 0 | 0 | 0 | 0 | 0 | 21
+6020 | Kebab | 30 | 0 | 0 | 0 | 0 | 0 | 22
+6021 | Fresh Pork | 60 | 0 | 0 | 0 | 0 | 0 | 23
+6022 | Ham | 90 | 0 | 0 | 0 | 0 | 0 | 24
+6023 | Ostrich Meat | 120 | 0 | 0 | 0 | 0 | 0 | 25
+6024 | Pineapple | 1 | 0 | 0 | 0 | 0 | 0 | 26
+6025 | Orange | 30 | 0 | 0 | 0 | 0 | 0 | 27
+6026 | Grape | 60 | 0 | 0 | 0 | 0 | 0 | 28
+6027 | Apple | 90 | 0 | 0 | 0 | 0 | 0 | 29
+6028 | Litchi | 120 | 0 | 0 | 0 | 0 | 0 | 30
+6029 | Basic Pet Remedy | 1 | 500 | 500 | 0 | 0 | 1 | 31
+6030 | Medium Pet Remedy | 1 | 1200 | 1200 | 0 | 0 | 1 | 32
+6031 | Advanced Pet Remedy | 1 | 2200 | 2200 | 0 | 0 | 1 | 33
+6032 | Super Pet Remedy | 1 | 5000 | 5000 | 0 | 0 | 1 | 34
+6033 | Divine Pet Remedy | 1 | 5600 | 5600 | 0 | 0 | 1 | 35
+6034 | Blood of Deities | 1 | 0 | 0 | 0 | 0 | 0 | 36
+6035 | Flesh of Deities | 1 | 0 | 0 | 0 | 0 | 0 | 37
+6036 | Power of Deities | 1 | 0 | 0 | 0 | 0 | 0 | 38
+6037 | Will of Deities | 1 | 0 | 0 | 0 | 0 | 0 | 39
+6038 | Basic Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 40
+6039 | Chicken | 15 | 0 | 0 | 0 | 0 | 0 | 41
+6040 | Sashimi | 45 | 0 | 0 | 0 | 0 | 0 | 42
+6041 | Mutton | 75 | 0 | 0 | 0 | 0 | 0 | 43
+6042 | Coco | 15 | 0 | 0 | 0 | 0 | 0 | 44
+6043 | Banana | 45 | 0 | 0 | 0 | 0 | 0 | 45
+6044 | Peach | 75 | 0 | 0 | 0 | 0 | 0 | 46
+6045 | Solargrass | 1 | 500 | 0 | 0 | 0 | 0 | 47
+6046 | Fountain of Healing | 1 | 1000 | 0 | 0 | 0 | 0 | 48
+6047 | Herb of Magic | 1 | 0 | 500 | 0 | 0 | 0 | 49
+6048 | Fountain of Mana | 1 | 0 | 1000 | 0 | 0 | 0 | 50
+6049 | Minor Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 51
+6050 | Slight Potion of Life | 1 | 350 | 0 | 0 | 0 | 0 | 52
+6051 | Medium Potion of Life | 1 | 720 | 0 | 0 | 0 | 0 | 53
+6052 | Strong Potion of Life | 1 | 1120 | 0 | 0 | 0 | 0 | 54
+6053 | Slight Magic Potion | 1 | 0 | 350 | 0 | 0 | 0 | 55
+6054 | Medium Magic Potion | 1 | 0 | 720 | 0 | 0 | 0 | 56
+6055 | Strong Magic Potion | 1 | 0 | 1120 | 0 | 0 | 0 | 57
+6056 | Basic Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 58
+6057 | Heavenfeather | 1 | 0 | 0 | 0 | 0 | 0 | 59
+6058 | Heavenfeather | 1 | 0 | 0 | 0 | 0 | 0 | 60
+6059 | Kastalia Water | 15 | 30000 | 0 | 0 | 0 | 0 | 61
+6060 | Basic Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 62
+6061 | Medium Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 63
+6062 | Medium Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 64
+6063 | Medium Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 65
+6064 | Advanced Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 66
+6065 | Advanced Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 67
+6066 | Advanced Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 68
+6067 | Godly Energy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 69
+6071 | Tear of Artemis | 1 | 0 | 0 | 0 | 0 | 0 | 70
+6101 | Potion of Blessings LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 71
+6102 | Potion of Blessings LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 72
+6103 | Potion of Blessings LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 73
+6104 | Potion of Blessings LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 74
+6105 | Potion of Blessings LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 75
+6106 | Potion of Blessings LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 76
+6111 | Potion of Conjuring LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 77
+6112 | Potion of Conjuring LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 78
+6113 | Potion of Conjuring LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 79
+6114 | Potion of Conjuring LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 80
+6115 | Potion of Conjuring LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 81
+6116 | Potion of Conjuring LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 82
+6121 | Potion of Firmness LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 83
+6122 | Potion of Firmness LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 84
+6123 | Potion of Firmness LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 85
+6124 | Potion of Firmness LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 86
+6125 | Potion of Firmness LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 87
+6126 | Potion of Firmness LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 88
+6131 | Potion of Resistance LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 89
+6132 | Potion of Resistance LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 90
+6133 | Potion of Resistance LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 91
+6134 | Potion of Resistance LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 92
+6135 | Potion of Resistance LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 93
+6136 | Potion of Resistance LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 94
+6141 | Potion of Life LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 95
+6142 | Potion of Life LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 96
+6143 | Potion of Life LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 97
+6144 | Potion of Life LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 98
+6145 | Potion of Life LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 99
+6146 | Potion of Life LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 100
+6151 | Potion of Magic LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 101
+6152 | Potion of Magic LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 102
+6153 | Potion of Magic LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 103
+6154 | Potion of Magic LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 104
+6155 | Potion of Magic LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 105
+6156 | Potion of Magic LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 106
+6161 | Potion of Precision LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 107
+6162 | Potion of Precision LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 108
+6163 | Potion of Precision LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 109
+6164 | Potion of Precision LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 110
+6165 | Potion of Precision LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 111
+6166 | Potion of Precision LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 112
+6171 | Potion of Agility LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 113
+6172 | Potion of Agility LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 114
+6173 | Potion of Agility LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 115
+6174 | Potion of Agility LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 116
+6175 | Potion of Agility LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 117
+6176 | Potion of Agility LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 118
+6181 | Potion of Luck LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 119
+6182 | Potion of Luck LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 120
+6183 | Potion of Luck LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 121
+6184 | Potion of Luck LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 122
+6185 | Potion of Luck LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 123
+6186 | Potion of Luck LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 124
+6191 | Potion of Rage LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 125
+6192 | Potion of Rage LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 126
+6193 | Potion of Rage LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 127
+6194 | Potion of Rage LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 128
+6195 | Potion of Rage LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 129
+6196 | Potion of Rage LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 130
+6197 | Stoneplasm Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 131
+6198 | Stoneplasm Transform Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 132
+6199 | Stoneplasm Transform Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 133
+6200 | Stoneplasm Transform Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 134
+6201 | Stoneplasm Transform Potion LV5 | 1 | 0 | 0 | 0 | 0 | 0 | 135
+6202 | Anubis Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 136
+6203 | Anubis Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 137
+6204 | Anubis Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 138
+6205 | Anubis Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 139
+6206 | Anubis Potion | 1 | 0 | 0 | 0 | 0 | 0 | 140
+6207 | Gibbon Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 141
+6208 | Gibbon Transform Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 142
+6209 | Gibbon Transform Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 143
+6210 | Gibbon Transform Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 144
+6211 | Gibbon Transform Potion LV5 | 1 | 0 | 0 | 0 | 0 | 0 | 145
+6212 | Mermaid Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 146
+6213 | Mermaid Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 147
+6214 | Mermaid Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 148
+6215 | Mermaid Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 149
+6216 | Mermaid Potion | 1 | 0 | 0 | 0 | 0 | 0 | 150
+6217 | Wolf Potion LV1  | 10 | 0 | 0 | 0 | 0 | 0 | 151
+6218 | Wolf Potion LV2 | 10 | 0 | 0 | 0 | 0 | 0 | 152
+6219 | Wolf Potion LV3 | 10 | 0 | 0 | 0 | 0 | 0 | 153
+6220 | Wolf Potion LV4 | 10 | 0 | 0 | 0 | 0 | 0 | 154
+6221 | Wolf Potion LV5 | 10 | 0 | 0 | 0 | 0 | 0 | 155
+6222 | Sylvan Transform Potion LV1  | 10 | 0 | 0 | 0 | 0 | 0 | 156
+6223 | Sylvan Transform Potion LV2 | 10 | 0 | 0 | 0 | 0 | 0 | 157
+6224 | Sylvan Transform Potion LV3 | 10 | 0 | 0 | 0 | 0 | 0 | 158
+6225 | Sylvan Transform Potion LV4 | 10 | 0 | 0 | 0 | 0 | 0 | 159
+6226 | Sylvan Transform Potion LV5 | 10 | 0 | 0 | 0 | 0 | 0 | 160
+6227 | Gnome Potion LV1  | 10 | 0 | 0 | 0 | 0 | 0 | 161
+6228 | Gnome Potion LV2 | 10 | 0 | 0 | 0 | 0 | 0 | 162
+6229 | Gnome Potion LV3 | 10 | 0 | 0 | 0 | 0 | 0 | 163
+6230 | Gnome Potion LV4 | 10 | 0 | 0 | 0 | 0 | 0 | 164
+6231 | Gnome Potion LV5 | 10 | 0 | 0 | 0 | 0 | 0 | 165
+6232 | Orc Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 166
+6233 | Orc Transform Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 167
+6234 | Orc Transform Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 168
+6235 | Orc Transform Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 169
+6236 | Orc Potion | 1 | 0 | 0 | 0 | 0 | 0 | 170
+6237 | Soulreaper Potion LV1  | 30 | 0 | 0 | 0 | 0 | 0 | 171
+6238 | Soulreaper Potion LV2 | 30 | 0 | 0 | 0 | 0 | 0 | 172
+6239 | Soulreaper Potion LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 173
+6240 | Soulreaper Potion LV4 | 30 | 0 | 0 | 0 | 0 | 0 | 174
+6241 | Soulreaper Potion | 30 | 0 | 0 | 0 | 0 | 0 | 175
+6242 | Skeleton Transform Potion LV1 | 30 | 0 | 0 | 0 | 0 | 0 | 176
+6243 | Skeleton Transform Potion LV2 | 30 | 0 | 0 | 0 | 0 | 0 | 177
+6244 | Skeleton Transform Potion LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 178
+6245 | Skeleton Transform Potion LV4 | 30 | 0 | 0 | 0 | 0 | 0 | 179
+6246 | Skeleton Transform Potion LV5 | 30 | 0 | 0 | 0 | 0 | 0 | 180
+6247 | Devil Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 181
+6248 | Devil Transform Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 182
+6249 | Devil Transform Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 183
+6250 | Devil Transform Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 184
+6251 | Devil Potion | 1 | 0 | 0 | 0 | 0 | 0 | 185
+6252 | Rock Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 186
+6253 | Bush Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 187
+6254 | Terracotta Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 188
+6255 | Terracotta Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 189
+6256 | Terracotta Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 190
+6257 | Terracotta Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 191
+6258 | Terracotta Potion | 1 | 0 | 0 | 0 | 0 | 0 | 192
+6259 | Potion of Blessings LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 193
+6260 | Potion of Blessings LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 194
+6261 | Potion of Blessings LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 195
+6262 | Potion of Blessings LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 196
+6263 | Potion of Blessings LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 197
+6264 | Potion of Blessings LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 198
+6265 | Potion of Conjuring LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 199
+6266 | Potion of Conjuring LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 200
+6267 | Potion of Conjuring LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 201
+6268 | Potion of Conjuring LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 202
+6269 | Potion of Conjuring LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 203
+6270 | Potion of Conjuring LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 204
+6271 | Potion of Firmness LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 205
+6272 | Potion of Firmness LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 206
+6273 | Potion of Firmness LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 207
+6274 | Potion of Firmness LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 208
+6275 | Potion of Firmness LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 209
+6276 | Potion of Firmness LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 210
+6277 | Potion of Resistance LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 211
+6278 | Potion of Resistance LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 212
+6279 | Potion of Resistance LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 213
+6280 | Potion of Resistance LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 214
+6281 | Potion of Resistance LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 215
+6282 | Potion of Resistance LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 216
+6283 | Potion of Life LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 217
+6284 | Potion of Life LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 218
+6285 | Potion of Life LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 219
+6286 | Potion of Life LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 220
+6287 | Potion of Life LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 221
+6288 | Potion of Life LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 222
+6289 | Potion of Magic LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 223
+6290 | Potion of Magic LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 224
+6291 | Potion of Magic LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 225
+6292 | Potion of Magic LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 226
+6293 | Potion of Magic LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 227
+6294 | Potion of Magic LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 228
+6295 | Potion of Precision LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 229
+6296 | Potion of Precision LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 230
+6297 | Potion of Precision LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 231
+6298 | Potion of Precision LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 232
+6299 | Potion of Precision LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 233
+6300 | Potion of Precision LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 234
+6301 | Potion of Agility LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 235
+6302 | Potion of Agility LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 236
+6303 | Potion of Agility LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 237
+6304 | Potion of Agility LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 238
+6305 | Potion of Agility LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 239
+6306 | Potion of Agility LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 240
+6307 | Potion of Luck LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 241
+6308 | Potion of Luck LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 242
+6309 | Potion of Luck LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 243
+6310 | Potion of Luck LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 244
+6311 | Potion of Luck LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 245
+6312 | Potion of Luck LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 246
+6313 | Potion of Rage LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 247
+6314 | Potion of Rage LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 248
+6315 | Potion of Rage LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 249
+6316 | Potion of Rage LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 250
+6317 | Potion of Rage LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 251
+6318 | Potion of Rage LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 252
+6319 | Deity's Blessings | 1 | 0 | 0 | 0 | 0 | 0 | 253
+6320 | Pet Elixir | 1 | 3000 | 3000 | 0 | 0 | 1 | 254
+6321 | Unpredictable Potion | 1 | 0 | 0 | 0 | 0 | 0 | 255
+6322 | Unpredictable Potion | 1 | 0 | 0 | 0 | 0 | 0 | 256
+6323 | Unpredictable Potion | 1 | 0 | 0 | 0 | 0 | 0 | 257
+6324 | Pet Elixir | 1 | 5000 | 5000 | 0 | 0 | 1 | 258
+6325 | Pet General Crystal 3 | 1 | 20000 | 20000 | 5 | 5 | 1 | 259
+6326 | Pet General Crystal 4 | 1 | 3000 | 3000 | 0 | 0 | 1 | 260
+6327 | Unpredictable Potion | 1 | 0 | 0 | 0 | 0 | 0 | 261
+6328 | Unpredictable Potion | 1 | 0 | 0 | 0 | 0 | 0 | 262
+6329 | Unpredictable Potion | 1 | 0 | 0 | 0 | 0 | 0 | 263
+6330 | Unpredictable Potion | 1 | 0 | 0 | 0 | 0 | 0 | 264
+6331 | Gift of War | 1 | 0 | 0 | 0 | 0 | 0 | 265
+6332 | Blessings of War | 1 | 0 | 0 | 0 | 0 | 0 | 266
+6333 | Gift of Power | 1 | 0 | 0 | 0 | 0 | 0 | 267
+6334 | Blessings of Myth | 1 | 0 | 0 | 0 | 0 | 0 | 268
+6335 | Gift of Life | 1 | 0 | 0 | 0 | 0 | 0 | 269
+6336 | Blessings of Life | 1 | 0 | 0 | 0 | 0 | 0 | 270
+6337 | Gift of Magic | 1 | 0 | 0 | 0 | 0 | 0 | 271
+6338 | Blessings of Magic | 1 | 0 | 0 | 0 | 0 | 0 | 272
+6339 | Blessing of Luck | 1 | 0 | 0 | 0 | 0 | 0 | 273
+6340 | Blessing of Rage | 1 | 0 | 0 | 0 | 0 | 0 | 274
+6341 | Unpredictable Potion | 1 | 0 | 0 | 0 | 0 | 0 | 275
+6342 | Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 276
+6343 | Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 277
+6344 | Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 278
+6345 | Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 279
+6346 | Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 280
+6347 | Orb of Mana LV1  | 1 | 0 | 600 | 0 | 0 | 0 | 281
+6348 | Orb of Mana LV2 | 1 | 0 | 600 | 0 | 0 | 0 | 282
+6349 | Orb of Mana LV3 | 1 | 0 | 600 | 0 | 0 | 0 | 283
+6350 | Orb of Mana LV4 | 1 | 0 | 600 | 0 | 0 | 0 | 284
+6351 | Orb of Mana LV5 | 1 | 0 | 600 | 0 | 0 | 0 | 285
+6352 | Orb of Mana LV6 | 1 | 0 | 600 | 0 | 0 | 0 | 286
+6353 | Highflyer Potion | 1 | 0 | 0 | 0 | 0 | 0 | 287
+6354 | Pineapple Slice | 1 | 0 | 0 | 0 | 0 | 0 | 288
+6355 | Coco Juice | 15 | 0 | 0 | 0 | 0 | 0 | 289
+6356 | Orange Juice | 30 | 0 | 0 | 0 | 0 | 0 | 290
+6357 | Banana Slice | 45 | 0 | 0 | 0 | 0 | 0 | 291
+6358 | Grape Flesh | 60 | 0 | 0 | 0 | 0 | 0 | 292
+6359 | Pear Slice | 75 | 0 | 0 | 0 | 0 | 0 | 293
+6360 | Apple Juice | 90 | 0 | 0 | 0 | 0 | 0 | 294
+6361 | Litchi Juice | 120 | 0 | 0 | 0 | 0 | 0 | 295
+6362 | Pharaoh Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 296
+6363 | Prepared Mermaid Potion | 1 | 0 | 0 | 0 | 0 | 0 | 297
+6364 | Emerton Transform | 1 | 0 | 0 | 0 | 0 | 0 | 298
+6365 | Dragon Emperor Transform | 1 | 0 | 0 | 0 | 0 | 0 | 299
+6366 | Lord's Seal Transform | 1 | 0 | 0 | 0 | 0 | 0 | 300
+6367 | Mermaid Princess Transform | 1 | 0 | 0 | 0 | 0 | 0 | 301
+6368 | Mermaid Prince Transform | 1 | 0 | 0 | 0 | 0 | 0 | 302
+6369 | Pharaoh Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 303
+6370 | Steak | 1 | 0 | 0 | 0 | 0 | 0 | 304
+6371 | Chicken | 15 | 0 | 0 | 0 | 0 | 0 | 305
+6372 | Kebab | 30 | 0 | 0 | 0 | 0 | 0 | 306
+6373 | Sashimi | 45 | 0 | 0 | 0 | 0 | 0 | 307
+6374 | Fresh Pork | 60 | 0 | 0 | 0 | 0 | 0 | 308
+6375 | Mutton | 75 | 0 | 0 | 0 | 0 | 0 | 309
+6376 | Ham | 90 | 0 | 0 | 0 | 0 | 0 | 310
+6377 | Ostrich Meat | 120 | 0 | 0 | 0 | 0 | 0 | 311
+6378 | Pineapple | 1 | 0 | 0 | 0 | 0 | 0 | 312
+6379 | Coco | 15 | 0 | 0 | 0 | 0 | 0 | 313
+6380 | Orange | 30 | 0 | 0 | 0 | 0 | 0 | 314
+6381 | Banana | 45 | 0 | 0 | 0 | 0 | 0 | 315
+6382 | Grape | 60 | 0 | 0 | 0 | 0 | 0 | 316
+6383 | Peach | 75 | 0 | 0 | 0 | 0 | 0 | 317
+6384 | Apple | 90 | 0 | 0 | 0 | 0 | 0 | 318
+6385 | Litchi | 120 | 0 | 0 | 0 | 0 | 0 | 319
+6386 | Heavenfeather | 1 | 0 | 0 | 0 | 0 | 0 | 320
+6387 | Holywater of Recovery | 1 | 1600 | 0 | 0 | 0 | 0 | 321
+6388 | Holywater of Recovery | 1 | 1600 | 0 | 0 | 0 | 0 | 322
+6389 | Tears of the Valkyrie | 1 | 3200 | 0 | 0 | 0 | 0 | 323
+6390 | Tears of the Valkyrie | 1 | 3200 | 0 | 0 | 0 | 0 | 324
+6391 | Water of Divinity | 1 | 0 | 1600 | 0 | 0 | 0 | 325
+6392 | Water of Divinity | 1 | 0 | 1600 | 0 | 0 | 0 | 326
+6393 | Tears of Artemis | 1 | 0 | 3200 | 0 | 0 | 0 | 327
+6394 | Tears of Artemis | 1 | 0 | 3200 | 0 | 0 | 0 | 328
+6395 | Anubis Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 329
+6396 | Anubis Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 330
+6397 | Anubis Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 331
+6398 | Anubis Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 332
+6399 | Anubis Potion | 1 | 0 | 0 | 0 | 0 | 0 | 333
+6400 | Mermaid Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 334
+6401 | Mermaid Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 335
+6402 | Mermaid Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 336
+6403 | Mermaid Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 337
+6404 | Mermaid Potion | 1 | 0 | 0 | 0 | 0 | 0 | 338
+6405 | Orc Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 339
+6406 | Orc Transform Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 340
+6407 | Orc Transform Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 341
+6408 | Orc Transform Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 342
+6409 | Orc Potion | 1 | 0 | 0 | 0 | 0 | 0 | 343
+6410 | Devil Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 344
+6411 | Devil Transform Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 345
+6412 | Devil Transform Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 346
+6413 | Devil Transform Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 347
+6414 | Devil Potion | 1 | 0 | 0 | 0 | 0 | 0 | 348
+6415 | Terracotta Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 349
+6416 | Terracotta Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 350
+6417 | Terracotta Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 351
+6418 | Terracotta Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 352
+6419 | Terracotta Potion | 1 | 0 | 0 | 0 | 0 | 0 | 353
+6420 | Anubis Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 354
+6421 | Anubis Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 355
+6422 | Anubis Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 356
+6423 | Anubis Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 357
+6424 | Anubis Potion | 1 | 0 | 0 | 0 | 0 | 0 | 358
+6425 | Mermaid Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 359
+6426 | Mermaid Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 360
+6427 | Mermaid Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 361
+6428 | Mermaid Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 362
+6429 | Mermaid Potion | 1 | 0 | 0 | 0 | 0 | 0 | 363
+6430 | Orc Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 364
+6431 | Orc Transform Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 365
+6432 | Orc Transform Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 366
+6433 | Orc Transform Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 367
+6434 | Orc Potion | 1 | 0 | 0 | 0 | 0 | 0 | 368
+6435 | Devil Transform Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 369
+6436 | Devil Transform Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 370
+6437 | Devil Transform Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 371
+6438 | Devil Transform Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 372
+6439 | Devil Potion | 1 | 0 | 0 | 0 | 0 | 0 | 373
+6440 | Terracotta Potion LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 374
+6441 | Terracotta Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 375
+6442 | Terracotta Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 376
+6443 | Terracotta Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 377
+6444 | Terracotta Potion | 1 | 0 | 0 | 0 | 0 | 0 | 378
+6445 | Gift of War | 1 | 0 | 0 | 0 | 0 | 0 | 379
+6446 | Blessings of War | 1 | 0 | 0 | 0 | 0 | 0 | 380
+6447 | Gift of Power | 1 | 0 | 0 | 0 | 0 | 0 | 381
+6448 | Blessings of Myth | 1 | 0 | 0 | 0 | 0 | 0 | 382
+6449 | Gift of Life | 1 | 0 | 0 | 0 | 0 | 0 | 383
+6450 | Blessings of Life | 1 | 0 | 0 | 0 | 0 | 0 | 384
+6451 | Gift of Magic | 1 | 0 | 0 | 0 | 0 | 0 | 385
+6452 | Blessings of Magic | 1 | 0 | 0 | 0 | 0 | 0 | 386
+6453 | Blessing of Luck | 1 | 0 | 0 | 0 | 0 | 0 | 387
+6454 | Blessing of Rage | 1 | 0 | 0 | 0 | 0 | 0 | 388
+6455 | Gift of War | 1 | 0 | 0 | 0 | 0 | 0 | 389
+6456 | Blessings of War | 1 | 0 | 0 | 0 | 0 | 0 | 390
+6457 | Gift of Power | 1 | 0 | 0 | 0 | 0 | 0 | 391
+6458 | Blessings of Myth | 1 | 0 | 0 | 0 | 0 | 0 | 392
+6459 | Gift of Life | 1 | 0 | 0 | 0 | 0 | 0 | 393
+6460 | Blessings of Life | 1 | 0 | 0 | 0 | 0 | 0 | 394
+6461 | Gift of Magic | 1 | 0 | 0 | 0 | 0 | 0 | 395
+6462 | Blessings of Magic | 1 | 0 | 0 | 0 | 0 | 0 | 396
+6463 | Blessing of Luck | 1 | 0 | 0 | 0 | 0 | 0 | 397
+6464 | Blessing of Rage | 1 | 0 | 0 | 0 | 0 | 0 | 398
+6465 | Fountain of Healing | 1 | 1000 | 0 | 0 | 0 | 0 | 399
+6466 | Fountain of Mana | 1 | 0 | 1000 | 0 | 0 | 0 | 400
+6467 | Potion of Blessings LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 401
+6468 | Potion of Blessings LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 402
+6469 | Potion of Blessings LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 403
+6470 | Potion of Blessings LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 404
+6471 | Potion of Blessings LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 405
+6472 | Potion of Blessings LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 406
+6473 | Solargrass | 1 | 500 | 0 | 0 | 0 | 0 | 407
+6474 | Herb of Magic | 1 | 0 | 500 | 0 | 0 | 0 | 408
+6475 | Gift of Tyr | 1 | 0 | 0 | 0 | 0 | 0 | 409
+6476 | Gift of Heimdall | 1 | 0 | 0 | 0 | 0 | 0 | 410
+6477 | Gift of Frigga | 1 | 0 | 0 | 0 | 0 | 0 | 411
+6478 | Gift of Hod | 1 | 0 | 0 | 0 | 0 | 0 | 412
+6479 | Gift of Budle | 1 | 0 | 0 | 0 | 0 | 0 | 413
+6480 | Gift of Hel | 1 | 0 | 0 | 0 | 0 | 0 | 414
+6481 | Potion of Conjuring LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 415
+6482 | Potion of Conjuring LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 416
+6483 | Potion of Conjuring LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 417
+6484 | Potion of Conjuring LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 418
+6485 | Potion of Conjuring LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 419
+6486 | Potion of Conjuring LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 420
+6487 | Potion of Luck LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 421
+6488 | Potion of Luck LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 422
+6489 | Potion of Luck LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 423
+6490 | Potion of Luck LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 424
+6491 | Potion of Luck LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 425
+6492 | Potion of Luck LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 426
+6493 | Potion of Rage LV1  | 1 | 0 | 0 | 0 | 0 | 0 | 427
+6494 | Potion of Rage LV2 | 15 | 0 | 0 | 0 | 0 | 0 | 428
+6495 | Potion of Rage LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 429
+6496 | Potion of Rage LV4 | 45 | 0 | 0 | 0 | 0 | 0 | 430
+6497 | Potion of Rage LV5 | 60 | 0 | 0 | 0 | 0 | 0 | 431
+6498 | Potion of Rage LV6 | 75 | 0 | 0 | 0 | 0 | 0 | 432
+6499 | Wolf Potion LV1  | 10 | 0 | 0 | 0 | 0 | 0 | 433
+6500 | Wolf Potion LV2 | 10 | 0 | 0 | 0 | 0 | 0 | 434
+6501 | Wolf Potion LV3 | 10 | 0 | 0 | 0 | 0 | 0 | 435
+6502 | Wolf Potion LV4 | 10 | 0 | 0 | 0 | 0 | 0 | 436
+6503 | Wolf Potion LV5 | 10 | 0 | 0 | 0 | 0 | 0 | 437
+6504 | Wolf Potion LV1  | 10 | 0 | 0 | 0 | 0 | 0 | 438
+6505 | Wolf Potion LV2 | 10 | 0 | 0 | 0 | 0 | 0 | 439
+6506 | Wolf Potion LV3 | 10 | 0 | 0 | 0 | 0 | 0 | 440
+6507 | Wolf Potion LV4 | 10 | 0 | 0 | 0 | 0 | 0 | 441
+6508 | Wolf Potion LV5 | 10 | 0 | 0 | 0 | 0 | 0 | 442
+6509 | Gnome Potion LV1  | 10 | 0 | 0 | 0 | 0 | 0 | 443
+6510 | Gnome Potion LV2 | 10 | 0 | 0 | 0 | 0 | 0 | 444
+6511 | Gnome Potion LV3 | 10 | 0 | 0 | 0 | 0 | 0 | 445
+6512 | Gnome Potion LV4 | 10 | 0 | 0 | 0 | 0 | 0 | 446
+6513 | Gnome Potion LV5 | 10 | 0 | 0 | 0 | 0 | 0 | 447
+6514 | Gnome Potion LV1  | 10 | 0 | 0 | 0 | 0 | 0 | 448
+6515 | Gnome Potion LV2 | 10 | 0 | 0 | 0 | 0 | 0 | 449
+6516 | Gnome Potion LV3 | 10 | 0 | 0 | 0 | 0 | 0 | 450
+6517 | Gnome Potion LV4 | 10 | 0 | 0 | 0 | 0 | 0 | 451
+6518 | Gnome Potion LV5 | 10 | 0 | 0 | 0 | 0 | 0 | 452
+6519 | Soulreaper Potion LV1  | 30 | 0 | 0 | 0 | 0 | 0 | 453
+6520 | Soulreaper Potion LV2 | 30 | 0 | 0 | 0 | 0 | 0 | 454
+6521 | Soulreaper Potion LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 455
+6522 | Soulreaper Potion LV4 | 30 | 0 | 0 | 0 | 0 | 0 | 456
+6523 | Soulreaper Potion | 30 | 0 | 0 | 0 | 0 | 0 | 457
+6524 | Soulreaper Potion LV1  | 30 | 0 | 0 | 0 | 0 | 0 | 458
+6525 | Soulreaper Potion LV2 | 30 | 0 | 0 | 0 | 0 | 0 | 459
+6526 | Soulreaper Potion LV3 | 30 | 0 | 0 | 0 | 0 | 0 | 460
+6527 | Soulreaper Potion LV4 | 30 | 0 | 0 | 0 | 0 | 0 | 461
+6528 | Soulreaper Potion | 30 | 0 | 0 | 0 | 0 | 0 | 462
+6529 | Potion of Flame | 1 | 0 | 0 | 0 | 0 | 0 | 463
+6530 | Potion of Frost | 1 | 0 | 0 | 0 | 0 | 0 | 464
+6531 | Potion of Light | 1 | 0 | 0 | 0 | 0 | 0 | 465
+6532 | Potion of Shadow | 1 | 0 | 0 | 0 | 0 | 0 | 466
+6533 | Fountain of Healing | 1 | 1000 | 0 | 0 | 0 | 0 | 467
+6534 | Fountain of Mana | 1 | 0 | 1000 | 0 | 0 | 0 | 468
+6535 | Potion of Blessings LV3 (Guild) | 30 | 0 | 0 | 0 | 0 | 0 | 469
+6536 | Potion of Conjuring LV3 (Guild) | 30 | 0 | 0 | 0 | 0 | 0 | 470
+6537 | Potion of Luck LV3 (Guild) | 30 | 0 | 0 | 0 | 0 | 0 | 471
+6538 | Potion of Rage LV3 (Guild) | 30 | 0 | 0 | 0 | 0 | 0 | 472
+6539 | Mimic Transform 1 | 1 | 0 | 0 | 0 | 0 | 0 | 473
+6540 | Mimic Transform 2 | 1 | 0 | 0 | 0 | 0 | 0 | 474
+6541 | Mimic Transform 3 | 1 | 0 | 0 | 0 | 0 | 0 | 475
+6542 | Mimic Transform 4 | 1 | 0 | 0 | 0 | 0 | 0 | 476
+6543 | Mimic Transform 5 | 1 | 0 | 0 | 0 | 0 | 0 | 477
+6544 | Genie Transform 1 | 1 | 0 | 0 | 0 | 0 | 0 | 478
+6545 | Genie Transform 2 | 1 | 0 | 0 | 0 | 0 | 0 | 479
+6546 | Genie Transform 3 | 1 | 0 | 0 | 0 | 0 | 0 | 480
+6547 | Bigfoot Bird 1 | 1 | 0 | 0 | 0 | 0 | 0 | 481
+6548 | Bigfoot Bird 2 | 1 | 0 | 0 | 0 | 0 | 0 | 482
+6549 | Bigfoot Bird 3 | 1 | 0 | 0 | 0 | 0 | 0 | 483
+6550 | Archangel | 1 | 0 | 0 | 0 | 0 | 0 | 484
+6551 | Golem Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 485
+6552 | Terracotta Potion | 1 | 0 | 0 | 0 | 0 | 0 | 486
+6553 | Minion Transform Potion | 10 | 0 | 0 | 0 | 0 | 0 | 487
+6554 | Devil Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 488
+6555 | Anubis Potion | 1 | 0 | 0 | 0 | 0 | 0 | 489
+6556 | Mermaid Potion | 1 | 0 | 0 | 0 | 0 | 0 | 490
+6557 | Invincible Potion | 1 | 0 | 0 | 0 | 0 | 0 | 491
+6558 | Clown Transformation Potion | 1 | 0 | 0 | 0 | 0 | 0 | 492
+6559 | Pink Bear Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 493
+6560 | Mini Reaper Potion LV1 | 1 | 0 | 0 | 0 | 0 | 0 | 494
+6561 | Mini Reaper Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 495
+6562 | Mini Reaper Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 496
+6563 | Mini Reaper Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 497
+6564 | Mini Reaper Potion | 1 | 0 | 0 | 0 | 0 | 0 | 498
+6565 | Fairy Potion LV1 | 1 | 0 | 0 | 0 | 0 | 0 | 499
+6566 | Fairy Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 500
+6567 | Fairy Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 501
+6568 | Fairy Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 502
+6569 | Fairy Potion | 1 | 0 | 0 | 0 | 0 | 0 | 503
+6570 | Rockin' Rabbit Potion LV1 | 1 | 0 | 0 | 0 | 0 | 0 | 504
+6571 | Rockin' Rabbit Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 505
+6572 | Rockin' Rabbit Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 506
+6573 | Rockin' Rabbit Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 507
+6574 | Rockin' Rabbit Potion | 1 | 0 | 0 | 0 | 0 | 0 | 508
+6575 | Flame God Potion LV1 | 1 | 0 | 0 | 0 | 0 | 0 | 509
+6576 | Flame God Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 510
+6577 | Flame God Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 511
+6578 | Flame God Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 512
+6579 | Flame God Potion | 1 | 0 | 0 | 0 | 0 | 0 | 513
+6580 | Flying Pig Potion LV1 | 1 | 0 | 0 | 0 | 0 | 0 | 514
+6581 | Flying Pig Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 515
+6582 | Flying Pig Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 516
+6583 | Flying Pig Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 517
+6584 | Flying Pig Potion | 1 | 0 | 0 | 0 | 0 | 0 | 518
+6585 | Violent Lady Potion LV1 | 1 | 0 | 0 | 0 | 0 | 0 | 519
+6586 | Violent Lady Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 520
+6587 | Violent Lady Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 521
+6588 | Violent Lady Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 522
+6589 | Violent Lady Potion | 1 | 0 | 0 | 0 | 0 | 0 | 523
+6590 | Apostle of Osiris Potion LV1 | 1 | 0 | 0 | 0 | 0 | 0 | 524
+6591 | Apostle of Osiris Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 525
+6592 | Apostle of Osiris Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 526
+6593 | Apostle of Osiris Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 527
+6594 | Apostle of Osiris Potion | 1 | 0 | 0 | 0 | 0 | 0 | 528
+6595 | Soulreaper Potion LV1 | 1 | 0 | 0 | 0 | 0 | 0 | 529
+6596 | Soulreaper Potion LV2 | 1 | 0 | 0 | 0 | 0 | 0 | 530
+6597 | Soulreaper Potion LV3 | 1 | 0 | 0 | 0 | 0 | 0 | 531
+6598 | Soulreaper Potion LV4 | 1 | 0 | 0 | 0 | 0 | 0 | 532
+6599 | Soulreaper Potion | 1 | 0 | 0 | 0 | 0 | 0 | 533
+6600 | Advanced Tears of the Valkyrie | 1 | 8000 | 0 | 0 | 0 | 0 | 534
+6601 | Advanced Tears of the Valkyrie | 1 | 8000 | 0 | 0 | 0 | 0 | 535
+6602 | Advanced Tears of the Valkyrie | 1 | 8000 | 0 | 0 | 0 | 0 | 536
+6603 | Adv. Tears of Artemis | 1 | 0 | 8000 | 0 | 0 | 0 | 537
+6604 | Adv. Tears of Artemis | 1 | 0 | 8000 | 0 | 0 | 0 | 538
+6605 | Adv. Tears of Artemis | 1 | 0 | 8000 | 0 | 0 | 0 | 539
+6606 | Gift of Tyr | 1 | 0 | 0 | 0 | 0 | 0 | 540
+6607 | Gift of Heimdall | 1 | 0 | 0 | 0 | 0 | 0 | 541
+6608 | Gift of Frigga | 1 | 0 | 0 | 0 | 0 | 0 | 542
+6609 | Gift of Hod | 1 | 0 | 0 | 0 | 0 | 0 | 543
+6610 | Gift of Budle | 1 | 0 | 0 | 0 | 0 | 0 | 544
+6611 | Gift of Hel | 1 | 0 | 0 | 0 | 0 | 0 | 545
+6612 | Basic HP Regen Potion | 1 | 0 | 0 | 0 | 0 | 0 | 546
+6613 | Medium HP Regen Potion | 1 | 0 | 0 | 0 | 0 | 0 | 547
+6614 | Super HP Regen Potion | 1 | 0 | 0 | 0 | 0 | 0 | 548
+6615 | Basic MP Regen Potion | 1 | 0 | 0 | 0 | 0 | 0 | 549
+6616 | Medium MP Regen Potion | 1 | 0 | 0 | 0 | 0 | 0 | 550
+6617 | Super MP Regen Potion | 1 | 0 | 0 | 0 | 0 | 0 | 551
+6618 | Hawk God's Power | 1 | 0 | 0 | 0 | 0 | 0 | 552
+6619 | The God of the Desert's Power | 1 | 0 | 0 | 0 | 0 | 0 | 553
+6620 | Blessings of the Goddess | 1 | 0 | 0 | 0 | 0 | 0 | 554
+6621 | Rhino Soup | 1 | 0 | 0 | 0 | 0 | 0 | 555
+6622 | Longan Juice | 1 | 0 | 0 | 0 | 0 | 0 | 556
+6623 | Potion of Godforce | 1 | 0 | 0 | 0 | 0 | 0 | 557
+6624 | Potion of Shield | 1 | 0 | 0 | 0 | 0 | 0 | 558
+6625 | Lord's Seal Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 559
+6626 | Dragon Emperor Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 560
+6627 | Naga Queen Transformation Potion | 1 | 0 | 0 | 0 | 0 | 0 | 561
+6628 | Ashura King Tanno Transformation Potion | 1 | 0 | 0 | 0 | 0 | 0 | 562
+6629 | Khar Transformation Potion | 1 | 0 | 0 | 0 | 0 | 0 | 563
+6630 | Wolfking Karth Transformation Potion | 1 | 0 | 0 | 0 | 0 | 0 | 564
+6631 | Trial Potion | 1 | 0 | 0 | 0 | 0 | 0 | 565
+6632 | Sun Potion | 1 | 0 | 0 | 0 | 0 | 0 | 566
+6633 | Sashimi (Ancient Ruins Only) | 45 | 0 | 0 | 0 | 0 | 0 | 567
+6634 | Fresh Meat (Ancient Ruins Only) | 60 | 0 | 0 | 0 | 0 | 0 | 568
+6635 | Mutton (Ancient Ruins Only) | 75 | 0 | 0 | 0 | 0 | 0 | 569
+6636 | Ham (Ancient Ruins Only) | 90 | 0 | 0 | 0 | 0 | 0 | 570
+6637 | Ostrich Meat (Ancient Ruins Only) | 100 | 0 | 0 | 0 | 0 | 0 | 571
+6638 | Banana (Ancient Ruins Only) | 45 | 0 | 0 | 0 | 0 | 0 | 572
+6639 | Grape (Ancient Ruins Only) | 60 | 0 | 0 | 0 | 0 | 0 | 573
+6640 | Pear (Ancient Ruins Only) | 75 | 0 | 0 | 0 | 0 | 0 | 574
+6641 | Apple (Ancient Ruins Only) | 90 | 0 | 0 | 0 | 0 | 0 | 575
+6642 | Litchi (Ancient Ruins Only) | 100 | 0 | 0 | 0 | 0 | 0 | 576
+6643 | Potion of Life (Ancient Ruins Only) | 45 | 900 | 0 | 0 | 0 | 0 | 577
+6644 | Strong Potion of Life (Ancient Ruins Only) | 60 | 1400 | 0 | 0 | 0 | 0 | 578
+6645 | Major Potion of Life (Ancient Ruins Only) | 75 | 2200 | 0 | 0 | 0 | 0 | 579
+6646 | Strong Potion of Life (Ancient Ruins Only) | 90 | 3200 | 0 | 0 | 0 | 0 | 580
+6647 | Great Potion of Life (Ancient Ruins Only) | 100 | 8000 | 0 | 0 | 0 | 0 | 581
+6648 | Magic Potion (Ancient Ruins Only) | 45 | 0 | 900 | 0 | 0 | 0 | 582
+6649 | Strong Magic Potion (Ancient Ruins Only) | 60 | 0 | 1400 | 0 | 0 | 0 | 583
+6650 | Major Magic Potion (Ancient Ruins Only) | 75 | 0 | 2200 | 0 | 0 | 0 | 584
+6651 | Strong Magic Potion (Ancient Ruins Only) | 90 | 0 | 3200 | 0 | 0 | 0 | 585
+6652 | Great Magic Potion (Ancient Ruins Only) | 100 | 0 | 8000 | 0 | 0 | 0 | 586
+6653 | Gift of Tyr(Ancient Ruins) | 1 | 0 | 0 | 0 | 0 | 0 | 587
+6654 | Gift of Frigga(Ancient Ruins) | 1 | 0 | 0 | 0 | 0 | 0 | 588
+6655 | Gift of Hod(Ancient Ruins) | 1 | 0 | 0 | 0 | 0 | 0 | 589
+6656 | Gift of Bragi(Ancient Ruins) | 1 | 0 | 0 | 0 | 0 | 0 | 590
+6657 | Gift of Hel(Ancient Ruins) | 1 | 0 | 0 | 0 | 0 | 0 | 591
+6658 | Super War God's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 592
+6659 | Super Evil God's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 593
+6660 | Super Health God's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 594
+6661 | Super Magic God's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 595
+6662 | Super Tears of Valkyrie | 1 | 25000 | 0 | 0 | 0 | 0 | 596
+6663 | Super Tears of Artemis | 1 | 0 | 25000 | 0 | 0 | 0 | 597
+6664 | Emerald Dragon Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 598
+6665 | White Tiger Transform Potion | 1 | 0 | 0 | 0 | 0 | 0 | 599
+6666 | Dark Tortoise Transform Potion  | 1 | 0 | 0 | 0 | 0 | 0 | 600
+6667 | Super Tears of Valkyrie | 1 | 25000 | 0 | 0 | 0 | 0 | 601
+6668 | Super Tears of Artemis | 1 | 0 | 25000 | 0 | 0 | 0 | 602
+6669 | Invincibility Potion | 1 | 0 | 0 | 0 | 0 | 0 | 603
+6670 | Chiyu Transform Potion  | 1 | 0 | 0 | 0 | 0 | 0 | 604
+6671 | Yggdrasil's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 605
+6672 | Yggdrasil's Gift | 1 | 0 | 0 | 0 | 0 | 0 | 606
+6673 | Silmeria's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 607
+6674 | Silmeria's Gift | 1 | 0 | 0 | 0 | 0 | 0 | 608
+6675 | Lizard Meat | 120 | 0 | 0 | 0 | 0 | 0 | 609
+6676 | Strange Fruit | 120 | 0 | 0 | 0 | 0 | 0 | 610
+6677 | Ultimate Potion of Life | 1 | 3240 | 0 | 0 | 0 | 0 | 611
+6678 | Ultimate Magic Potion | 1 | 0 | 3240 | 0 | 0 | 0 | 612
+6679 | Yggdrasil's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 613
+6680 | Yggdrasil's Gift | 1 | 0 | 0 | 0 | 0 | 0 | 614
+6681 | Silmeria's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 615
+6682 | Silmeria's Gift | 1 | 0 | 0 | 0 | 0 | 0 | 616
+6683 | Yggdrasil's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 617
+6684 | Yggdrasil's Gift | 1 | 0 | 0 | 0 | 0 | 0 | 618
+6685 | Silmeria's Blessing | 1 | 0 | 0 | 0 | 0 | 0 | 619
+6686 | Silmeria's Gift | 1 | 0 | 0 | 0 | 0 | 0 | 620
+6687 | Protection of Luck | 1 | 0 | 0 | 0 | 0 | 0 | 621
+6688 | Advanced Pet Essence | 1 | 20000 | 20000 | 5 | 5 | 1 | 622
+6689 | Yggdrasil's Gift | 1 | 0 | 0 | 0 | 0 | 0 | 623
+6690 | Silmeria's Gift | 1 | 0 | 0 | 0 | 0 | 0 | 624
+6700 | Filet Mignon | 1 | 0 | 0 | 0 | 0 | 0 | 628
+6701 | Spiced Turkey | 15 | 0 | 0 | 0 | 0 | 0 | 629
+6702 | Roast Loin | 30 | 0 | 0 | 0 | 0 | 0 | 630
+6703 | Sashimi | 45 | 0 | 0 | 0 | 0 | 0 | 631
+6704 | Garlic Steak | 60 | 0 | 0 | 0 | 0 | 0 | 632
+6705 | Lamb Kebabs | 75 | 0 | 0 | 0 | 0 | 0 | 633
+6706 | Delicious Bacon | 90 | 0 | 0 | 0 | 0 | 0 | 634
+6707 | Spicy Ostrich Meat | 120 | 0 | 0 | 0 | 0 | 0 | 635
+6708 | Rhinoceros Soup | 100 | 0 | 0 | 0 | 0 | 0 | 636
+6709 | Pineapple Nectar | 1 | 0 | 0 | 0 | 0 | 0 | 637
+6710 | Coconut Nectar | 15 | 0 | 0 | 0 | 0 | 0 | 638
+6711 | Orange Nectar | 30 | 0 | 0 | 0 | 0 | 0 | 639
+6712 | Banana Nectar | 45 | 0 | 0 | 0 | 0 | 0 | 640
+6713 | Grape Nectar | 60 | 0 | 0 | 0 | 0 | 0 | 641
+6714 | Snow Pear Nectar | 75 | 0 | 0 | 0 | 0 | 0 | 642
+6715 | Apple Nectar | 90 | 0 | 0 | 0 | 0 | 0 | 643
+6716 | Litchi Fruit Nectar | 120 | 0 | 0 | 0 | 0 | 0 | 644
+6717 | Longan Nectar | 100 | 0 | 0 | 0 | 0 | 0 | 645
+6718 | Slight Potion of Life | 1 | 490 | 0 | 0 | 0 | 0 | 646
+6719 | Small Potion of Life | 1 | 700 | 0 | 0 | 0 | 0 | 647
+6720 | Medium Potion of Life | 1 | 1008 | 0 | 0 | 0 | 0 | 648
+6721 | Potion of Life | 1 | 1260 | 0 | 0 | 0 | 0 | 649
+6722 | Strong Potion of Life | 1 | 1580 | 0 | 0 | 0 | 0 | 650
+6723 | Major Potion of Life | 1 | 1960 | 0 | 0 | 0 | 0 | 651
+6724 | Slight Magic Potion | 1 | 0 | 700 | 0 | 0 | 0 | 652
+6725 | Small Magic Potion | 1 | 0 | 1000 | 0 | 0 | 0 | 653
+6726 | Medium Magic Potion | 1 | 0 | 1440 | 0 | 0 | 0 | 654
+6727 | Magic Potion | 1 | 0 | 1800 | 0 | 0 | 0 | 655
+6728 | Strong Magic Potion | 1 | 0 | 2240 | 0 | 0 | 0 | 656
+6729 | Major Magic Potion | 1 | 0 | 2800 | 0 | 0 | 0 | 657
+6730 | Purified Pet Remedy | 1 | 3000 | 3000 | 0 | 0 | 1 | 658
+6801 | Champagne Tower | 1 | 0 | 0 | 0 | 0 | 0 | 659
+6802 | Royal Dinner | 1 | 0 | 0 | 0 | 0 | 0 | 660
+6803 | Fine Dinner | 1 | 0 | 0 | 0 | 0 | 0 | 661
+6804 | Buffet Table | 1 | 0 | 0 | 0 | 0 | 0 | 662
+6805 | Picnic | 1 | 0 | 0 | 0 | 0 | 0 | 663
+6806 | Ale Barrel | 1 | 0 | 0 | 0 | 0 | 0 | 664
+6807 | Wedding Cake | 1 | 0 | 0 | 0 | 0 | 0 | 665
+6808 | Kebab | 1 | 0 | 0 | 0 | 0 | 0 | 666
+6809 | Roasted Suckling Pig | 1 | 0 | 0 | 0 | 0 | 0 | 667
+6810 | Candy of Happiness (Main City) | 1 | 1000 | 0 | 0 | 0 | 0 | 668
+6811 | Happiness Candy | 1 | 2000 | 0 | 0 | 0 | 0 | 669
+6812 | Wedding Food 12 | 1 | 0 | 0 | 0 | 0 | 0 | 670
+6813 | Wedding Food 13 | 1 | 0 | 0 | 0 | 0 | 0 | 671
+6814 | Wedding Food 14 | 1 | 0 | 0 | 0 | 0 | 0 | 672
+6815 | Wedding Food 15 | 1 | 0 | 0 | 0 | 0 | 0 | 673
+6816 | Wedding Food 16 | 1 | 0 | 0 | 0 | 0 | 0 | 674
+6817 | Wedding Food 17 | 1 | 0 | 0 | 0 | 0 | 0 | 675
+6818 | Wedding Food 18 | 1 | 0 | 0 | 0 | 0 | 0 | 676
+6819 | Wedding Food 19 | 1 | 0 | 0 | 0 | 0 | 0 | 677
+6820 | Wedding Food 20 | 1 | 0 | 0 | 0 | 0 | 0 | 678
+6821 | Wedding Food 21 | 1 | 0 | 0 | 0 | 0 | 0 | 679
+6822 | Wedding Food 22 | 1 | 0 | 0 | 0 | 0 | 0 | 680
+6823 | Wedding Food 23 | 1 | 0 | 0 | 0 | 0 | 0 | 681
+6824 | Wedding Food 24 | 1 | 0 | 0 | 0 | 0 | 0 | 682
+6825 | Wedding Food 25 | 1 | 0 | 0 | 0 | 0 | 0 | 683
+6900 | Holy Bomb | 1 | 0 | 0 | 0 | 0 | 0 | 684
+6901 | Surprise Bomb | 1 | 0 | 0 | 0 | 0 | 0 | 685

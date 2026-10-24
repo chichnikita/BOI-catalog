@@ -1,0 +1,384 @@
+﻿КАРТЫ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\WorldMapCfg.slk
+Область идентификатора: MapId
+Записей: 373; разных ID внутри этой таблицы: 373.
+SafeMapId/X/Y описывают безопасную точку назначения, которая может быть на другой карте.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Каталог карты | Уровень карты | Разрешён маунт | Безопасная карта ID | Безопасная точка X | Безопасная точка Y | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+0 | Easter Island North | fuhuodao_yewai_01 | 0 | 1 | 475 | 100 | 64 | 3
+1 | Atlantic Ocean | yatelandisi_yewai_02 | 0 | 1 | 475 | 100 | 64 | 4
+2 | Atlantis Ruins | yatelandisi_chengshi_03 | 0 | 1 | 475 | 100 | 64 | 5
+3 | Aegean North | yatelandisi_dongxue_04 | 0 | 1 | 475 | 100 | 64 | 6
+4 | Aegean Proper | yatelandisi_dongxue_05 | 0 | 1 | 475 | 100 | 64 | 7
+5 | Aegean South | yatelandisi_dongxue_06 | 0 | 1 | 475 | 100 | 64 | 8
+6 | Grand Rift | yatelandisi_dongxue_07 | 0 | 1 | 475 | 100 | 64 | 9
+7 | Bermuda Islands | yatelandisi_yewai_08 | 0 | 1 | 475 | 100 | 64 | 10
+8 | Angkor Encampment | wuge_yewai_09 | 0 | 1 | 475 | 100 | 64 | 11
+9 | Angkor Temple Level 1 | wuge_dongxue_10 | 65 | 1 | 475 | 100 | 64 | 12
+10 | Angkor Temple Level 2 | wuge_dongxue_11 | 65 | 1 | 475 | 100 | 64 | 13
+11 | Angkor Temple Level 3 | wuge_dongxue_12 | 70 | 1 | 475 | 100 | 64 | 14
+12 | Angkor Temple Level 4 | wuge_dongxue_13 | 70 | 1 | 475 | 100 | 64 | 15
+13 | King's Gorge | aiji_yewai_14 | 0 | 1 | 475 | 100 | 64 | 16
+14 | Khufu Desert | aiji_yewai_15 | 70 | 1 | 475 | 100 | 64 | 17
+15 | Melten Cave | aiji_yewai_16 | 0 | 1 | 475 | 100 | 64 | 18
+16 | Pyramid Sealed Chamber | aiji_dongxue_17 | 50 | 1 | 475 | 73 | 37 | 271
+17 | Pyramid Level 2 | aiji_dongxue_18 | 0 | 1 | 475 | 100 | 64 | 19
+18 | Pyramid Level 3 | aiji_dongxue_19 | 0 | 1 | 475 | 100 | 64 | 20
+19 | The Netherlands | aiji_yewai_20 | 0 | 1 | 475 | 100 | 64 | 21
+20 | Dwarves' Forest | beiou_yewai_21 | 0 | 1 | 475 | 100 | 64 | 22
+21 | Nordic Lands | beiou_yewai_22 | 75 | 1 | 475 | 100 | 64 | 23
+22 | Fort Glacier Level 1 | beiou_dongxue_23 | 0 | 1 | 475 | 100 | 64 | 24
+23 | Fort Glacier Level 2 | beiou_dongxue_24 | 0 | 1 | 475 | 100 | 64 | 25
+24 | Fort Glacier Level 3 | beiou_dongxue_25 | 0 | 1 | 475 | 100 | 64 | 26
+25 | Fort Glacier | beiou_dongxue_26 | 0 | 1 | 475 | 100 | 64 | 27
+26 | Fort Glacier Level 5 | beiou_dongxue_27 | 0 | 1 | 475 | 100 | 64 | 28
+27 | Divine Battleground | beiou_yewai_28 | 0 | 1 | 475 | 100 | 64 | 29
+37 | Rocky Abyss Level 1 | huangjinguo_dongxue_38 | 41 | 1 | 475 | 100 | 64 | 30
+38 | Rocky Abyss Level 2 | huangjinguo_dongxue_39 | 41 | 1 | 475 | 100 | 64 | 31
+39 | Rocky Abyss Level 3 | huangjinguo_dongxue_40 | 41 | 1 | 475 | 100 | 64 | 32
+42 | Valley of Ashes | xila_yewai_43 | 80 | 1 | 475 | 100 | 64 | 33
+44 | Olympus | xila_yewai_45 | 90 | 1 | 475 | 100 | 64 | 34
+59 | Foraging Grounds | caiji_yewai_60 | 0 | 1 | 475 | 100 | 64 | 35
+60 | Elite Foraging Grounds | caiji_yewai_61 | 0 | 1 | 475 | 100 | 64 | 36
+64 | Thor's Altar | huodong_fuben_65 | 0 | 1 | 475 | 100 | 64 | 37
+65 | Frozen Battlefield | zhanchang_fuben_66 | 0 | 1 | 231 | 53 | 35 | 38
+66 | Devilhunter Gorge | huodong_fuben_67 | 0 | 1 | 475 | 100 | 64 | 39
+79 | Endless Void | huisuo_yewai_80 | 0 | 1 | 475 | 100 | 64 | 40
+83 | Prison | huisuo_dongxue_84 | 0 | 1 | 475 | 100 | 64 | 41
+84 | Graveyard | huisuo_dongxue_85 | 0 | 1 | 475 | 100 | 64 | 42
+86 | Sea of Atlantis | yatelandisi_yewai_87 | 0 | 1 | 475 | 100 | 64 | 43
+87 | Great Abyss | yatelandisi_dongxue_88 | 0 | 1 | 475 | 100 | 64 | 44
+88 | Angkor Jungle | wuge_yewai_89 | 0 | 1 | 475 | 100 | 64 | 45
+89 | Old Burning Land | aiji_yewai_90 | 0 | 1 | 475 | 100 | 64 | 46
+90 | Nile River West | aiji_yewai_91 | 0 | 1 | 475 | 100 | 64 | 47
+91 | City of Prayers | aiji_yewai_92 | 0 | 1 | 475 | 100 | 64 | 48
+92 | Frostcovered Land | beiou_yewai_93 | 0 | 1 | 475 | 100 | 64 | 49
+93 | Viking Steppe | beiou_yewai_94 | 0 | 1 | 475 | 100 | 64 | 50
+94 | Crystal Labyrinth | beiou_dongxue_95 | 0 | 1 | 475 | 100 | 64 | 51
+99 | Killing Grounds | xila_yewai_100 | 101 | 1 | 475 | 100 | 64 | 52
+106 | Easter Island South | fuhuodao_yewai_107 | 0 | 1 | 475 | 100 | 64 | 53
+111 | Square Ruins | yatelandisi_chengshi_112 | 0 | 1 | 475 | 100 | 64 | 54
+112 | Pilgrim's Temple | huodong_fuben_113 | 0 | 1 | 475 | 74 | 49 | 55
+113 | Tree of Life | huodong_fuben_114 | 0 | 1 | 475 | 100 | 64 | 56
+114 | Cavern of Trials | huodong_fuben_115 | 0 | 1 | 116 | 50 | 31 | 57
+115 | Cavern of Trials | huodong_fuben_116 | 0 | 1 | 116 | 50 | 31 | 58
+116 | Hall of Trials | huodong_fuben_117 | 0 | 1 | 475 | 100 | 64 | 59
+117 | Soulbound Crypt | aiji_dongxue_118 | 45 | 1 | 475 | 100 | 64 | 60
+118 | Unknown | qinhuangling_yewai_119 | 0 | 1 | 475 | 100 | 64 | 61
+119 | Dragon Emperor's Catacomb | qinhuangling_yewai_120 | 0 | 1 | 475 | 100 | 64 | 62
+120 | Emperor's Catacomb Level 1 | qinhuangling_dongxue_121 | 31 | 1 | 475 | 100 | 64 | 63
+121 | Emperor's Catacomb Level 2 | qinhuangling_dongxue_122 | 31 | 1 | 475 | 100 | 64 | 64
+122 | Emperor's Catacomb Level 3 | qinhuangling_dongxue_123 | 31 | 1 | 475 | 100 | 64 | 65
+123 | Queen's Catacomb | tanxian_dongxue_124 | 0 | 1 | 145 | 60 | 68 | 66
+124 | Behemoth's Lair | tanxian_dongxue_125 | 0 | 1 | 145 | 60 | 68 | 67
+125 | Maze of Mystery | tanxian_dongxue_126 | 0 | 1 | 145 | 60 | 68 | 68
+126 | Hexagram Array | tanxian_dongxue_127 | 0 | 1 | 145 | 60 | 68 | 69
+127 | Shadow of the Past | tanxian_dongxue_128 | 50 | 1 | 475 | 73 | 37 | 272
+128 | Expedition Camp | aiji_yewai_129 | 0 | 1 | 475 | 100 | 64 | 70
+129 | Scorpion Lord's Crypt | aiji_dongxue_130 | 0 | 1 | 475 | 100 | 64 | 71
+130 | Outer Ruins 1 | huodong_fuben_131 | 0 | 1 | 475 | 100 | 64 | 72
+131 | Outer Ruins 2 | huodong_fuben_132 | 0 | 1 | 475 | 100 | 64 | 73
+132 | Quetzalcoatl Ruins | huodong_fuben_133 | 0 | 1 | 475 | 100 | 64 | 74
+133 | Aries Temple | xingzuo_dongxue_134 | 0 | 1 | 475 | 100 | 64 | 75
+134 | Taurus Temple | xingzuo_dongxue_135 | 0 | 1 | 475 | 100 | 64 | 76
+135 | Gemini Temple | xingzuo_dongxue_136 | 0 | 1 | 475 | 100 | 64 | 77
+136 | Cancer Temple | xingzuo_dongxue_137 | 0 | 1 | 475 | 100 | 64 | 78
+137 | Leo Temple | xingzuo_dongxue_138 | 0 | 1 | 475 | 100 | 64 | 79
+138 | Virgo Temple | xingzuo_dongxue_139 | 0 | 1 | 475 | 100 | 64 | 80
+139 | Libra Temple | xingzuo_dongxue_140 | 0 | 1 | 475 | 100 | 64 | 81
+140 | Scorpio Temple | xingzuo_dongxue_141 | 0 | 1 | 475 | 100 | 64 | 82
+141 | Sagittarius Temple | xingzuo_dongxue_142 | 0 | 1 | 475 | 100 | 64 | 83
+142 | Capricorn Temple | xingzuo_dongxue_143 | 0 | 1 | 475 | 100 | 64 | 84
+143 | Aquarius Temple | xingzuo_dongxue_144 | 0 | 1 | 475 | 100 | 64 | 85
+144 | Pisces Temple | xingzuo_dongxue_145 | 0 | 1 | 475 | 100 | 64 | 86
+145 | Pyramid Hall | huodong_fuben_146 | 0 | 1 | 475 | 73 | 37 | 273
+146 | Confinement Room | huodong_fuben_147 | 0 | 1 | 475 | 100 | 64 | 87
+147 | Expedition Camp ? | aiji_yewai_148 | 0 | 1 | 128 | 36 | 86 | 88
+148 | Expedition Camp ? | aiji_yewai_149 | 0 | 1 | 128 | 36 | 86 | 89
+149 | Scorpion Lord's Crypt ? | aiji_dongxue_150 | 0 | 1 | 129 | 68 | 91 | 90
+150 | Scorpion Lord's Crypt ? | aiji_dongxue_151 | 0 | 1 | 129 | 68 | 91 | 91
+151 | Realm of Dreams | fengjing_yewai_152 | 0 | 1 | 475 | 100 | 64 | 92
+153 | Rainbow Valley | huisuo_yewai_154 | 0 | 1 | 475 | 100 | 64 | 93
+154 | Wonderland | huodong_fuben_155 | 0 | 0 | 475 | 83 | 48 | 94
+155 | Pharaoh's Catacomb | huodong_fuben_156 | 0 | 1 | 475 | 100 | 64 | 95
+160 | Darkflame Temple | huodong_fuben_161 | 55 | 0 | 188 | 94 | 37 | 96
+161 | Opaque Temple | huodong_fuben_162 | 55 | 0 | 188 | 76 | 77 | 97
+163 | Soulbound Crypt Level 2 | aiji_dongxue_164 | 45 | 1 | 475 | 100 | 64 | 98
+164 | Soulbound Crypt Level 3 | aiji_dongxue_165 | 45 | 1 | 475 | 100 | 64 | 99
+166 | Fallen Darkness | huodong_fuben_167 | 0 | 0 | 86 | 69 | 62 | 100
+169 | Chrono Mirage | huodong_fuben_170 | 0 | 1 | 475 | 100 | 64 | 101
+170 | Chrono Lair Level 1 | huodong_fuben_171 | 0 | 1 | 7 | 36 | 52 | 102
+171 | Chrono Lair Level 2 | huodong_fuben_172 | 0 | 1 | 7 | 36 | 52 | 103
+173 | Guild Manor | fengjing_yewai_174 | 0 | 1 | 475 | 100 | 64 | 104
+186 | Outer Starway | huodong_fuben_187 | 30 | 0 | 475 | 68 | 48 | 105
+187 | Dragon Island | huodong_fuben_188 | 0 | 0 | 153 | 58 | 26 | 106
+188 | Cave of Haze | huodong_fuben_189 | 55 | 0 | 475 | 100 | 64 | 107
+195 | Queen's Catacomb | tanxian_dongxue_196 | 0 | 1 | 145 | 60 | 68 | 108
+196 | Behemoth's Lair | tanxian_dongxue_197 | 0 | 1 | 145 | 60 | 68 | 109
+197 | Maze of Mystery | tanxian_dongxue_198 | 0 | 1 | 145 | 60 | 68 | 110
+198 | Hexagram Array | tanxian_dongxue_199 | 0 | 1 | 145 | 60 | 68 | 111
+199 | Queen's Catacomb Hallucination | tanxian_dongxue_200 | 0 | 0 | 204 | 63 | 56 | 112
+200 | Behemoth's Lair Hallucination | tanxian_dongxue_201 | 0 | 0 | 204 | 63 | 56 | 113
+201 | Maze of Mystery Hallucination | tanxian_dongxue_202 | 0 | 0 | 204 | 63 | 56 | 114
+202 | Hexagram Array Hallucination | tanxian_dongxue_203 | 0 | 0 | 204 | 63 | 56 | 115
+203 | Set's Temple | tanxian_dongxue_204 | 0 | 0 | 204 | 63 | 56 | 116
+204 | Hall of Illusion | huodong_fuben_205 | 0 | 1 | 475 | 100 | 64 | 117
+208 | Garden of Gentleness | huisuo_dongxue_209 | 0 | 1 | 475 | 100 | 64 | 118
+209 | Karnak Temple | huodong_fuben_210 | 0 | 1 | 475 | 100 | 64 | 119
+214 | Rocky Abyss Level 4 | huangjinguo_dongxue_215 | 41 | 1 | 475 | 100 | 64 | 120
+215 | Rocky Abyss Level 5 | huangjinguo_dongxue_216 | 41 | 1 | 475 | 100 | 64 | 121
+216 | Rocky Abyss Level 6 | huangjinguo_dongxue_217 | 41 | 1 | 475 | 100 | 64 | 122
+217 | Gates of Hell | aiji_dongxue_218 | 0 | 0 | 245 | 93 | 93 | 123
+218 | Glacier City | zhongbu_fuben_219 | 0 | 1 | 173 | 63 | 65 | 124
+219 | Frozen Plain | zhanchang_fuben_220 | 0 | 1 | 173 | 63 | 65 | 125
+220 | Champion's Arena | zhanchang_fuben_221 | 0 | 1 | 475 | 61 | 47 | 126
+222 | Specter Island | yatelandisi_fuben_223 | 0 | 0 | 7 | 43 | 90 | 127
+223 | Lava Heights | aiji_fuben_224 | 0 | 0 | 224 | 43 | 46 | 128
+224 | Burning Land | aiji_dongxue_225 | 80 | 1 | 475 | 100 | 64 | 129
+226 | Dragon Emperor's Crypt | qinhuangling_fuben_227 | 0 | 0 | 119 | 80 | 26 | 130
+227 | Land of the Dead | aiji_yewai_228 | 90 | 1 | 475 | 100 | 64 | 131
+228 | Pit of Reckoning | aiji_fuben_229 | 0 | 0 | 227 | 28 | 65 | 132
+231 | Frozen Battlefield Hall | zhanchang_fuben_232 | 0 | 1 | 173 | 63 | 65 | 133
+232 | Giza Pyramid | aiji_fuben_233 | 0 | 0 | 204 | 63 | 63 | 134
+233 | Cavern of Trials | huodong_fuben_234 | 0 | 0 | 116 | 50 | 31 | 135
+234 | Champion's Arena | zhanchang_fuben_235 | 0 | 1 | 475 | 61 | 47 | 136
+235 | Knight's Jail | huisuo_dongxue_236 | 0 | 0 | 475 | 100 | 64 | 137
+237 | Outer Ruins | huodong_fuben_238 | 0 | 0 | 475 | 100 | 64 | 138
+239 | Rocky Abyss Level 7 | huangjinguo_dongxue_240 | 41 | 1 | 475 | 100 | 64 | 139
+240 | Rocky Abyss Level 8 | huangjinguo_dongxue_241 | 41 | 1 | 475 | 100 | 64 | 140
+241 | Rocky Abyss Level 9 | huangjinguo_dongxue_242 | 41 | 1 | 475 | 100 | 64 | 141
+242 | Crypt of the Arch Priestess | juqing_fuben_243 | 0 | 0 | 245 | 27 | 26 | 142
+243 | Set's Temple | juqing_fuben_243 | 0 | 0 | 245 | 22 | 98 | 143
+244 | Styx | juqing_fuben_243 | 0 | 0 | 245 | 57 | 35 | 144
+245 | Khufu Desert Depths | juqing_yewai_244 | 80 | 1 | 475 | 100 | 64 | 145
+246 | Atrium | juqing_yewai_245 | 0 | 1 | 475 | 100 | 64 | 146
+249 | Energy Well | huodong_fuben_248 | 0 | 0 | 475 | 87 | 34 | 147
+250 | Garden of the World Tree | huodong_fuben_249 | 0 | 0 | 0 | 45 | 53 | 148
+251 | Energy Well | huodong_fuben_250 | 0 | 0 | 475 | 100 | 64 | 149
+252 | Energy Well | huodong_fuben_251 | 0 | 0 | 475 | 100 | 64 | 150
+253 | Waking World | juqing_fuben_252 | 0 | 0 | 227 | 90 | 92 | 151
+254 | Nightmare Domain | juqing_fuben_253 | 0 | 0 | 227 | 90 | 92 | 152
+255 | Swordgrave | juqing_fuben_254 | 0 | 0 | 227 | 90 | 92 | 153
+256 | Champion's Arena | zhanchang_fuben_235 | 0 | 1 | 475 | 61 | 47 | 154
+257 | Celebeam Cave | caiji_dongxue_256 | 0 | 1 | 475 | 100 | 64 | 155
+258 | Shadow Manor | tanxian_fuben_257 | 0 | 0 | 475 | 100 | 64 | 156
+259 | Champion's Arena | huodong_fuben_392 | 0 | 1 | 475 | 63 | 45 | 157
+260 | Battlefield Hall NO.1 | zhanchang_fuben_259 | 0 | 1 | 260 | 60 | 69 | 158
+261 | Diabolic Valley | juqing_fuben_260 | 0 | 0 | 227 | 90 | 92 | 159
+265 | Temple of Osiris' Vacuity | aiji_yewai_239 | 0 | 0 | 227 | 70 | 26 | 160
+266 | Champion's Arena | huodong_fuben_392 | 0 | 1 | 475 | 63 | 45 | 161
+273 | Poseidon Temple | zhanchang_fuben_272 | 0 | 0 | 475 | 100 | 64 | 162
+280 | Pantheon | zhanchang_yewai_280 | 95 | 1 | 475 | 100 | 64 | 163
+282 | Battlefield Hall NO.1 | zhanchang_fuben_259 | 0 | 1 | 282 | 60 | 69 | 164
+283 | Battlefield Hall | zhanchang_fuben_259 | 0 | 1 | 475 | 61 | 47 | 165
+284 | Battlefield Hall | zhanchang_fuben_259 | 0 | 1 | 475 | 61 | 47 | 166
+285 | Battlefield Hall | zhanchang_fuben_259 | 0 | 1 | 475 | 61 | 47 | 167
+286 | Battlefield Hall NO.5 | zhanchang_fuben_259 | 0 | 1 | 286 | 60 | 69 | 168
+287 | Battlefield Hall NO.2 | zhanchang_fuben_259 | 0 | 1 | 287 | 60 | 69 | 169
+288 | Battlefield Hall NO.3 | zhanchang_fuben_259 | 0 | 1 | 288 | 60 | 69 | 170
+289 | Battlefield Hall NO.4 | zhanchang_fuben_259 | 0 | 1 | 289 | 60 | 69 | 171
+290 | Battlefield Hall NO.5 | zhanchang_fuben_259 | 0 | 1 | 290 | 60 | 69 | 172
+291 | Ancient Beast Island | huisuo_yewai_281 | 0 | 1 | 153 | 59 | 22 | 173
+293 | Go for victory with Africa | huodong_fuben_146 | 0 | 1 | 475 | 100 | 64 | 174
+303 | Titan Throne | juqing_fuben_292 | 101 | 0 | 396 | 87 | 16 | 175
+313 | Titan Throne Hallway  | juqing_fuben_302 | 0 | 0 | 396 | 87 | 16 | 176
+318 | Champion's Arena | huodong_fuben_392 | 0 | 1 | 283 | 60 | 69 | 177
+319 | Champion's Arena | huodong_fuben_392 | 0 | 1 | 284 | 60 | 69 | 178
+320 | Champion's Arena | huodong_fuben_392 | 0 | 1 | 285 | 60 | 69 | 179
+332 | Titan Throne | juqing_fuben_292 | 0 | 0 | 396 | 87 | 16 | 180
+396 | Kingdom of Giants - East | beiou_yewai_328 | 101 | 1 | 475 | 100 | 64 | 181
+397 | Dragon Lair Level 2 | beiou_yewai_329 | 101 | 1 | 475 | 100 | 64 | 182
+398 | Kingdom of Giants - West | beiou_yewai_330 | 101 | 1 | 475 | 100 | 64 | 183
+399 | Dragon Lair Level 1 | beiou_yewai_331 | 101 | 1 | 475 | 100 | 64 | 184
+409 | Guild Territory - Village | gonghui_yewai_344 | 0 | 1 | 173 | 64 | 75 | 185
+410 | Guild Territory - City | gonghui_yewai_345 | 0 | 1 | 173 | 64 | 75 | 186
+411 | Guild Trial Ground | gonghui_fuben_346 | 0 | 1 | 173 | 64 | 75 | 187
+455 | Emerald Dragon Island | dongfang_yewai_357 | 101 | 1 | 475 | 100 | 64 | 188
+456 | White Tiger Den | dongfang_yewai_358 | 101 | 1 | 475 | 100 | 64 | 189
+457 | Obsidian Turtle Pool | dongfang_yewai_359 | 101 | 1 | 475 | 100 | 64 | 190
+458 | Burning Realm | aiji_dongxue_218 | 0 | 0 | 475 | 60 | 40 | 191
+474 | Evergreen Woods | huodong_fuben_238 | 0 | 0 | 475 | 60 | 40 | 192
+475 | Atlantis | zhucheng_yewai_370 | 0 | 1 | 0 | 45 | 53 | 193
+477 | Serene Realm | huodong_fuben_188 | 0 | 0 | 475 | 60 | 40 | 194
+478 | Pangaea Catacomb - Reality | tanxian_dongxue_371 | 0 | 0 | 119 | 100 | 49 | 195
+479 | Pangaea Catacomb (Ethereal) | tanxian_dongxue_372 | 0 | 0 | 119 | 100 | 49 | 196
+480 | Gold Island South - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 197
+481 | Gold Island Centre - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 198
+482 | Easter Island South - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 199
+483 | Easter Island North - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 200
+484 | Atlantis Waterway - Territory  | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 201
+485 | Gold Island North - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 202
+486 | Bermuda - Territory  | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 203
+487 | Nordic Lands - Territory | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 204
+488 | Frostcovered Land - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 205
+489 | Frostcovered Plains - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 206
+490 | Fort Glacier - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 207
+491 | Dwarves' Forest - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 208
+492 | Viking Steppe East - Territory  | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 209
+493 | Viking Steppe West - Territory  | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 210
+494 | Soulbound Crypt - Territory  | zhanchang_fuben_368 | 0 | 1 | 173 | 64 | 63 | 211
+495 | Nile River West - Territory  | zhanchang_fuben_368 | 0 | 1 | 173 | 64 | 63 | 212
+496 | King's Gorge - Territory  | zhanchang_fuben_368 | 0 | 1 | 173 | 64 | 63 | 213
+497 | Aegean - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 214
+498 | Angkor Jungle - Territory  | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 215
+499 | Angkor Temple - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 216
+500 | Temple of Osiris - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 217
+501 | Plains of Despair - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 218
+502 | Land of the Dead - Territory | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 219
+503 | Everstill Lands - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 220
+504 | Gates of Hell - Territory | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 221
+505 | Burning Land - Territory | zhanchang_fuben_368 | 0 | 1 | 173 | 64 | 63 | 222
+506 | Deity Realm South - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 223
+507 | Deity Realm North - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 224
+508 | Dragon Lair - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 225
+509 | Valley of Ashes - Territory | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 226
+510 | Killing Grounds - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 227
+511 | Kingdom of Giants - Territory  | zhanchang_fuben_367 | 0 | 1 | 173 | 64 | 63 | 228
+512 | Olympus - Territory | zhanchang_fuben_369 | 0 | 1 | 173 | 64 | 63 | 229
+513 | Miasma Realm | yatelandisi_fuben_223 | 0 | 0 | 475 | 60 | 40 | 230
+531 | The Sepulcher | juqing_fuben_376 | 0 | 0 | 280 | 32 | 28 | 231
+532 | Radiant Temple | huodong_fuben_377 | 0 | 0 | 536 | 41 | 12 | 232
+533 | Elysium | shengjie_yewai_378 | 0 | 1 | 475 | 100 | 64 | 233
+534 | Asgard | shengjie_yewai_379 | 0 | 1 | 475 | 100 | 64 | 234
+535 | Hades' Temple | shengjie_dongxue_380 | 0 | 1 | 475 | 100 | 64 | 235
+536 | Twilight Battlefield | shengjie_yewai_381 | 0 | 1 | 475 | 100 | 64 | 236
+537 | Sunken Atlantis | guoqu_yewai_393 | 120 | 1 | 475 | 100 | 64 | 237
+538 | Twilight Zone | guoqu_yewai_394 | 120 | 1 | 475 | 100 | 64 | 238
+539 | Ruins of the Ark | juqing_fuben_395 | 120 | 1 | 475 | 100 | 64 | 239
+540 | Golden Coast | juqing_fuben_540 | 120 | 0 | 538 | 74 | 40 | 240
+541 | Fae Shrine | shengjie_yewai_379_b | 120 | 0 | 534 | 87 | 97 | 241
+542 | Fate's Expanse | juqing_yewai_542 | 120 | 1 | 475 | 100 | 64 | 242
+543 | Titan Estate | juqing_yewai_543 | 120 | 1 | 475 | 100 | 64 | 243
+544 | Gaia's Dwelling | juqing_fuben_544 | 120 | 0 | 543 | 75 | 45 | 244
+545 | The Zephyr | huodong_jingsu_545 | 0 | 0 | 173 | 55 | 66 | 245
+546 | Eurus' Wasteland | huodong_jingsu_546 | 0 | 1 | 173 | 55 | 66 | 246
+557 | Old Dragon Emperor's Cave | qinhuangling_dongxue_123 | 0 | 0 | 475 | 83 | 33 | 247
+558 | Dream Rainbow Valley | huisuo_yewai_154 | 0 | 1 | 153 | 53 | 39 | 248
+559 | Gate of Fate | huodong_fuben_161 | 75 | 0 | 475 | 100 | 64 | 249
+560 | Demonshard Ruins | huodong_jingsu_557 | 0 | 0 | 173 | 64 | 65 | 250
+561 | Throne of Boreas | huodong_jingsu_558 | 0 | 1 | 173 | 55 | 66 | 251
+562 | Celestial Spire | juqing_yewai_562 | 120 | 1 | 475 | 100 | 64 | 252
+563 | Infernal Depths | juqing_yewai_563 | 120 | 1 | 475 | 100 | 64 | 253
+564 | The Last Bastion | juqing_yewai_564 | 120 | 1 | 475 | 100 | 64 | 254
+565 | Besieged Atlantis | juqing_yewai_565 | 120 | 0 | 564 | 85 | 113 | 255
+566 | Heartless Canyon | juqing_fuben_566 | 0 | 0 | 563 | 79 | 54 | 256
+567 | Battle Soul Arena | huodong_fuben_567 | 0 | 0 | 475 | 60 | 45 | 257
+568 | Pursuit of Rapture | juqing_fuben_568 | 0 | 0 | 475 | 75 | 37 | 258
+569 | Wonderland 2 | huodong_fuben_569 | 0 | 0 | 475 | 77 | 50 | 259
+570 | Fairground of the Battle of The Immortals | aiji_dongxue_218 | 0 | 0 | 475 | 77 | 50 | 260
+571 | Grand Maelstrom | juqing_yewai_571 | 120 | 1 | 475 | 100 | 64 | 261
+572 | Crystal Realm | juqing_yewai_572 | 120 | 1 | 475 | 100 | 64 | 262
+573 | Quartz Grotto | huodong_fuben_573 | 0 | 0 | 475 | 69 | 50 | 263
+574 | Guardian Area | huodong_fuben_574 | 0 | 0 | 475 | 100 | 64 | 264
+575 | Pyramid - Corridor of Death | huodong_fuben_575 | 50 | 1 | 145 | 60 | 68 | 265
+576 | Pyramid - Pharaoh's Throne | huodong_fuben_576 | 50 | 1 | 145 | 60 | 68 | 266
+577 | Pyramid - Queen's Catacomb | tanxian_dongxue_124 | 50 | 1 | 145 | 60 | 68 | 267
+578 | Pyramid - Behemoth's Lair | tanxian_dongxue_125 | 50 | 1 | 145 | 60 | 68 | 268
+579 | Pyramid - Maze of Mystery | tanxian_dongxue_126 | 50 | 1 | 145 | 60 | 68 | 269
+580 | Pyramid - Hexagram Array | tanxian_dongxue_127 | 50 | 1 | 145 | 60 | 68 | 270
+581 | Legend of the Secret Room | aiji_dongxue_17 | 50 | 1 | 475 | 73 | 37 | 274
+582 | Interserver | huodong_fuben_574 | 65 | 1 | 475 | 100 | 64 | 275
+1001 | Endless Stairs Level 1 | huodong_fuben_389 | 0 | 0 | 475 | 83 | 34 | 277
+1002 | Endless Stairs Level 2 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 278
+1003 | Endless Stairs Level 3 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 279
+1004 | Endless Stairs Level 4 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 280
+1005 | Endless Stairs Level 5 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 281
+1006 | Endless Stairs Level 6 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 282
+1007 | Endless Stairs Level 7 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 283
+1008 | Endless Stairs Level 8 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 284
+1009 | Endless Stairs Level 9 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 285
+1010 | Endless Stairs Level 10 | huodong_fuben_389 | 0 | 0 | 475 | 100 | 64 | 286
+1011 | Endless Stairs Level 11 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 287
+1012 | Endless Stairs Level 12 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 288
+1013 | Endless Stairs Level 13 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 289
+1014 | Endless Stairs Level 14 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 290
+1015 | Endless Stairs Level 15 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 291
+1016 | Endless Stairs Level 16 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 292
+1017 | Endless Stairs Level 17 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 293
+1018 | Endless Stairs Level 18 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 294
+1019 | Endless Stairs Level 19 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 295
+1020 | Endless Stairs Level 20 | huodong_fuben_390 | 0 | 0 | 475 | 100 | 64 | 296
+1021 | Endless Stairs Level 21 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 297
+1022 | Endless Stairs Level 22 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 298
+1023 | Endless Stairs Level 23 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 299
+1024 | Endless Stairs Level 24 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 300
+1025 | Endless Stairs Level 25 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 301
+1026 | Endless Stairs Level 26 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 302
+1027 | Endless Stairs Level 27 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 303
+1028 | Endless Stairs Level 28 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 304
+1029 | Endless Stairs Level 29 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 305
+1030 | Endless Stairs Level 30 | huodong_fuben_391 | 0 | 0 | 475 | 100 | 64 | 306
+1031 | Endless Stairs Level 31 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 307
+1032 | Endless Stairs Level 32 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 308
+1033 | Endless Stairs Level 33 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 309
+1034 | Endless Stairs Level 34 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 310
+1035 | Endless Stairs Level 35 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 311
+1036 | Endless Stairs Level 36 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 312
+1037 | Endless Stairs Level 37 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 313
+1038 | Endless Stairs Level 38 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 314
+1039 | Endless Stairs Level 39 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 315
+1040 | Endless Stairs Level 40 | huodong_fuben_386 | 0 | 0 | 475 | 100 | 64 | 316
+1041 | Endless Stairs Level 41 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 317
+1042 | Endless Stairs Level 42 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 318
+1043 | Endless Stairs Level 43 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 319
+1044 | Endless Stairs Level 44 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 320
+1045 | Endless Stairs Level 45 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 321
+1046 | Endless Stairs Level 46 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 322
+1047 | Endless Stairs Level 47 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 323
+1048 | Endless Stairs Level 48 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 324
+1049 | Endless Stairs Level 49 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 325
+1050 | Endless Stairs Level 50 | huodong_fuben_387 | 0 | 0 | 475 | 100 | 64 | 326
+1051 | Endless Stairs Level 51 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 327
+1052 | Endless Stairs Level 52 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 328
+1053 | Endless Stairs Level 53 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 329
+1054 | Endless Stairs Level 54 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 330
+1055 | Endless Stairs Level 55 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 331
+1056 | Endless Stairs Level 56 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 332
+1057 | Endless Stairs Level 57 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 333
+1058 | Endless Stairs Level 58 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 334
+1059 | Endless Stairs Level 59 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 335
+1060 | Endless Stairs Level 60 | huodong_fuben_388 | 0 | 0 | 475 | 100 | 64 | 336
+1061 | Endless Stairs Level 61 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 337
+1062 | Endless Stairs Level 62 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 338
+1063 | Endless Stairs Level 63 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 339
+1064 | Endless Stairs Level 64 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 340
+1065 | Endless Stairs Level 65 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 341
+1066 | Endless Stairs Level 66 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 342
+1067 | Endless Stairs Level 67 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 343
+1068 | Endless Stairs Level 68 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 344
+1069 | Endless Stairs Level 69 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 345
+1070 | Endless Stairs Level 70 | huodong_fuben_382 | 0 | 0 | 475 | 100 | 64 | 346
+1071 | Endless Stairs Level 71 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 347
+1072 | Endless Stairs Level 72 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 348
+1073 | Endless Stairs Level 73 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 349
+1074 | Endless Stairs Level 74 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 350
+1075 | Endless Stairs Level 75 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 351
+1076 | Endless Stairs Level 76 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 352
+1077 | Endless Stairs Level 77 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 353
+1078 | Endless Stairs Level 78 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 354
+1079 | Endless Stairs Level 79 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 355
+1080 | Endless Stairs Level 80 | huodong_fuben_383 | 0 | 0 | 475 | 100 | 64 | 356
+1081 | Endless Stairs Level 81 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 357
+1082 | Endless Stairs Level 82 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 358
+1083 | Endless Stairs Level 83 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 359
+1084 | Endless Stairs Level 84 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 360
+1085 | Endless Stairs Level 85 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 361
+1086 | Endless Stairs Level 86 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 362
+1087 | Endless Stairs Level 87 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 363
+1088 | Endless Stairs Level 88 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 364
+1089 | Endless Stairs Level 89 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 365
+1090 | Endless Stairs Level 90 | huodong_fuben_384 | 0 | 0 | 475 | 100 | 64 | 366
+1091 | Endless Stairs Level 91 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 367
+1092 | Endless Stairs Level 92 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 368
+1093 | Endless Stairs Level 93 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 369
+1094 | Endless Stairs Level 94 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 370
+1095 | Endless Stairs Level 95 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 371
+1096 | Endless Stairs Level 96 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 372
+1097 | Endless Stairs Level 97 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 373
+1098 | Endless Stairs Level 98 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 374
+1099 | Endless Stairs Level 99 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 375
+1100 | Endless Stairs Level 100 | huodong_fuben_385 | 0 | 0 | 475 | 100 | 64 | 376

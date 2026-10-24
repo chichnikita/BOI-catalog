@@ -1,0 +1,267 @@
+﻿ЧАРМЫ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\charm.slk
+Область идентификатора: ItemID
+Записей: 256; разных ID внутри этой таблицы: 256.
+Названия и значения приведены как в таблице сервера.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Уровень чарма | Тип чарма | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+2101 | Basic Removal Charm | 2 | 2 | 3
+2102 | Medium Removal Charm | 4 | 2 | 4
+2103 | Advanced Removal Charm | 5 | 2 | 5
+2104 | Super Removal Charm | 15 | 2 | 6
+2105 | Super Removal Charm | 15 | 2 | 7
+2106 | LV1 Removal Charm | 1 | 2 | 8
+2107 | LV2 Removal Charm | 2 | 2 | 9
+2108 | LV3 Removal Charm | 3 | 2 | 10
+2109 | LV4 Removal Charm | 4 | 2 | 11
+2111 | Basic Removal Charm | 2 | 2 | 12
+2112 | Medium Removal Charm | 4 | 2 | 13
+2113 | Advanced Removal Charm | 5 | 2 | 14
+2114 | Super Removal Charm | 15 | 2 | 15
+2115 | Super Removal Charm | 15 | 2 | 16
+2116 | LV1 Removal Charm | 1 | 2 | 17
+2117 | LV2 Removal Charm | 2 | 2 | 18
+2118 | LV3 Removal Charm | 3 | 2 | 19
+2119 | LV4 Removal Charm | 4 | 2 | 20
+2121 | LV2 Gem Talisman | 2 | 4 | 22
+2122 | LV4 Gem Talisman | 4 | 4 | 23
+2123 | LV5 Gem Talisman | 5 | 4 | 24
+2124 | LV6 Gem Talisman | 6 | 4 | 25
+2125 | Super Gem Talisman | 7 | 4 | 26
+2126 | LV1 Gem Talisman | 1 | 4 | 27
+2127 | LV3 Gem Talisman | 3 | 4 | 28
+2131 | LV2 Gem Talisman | 2 | 4 | 29
+2132 | LV4 Gem Talisman | 4 | 4 | 30
+2133 | LV5 Gem Talisman | 5 | 4 | 31
+2134 | LV6 Gem Talisman | 6 | 4 | 32
+2135 | Super Gem Talisman | 7 | 4 | 33
+2136 | LV1 Gem Talisman | 1 | 4 | 34
+2137 | LV3 Gem Talisman | 3 | 4 | 35
+2141 | LV2 Gem Talisman | 2 | 4 | 36
+2142 | LV4 Gem Talisman | 4 | 4 | 37
+2143 | LV5 Gem Talisman | 5 | 4 | 38
+2144 | LV6 Gem Talisman | 6 | 4 | 39
+2145 | Super Gem Talisman | 7 | 4 | 40
+2146 | LV1 Gem Talisman | 1 | 4 | 41
+2147 | LV3 Gem Talisman | 3 | 4 | 42
+2150 | LV1 Removal Charm | 1 | 2 | 43
+2151 | LV2 Removal Charm | 2 | 2 | 44
+2152 | LV3 Removal Charm | 3 | 2 | 45
+2153 | LV4 Removal Charm | 4 | 2 | 46
+2154 | LV5 Removal Charm | 5 | 2 | 47
+2155 | LV6 Removal Charm | 6 | 2 | 48
+2156 | Super Removal Charm | 15 | 2 | 21
+2201 | Soul Insignia Charm | 1 | 3 | 49
+2202 | Binding Charm | 1 | 3 | 55
+2203 | Soul Insignia Charm | 1 | 3 | 50
+2211 | Embedding Charm | 1 | 1 | 51
+2212 | Embedding Charm | 1 | 1 | 56
+2213 | Embedding Charm | 1 | 1 | 52
+2221 | Fortify Charm | 1 | 0 | 53
+2222 | Fortify Charm | 1 | 0 | 57
+2223 | Fortify Charm | 1 | 0 | 54
+2231 | LV2 Gem Talisman | 2 | 4 | 58
+2232 | LV2 Gem Talisman | 2 | 4 | 59
+2233 | LV3 Gem Talisman | 3 | 4 | 63
+2241 | LV1 Gem Polisher | 1 | 6 | 84
+2242 | LV2 Gem Polisher | 2 | 6 | 85
+2243 | LV3 Gem Polisher | 3 | 6 | 86
+2244 | LV4 Gem Polisher | 4 | 6 | 87
+2245 | LV5 Gem Polisher | 5 | 6 | 88
+2246 | LV6 Gem Polisher | 6 | 6 | 89
+2247 | LV7 Gem Polisher  | 7 | 6 | 90
+2248 | LV8 Gem Polisher | 8 | 6 | 91
+2249 | LV.9 Gem Polisher | 9 | 6 | 92
+2250 | LV.10 Gem Polisher | 10 | 6 | 93
+2251 | LV1 Gem Polisher | 1 | 6 | 74
+2252 | LV2 Gem Polisher | 2 | 6 | 75
+2253 | LV3 Gem Polisher | 3 | 6 | 76
+2254 | LV4 Gem Polisher | 4 | 6 | 77
+2255 | LV5 Gem Polisher | 5 | 6 | 78
+2256 | LV6 Gem Polisher | 6 | 6 | 79
+2257 | LV7 Gem Polisher  | 7 | 6 | 80
+2258 | LV8 Gem Polisher | 8 | 6 | 81
+2259 | LV.9 Gem Polisher | 9 | 6 | 82
+2260 | LV.10 Gem Polisher | 10 | 6 | 83
+2261 | LV1 Gem Polisher | 1 | 6 | 64
+2262 | LV2 Gem Polisher | 2 | 6 | 65
+2263 | LV3 Gem Polisher | 3 | 6 | 66
+2264 | LV4 Gem Polisher | 4 | 6 | 67
+2265 | LV5 Gem Polisher | 5 | 6 | 68
+2266 | LV6 Gem Polisher | 6 | 6 | 69
+2267 | LV7 Gem Polisher  | 7 | 6 | 70
+2268 | LV8 Gem Polisher | 8 | 6 | 71
+2269 | LV.9 Gem Polisher | 9 | 6 | 72
+2270 | LV.10 Gem Polisher | 10 | 6 | 73
+2320 | F-Protect +4 | 0 | 5 | 60
+2321 | F-Protect +4 | 0 | 5 | 61
+2322 | F-Protect +4 | 0 | 5 | 62
+2331 | Hephaestus' Hammer +1 | 1 | 15 | 94
+2332 | Hephaestus' Hammer +2 | 2 | 15 | 95
+2333 | Hephaestus' Hammer +3 | 3 | 15 | 96
+2334 | Hephaestus' Hammer +4 | 4 | 15 | 97
+2335 | Hephaestus' Hammer +5 | 5 | 15 | 98
+2336 | Hephaestus' Hammer +6 | 6 | 15 | 99
+2337 | Hephaestus' Hammer +7 | 7 | 15 | 100
+2338 | Hephaestus' Hammer +8 | 8 | 15 | 101
+2339 | Hephaestus' Hammer +9 | 9 | 15 | 102
+2340 | Hephaestus' Hammer +10 | 10 | 15 | 103
+2341 | Hephaestus' Hammer +11 | 11 | 15 | 104
+2342 | Hephaestus' Hammer +12 | 12 | 15 | 105
+2343 | Hephaestus' Hammer +13 | 13 | 15 | 106
+2344 | Hephaestus' Hammer +14 | 14 | 15 | 107
+2345 | Hephaestus' Hammer +15 | 15 | 15 | 108
+2351 | Hephaestus' Hammer +1 | 1 | 15 | 109
+2352 | Hephaestus' Hammer +2 | 2 | 15 | 110
+2353 | Hephaestus' Hammer +3 | 3 | 15 | 111
+2354 | Hephaestus' Hammer +4 | 4 | 15 | 112
+2355 | Hephaestus' Hammer +5 | 5 | 15 | 113
+2356 | Hephaestus' Hammer +6 | 6 | 15 | 114
+2357 | Hephaestus' Hammer +7 | 7 | 15 | 115
+2358 | Hephaestus' Hammer +8 | 8 | 15 | 116
+2359 | Hephaestus' Hammer +9 | 9 | 15 | 117
+2360 | Hephaestus' Hammer +10 | 10 | 15 | 118
+2361 | Hephaestus' Hammer +11 | 11 | 15 | 119
+2362 | Hephaestus' Hammer +12 | 12 | 15 | 120
+2363 | Hephaestus' Hammer +13 | 13 | 15 | 121
+2364 | Hephaestus' Hammer +14 | 14 | 15 | 122
+2365 | Hephaestus' Hammer +15 | 15 | 15 | 123
+2371 | Hephaestus' Hammer +1 | 1 | 15 | 124
+2372 | Hephaestus' Hammer +2 | 2 | 15 | 125
+2373 | Hephaestus' Hammer +3 | 3 | 15 | 126
+2374 | Hephaestus' Hammer +4 | 4 | 15 | 127
+2375 | Hephaestus' Hammer +5 | 5 | 15 | 128
+2376 | Hephaestus' Hammer +6 | 6 | 15 | 129
+2377 | Hephaestus' Hammer +7 | 7 | 15 | 130
+2378 | Hephaestus' Hammer +8 | 8 | 15 | 131
+2379 | Hephaestus' Hammer +9 | 9 | 15 | 132
+2380 | Hephaestus' Hammer +10 | 10 | 15 | 133
+2381 | Hephaestus' Hammer +11 | 11 | 15 | 134
+2382 | Hephaestus' Hammer +12 | 12 | 15 | 135
+2383 | Hephaestus' Hammer +13 | 13 | 15 | 136
+2384 | Hephaestus' Hammer +14 | 14 | 15 | 137
+2385 | Hephaestus' Hammer +15 | 15 | 15 | 138
+2391 | Do not need to use F-Protect right now | 1 | 13 | 139
+2392 | LV1 F-Protect | 2 | 13 | 140
+2393 | LV2 F-Protect | 3 | 13 | 141
+2394 | LV3 F-Protect | 4 | 13 | 142
+2395 | LV4 F-Protect | 5 | 13 | 143
+2396 | LV5 F-Protect | 6 | 13 | 144
+2397 | LV6 F-Protect | 7 | 13 | 145
+2398 | LV7 F-Protect | 8 | 13 | 146
+2399 | LV8 F-Protect +8 | 9 | 13 | 147
+2400 | LV9 F-Protect +8 | 10 | 13 | 148
+2401 | LV10 F-Protect +8 | 11 | 13 | 149
+2402 | LV11 F-Protect +8 | 12 | 13 | 150
+2403 | LV12 F-Protect +8 | 13 | 13 | 151
+2404 | LV13 F-Protect +8 | 14 | 13 | 152
+2405 | LV14 F-Protect +8 | 15 | 13 | 153
+2406 | LV15 F-Protect +8 | 16 | 13 | 154
+2411 | Do not need to use F-Protect right now | 1 | 13 | 155
+2412 | LV1 F-Protect | 2 | 13 | 156
+2413 | LV2 F-Protect | 3 | 13 | 157
+2414 | LV3 F-Protect | 4 | 13 | 158
+2415 | LV4 F-Protect | 5 | 13 | 159
+2416 | LV5 F-Protect | 6 | 13 | 160
+2417 | LV6 F-Protect | 7 | 13 | 161
+2418 | LV7 F-Protect | 8 | 13 | 162
+2419 | LV8 F-Protect +8 | 9 | 13 | 163
+2420 | LV9 F-Protect +8 | 10 | 13 | 164
+2421 | LV10 F-Protect +8 | 11 | 13 | 165
+2422 | LV11 F-Protect +8 | 12 | 13 | 166
+2423 | LV12 F-Protect +8 | 13 | 13 | 167
+2424 | LV13 F-Protect +8 | 14 | 13 | 168
+2425 | LV14 F-Protect +8 | 15 | 13 | 169
+2426 | LV15 F-Protect +8 | 16 | 13 | 170
+2431 | Do not need to use F-Protect right now | 1 | 13 | 171
+2432 | LV1 F-Protect | 2 | 13 | 172
+2433 | LV2 F-Protect | 3 | 13 | 173
+2434 | LV3 F-Protect | 4 | 13 | 174
+2435 | LV4 F-Protect | 5 | 13 | 175
+2436 | LV5 F-Protect | 6 | 13 | 176
+2437 | LV6 F-Protect | 7 | 13 | 177
+2438 | LV7 F-Protect | 8 | 13 | 178
+2439 | LV8 F-Protect +8 | 9 | 13 | 179
+2440 | LV9 F-Protect +8 | 10 | 13 | 180
+2441 | Square Insignia Wand | 2 | 7 | 187
+2442 | Triangle Insignia Wand | 1 | 7 | 188
+2443 | Diamond Insignia Wand | 4 | 7 | 189
+2444 | Round Insignia Wand | 3 | 7 | 190
+2445 | Stardust Merge Stone | 2 | 9 | 194
+2446 | Stardust Catalyst | 2500 | 10 | 195
+2447 | Medium Merge Liquid | 1000 | 10 | 196
+2448 | Advanced Merge Liquid | 1000 | 10 | 197
+2449 | Starword Recharger | 250 | 8 | 191
+2450 | Starword Recharger | 250 | 8 | 192
+2451 | Advanced Recharger | 20 | 8 | 193
+2452 | Square Insignia Wand | 2 | 7 | 199
+2453 | Triangle Insignia Wand | 1 | 7 | 200
+2454 | Diamond Insignia Wand | 4 | 7 | 201
+2455 | Round Insignia Wand | 3 | 7 | 202
+2456 | Stardust Charm | 1 | 11 | 198
+2460 | LV10 Persistence of the Sun | 11 | 13 | 181
+2461 | LV11 Persistence of the Sun | 12 | 13 | 182
+2462 | LV12 Persistence of the Sun | 13 | 13 | 183
+2463 | LV13 Persistence of the Sun | 14 | 13 | 184
+2464 | LV14 Persistence of the Sun | 15 | 13 | 185
+2465 | LV15 Persistence of the Sun | 16 | 13 | 186
+2466 | Stardust Charm | 1 | 11 | 203
+2467 | Athena's Glow | 1 | 14 | 204
+2468 | Athena's Glow | 1 | 14 | 205
+2469 | Athena's Glow | 1 | 14 | 206
+2470 | Small Starword Recharger | 100 | 8 | 207
+2471 | LV1 Perfect Embed Charm   | 1 | 16 | 208
+2472 | LV2 Perfect Embed Charm | 2 | 16 | 209
+2473 | LV3 Perfect Embed Charm | 3 | 16 | 210
+2474 | LV4 Perfect Embed Charm | 4 | 16 | 211
+2475 | LV5 Perfect Embed Charm | 5 | 16 | 212
+2476 | LV6 Perfect Embed Charm | 6 | 16 | 213
+2477 | LV7 Perfect Embed Charm | 7 | 16 | 214
+2478 | LV8 Perfect Embed Charm | 8 | 16 | 215
+2479 | LV9 Perfect Embed Charm | 9 | 16 | 216
+2480 | LV10 Perfect Embed Charm | 10 | 16 | 217
+2481 | LV11 Perfect Embed Charm | 11 | 16 | 218
+2482 | LV12 Perfect Embed Charm | 12 | 16 | 219
+2483 | LV13 Perfect Embed Charm | 13 | 16 | 220
+2484 | LV14 Perfect Embed Charm | 14 | 16 | 221
+2485 | Asteroid Transmute Charm | 1 | 18 | 222
+2486 | Asteroid Transmute Charm | 1 | 18 | 223
+2487 | Asteroid Transmute Charm | 1 | 18 | 224
+2488 | Asteroid Synthesis Charm | 1 | 19 | 225
+2489 | Asteroid Synthesis Charm | 1 | 19 | 226
+2490 | Asteroid Synthesis Charm | 1 | 19 | 227
+2500 | Removal Charm | 25 | 22 | 233
+2501 | Removal Charm | 25 | 22 | 234
+2502 | Removal Charm | 25 | 22 | 235
+2503 | Ethereal Seal Remover | 25 | 23 | 236
+2504 | Ethereal Seal Remover | 25 | 23 | 237
+2505 | Ethereal Seal Remover | 25 | 23 | 238
+2506 | Ethereal Seal Combiner | 25 | 24 | 239
+2507 | Ethereal Seal Combiner | 25 | 24 | 240
+2508 | Ethereal Seal Combiner | 25 | 24 | 241
+2509 | Ethereal Seal Converter | 25 | 25 | 242
+2510 | Ethereal Seal Converter | 25 | 25 | 243
+2511 | Ethereal Seal Converter | 25 | 25 | 244
+2670 | LV1 Perfect Embed Charm   | 1 | 16 | 245
+2671 | LV2 Perfect Embed Charm | 2 | 16 | 246
+2672 | LV3 Perfect Embed Charm | 3 | 16 | 247
+2673 | LV4 Perfect Embed Charm | 4 | 16 | 248
+2674 | LV5 Perfect Embed Charm | 5 | 16 | 249
+2675 | LV6 Perfect Embed Charm | 6 | 16 | 250
+2676 | LV7 Perfect Embed Charm | 7 | 16 | 251
+2677 | LV8 Perfect Embed Charm | 8 | 16 | 252
+2678 | LV9 Perfect Embed Charm | 9 | 16 | 253
+2679 | LV10 Perfect Embed Charm | 10 | 16 | 254
+2680 | LV11 Perfect Embed Charm | 11 | 16 | 255
+2681 | LV12 Perfect Embed Charm | 12 | 16 | 256
+2682 | LV13 Perfect Embed Charm | 13 | 16 | 257
+2683 | LV14 Perfect Embed Charm | 14 | 16 | 258
+4900 | Enhancement Safeguard Charm | 25 | 17 | 232
+4903 | Enhancement Safeguard Charm | 25 | 17 | 228
+4904 | Enhancement Safeguard Charm | 25 | 17 | 229
+4909 | Pet Fortify Charm | 1 | 21 | 230
+4910 | Pet Sealing Array | 1 | 20 | 231

@@ -1,0 +1,208 @@
+﻿МАТЕРИАЛЫ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\material.slk
+Область идентификатора: ItemID
+Записей: 197; разных ID внутри этой таблицы: 197.
+Названия и значения приведены как в таблице сервера.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Тип материала | Цена ремонта — поле | Добавка к усилению — поле | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+4001 | Copper Ore |  | 1 | 0 | 3
+4002 | Iron Ore |  | 1 | 0 | 4
+4003 | Silver Ore |  | 1 | 0 | 5
+4004 | Gold Ore |  | 1 | 0 | 6
+4005 | Dark Metal |  | 1 | 0 | 7
+4011 | Crystal |  | 1 | 0 | 8
+4012 | Quartz |  | 1 | 0 | 9
+4013 | Aquamarine |  | 1 | 0 | 10
+4014 | Topaz |  | 1 | 0 | 11
+4015 | Amethyst |  | 1 | 0 | 12
+4021 | Linen |  | 1 | 0 | 13
+4022 | Hemp |  | 1 | 0 | 14
+4023 | Cotton |  | 1 | 0 | 15
+4024 | Mulberry Leaf |  | 1 | 0 | 16
+4025 | Woodfiber |  | 1 | 0 | 17
+4031 | Galaxygrass |  | 1 | 0 | 18
+4032 | Flameflower |  | 1 | 0 | 19
+4033 | Violet Lotus |  | 1 | 0 | 20
+4034 | Solargrass |  | 1 | 0 | 21
+4035 | Dragonsaliva |  | 1 | 0 | 22
+4041 | Copper Chunk |  | 1 | 0 | 23
+4042 | Iron Chunk |  | 1 | 0 | 24
+4043 | Silver Chunk |  | 1 | 0 | 25
+4044 | Gold Chunk |  | 1 | 0 | 26
+4045 | Dark Metal Chunk |  | 1 | 0 | 27
+4051 | Silvergrass Leaf |  | 1 | 0 | 28
+4052 | Flameflower Petal |  | 1 | 0 | 29
+4053 | Violet Lotus Bud |  | 1 | 0 | 30
+4054 | Solargrass Blade |  | 1 | 0 | 31
+4055 | Dragonsaliva Solid |  | 1 | 0 | 32
+4061 | Crystal Bead |  | 1 | 0 | 33
+4062 | Quartz Bead |  | 1 | 0 | 34
+4063 | Aquamarine Bead |  | 1 | 0 | 35
+4064 | Topaz Bead |  | 1 | 0 | 36
+4065 | Amethyst Bead |  | 1 | 0 | 37
+4071 | Linen Thread |  | 1 | 0 | 38
+4072 | Hemp Thread |  | 1 | 0 | 39
+4073 | Cotton Thread |  | 1 | 0 | 40
+4074 | Silk Thread |  | 1 | 0 | 41
+4075 | Woodfiber Thread |  | 1 | 0 | 42
+4081 | Copperite |  | 1 | 0 | 43
+4082 | Ironite |  | 1 | 0 | 44
+4083 | SiLVerite |  | 1 | 0 | 45
+4084 | Goldite |  | 1 | 0 | 46
+4085 | Dark Metalite |  | 1 | 0 | 47
+4091 | Herb Catalyst LV1  |  | 1 | 0 | 48
+4092 | Herb Catalyst LV2 |  | 1 | 0 | 49
+4093 | Herb Catalyst LV3 |  | 1 | 0 | 50
+4094 | Herb Catalyst LV4 |  | 1 | 0 | 51
+4095 | Herb Catalyst LV5 |  | 1 | 0 | 52
+4101 | Crystalite |  | 1 | 0 | 53
+4102 | Quartzite |  | 1 | 0 | 54
+4103 | Aquamarinite |  | 1 | 0 | 55
+4104 | Topazite |  | 1 | 0 | 56
+4105 | Amethystite |  | 1 | 0 | 57
+4111 | Fine Linen |  | 1 | 0 | 58
+4112 | Fine Hemp |  | 0 | 0 | 59
+4113 | Fine Cotton |  | 0 | 0 | 60
+4114 | Fine Silk |  | 0 | 0 | 61
+4115 | Fine Woodfiber |  | 0 | 0 | 62
+4121 | Fine Copper |  | 0 | 0 | 63
+4122 | Fine Iron |  | 0 | 0 | 64
+4123 | Fine Silver |  | 0 | 0 | 65
+4124 | Fine Gold |  | 0 | 0 | 66
+4125 | Meteorolite |  | 0 | 0 | 67
+4131 | Prepared Galaxygrass |  | 0 | 0 | 68
+4132 | Prepared Flameflower |  | 0 | 0 | 69
+4133 | Prepared Violet Lotus |  | 0 | 0 | 70
+4134 | Prepared Solar Fruit |  | 0 | 0 | 71
+4135 | Prepared Dragonsaliva |  | 0 | 0 | 72
+4141 | Flawless Crystal |  | 0 | 0 | 73
+4142 | Flawless Quartz |  | 0 | 0 | 74
+4143 | Flawless Aquamarine |  | 0 | 0 | 75
+4144 | Flawless Topaz |  | 0 | 0 | 76
+4145 | Flawless Amethyst |  | 0 | 0 | 77
+4151 | Linen Cloth |  | 0 | 0 | 78
+4152 | Hemp Cloth |  | 0 | 0 | 79
+4153 | Cotton Cloth |  | 0 | 0 | 80
+4154 | Silk Cloth |  | 0 | 0 | 81
+4155 | Woodfiber Cloth |  | 0 | 0 | 82
+4161 | Unavailable |  | 0 | 0 | 83
+4162 | Unavailable |  | 0 | 0 | 84
+4163 | Unavailable |  | 0 | 0 | 85
+4164 | Unavailable |  | 0 | 0 | 86
+4171 | Unavailable |  | 0 | 0 | 87
+4172 | Unavailable |  | 0 | 0 | 88
+4173 | Unavailable |  | 0 | 0 | 89
+4174 | Unavailable |  | 0 | 0 | 90
+4181 | Unavailable |  | 0 | 0 | 91
+4182 | Unavailable |  | 0 | 0 | 92
+4183 | Unavailable |  | 0 | 0 | 93
+4184 | Unavailable |  | 0 | 0 | 94
+4191 | Unavailable |  | 0 | 0 | 95
+4192 | Unavailable |  | 0 | 0 | 96
+4193 | Unavailable |  | 0 | 0 | 97
+4194 | Unavailable |  | 0 | 0 | 98
+4201 | Proto Parchment |  | 0 | 0 | 99
+4202 | Fine Parchment |  | 0 | 0 | 100
+4203 | Basic Catalyze Scroll |  | 0 | 0 | 101
+4204 | Advanced Catalyze Scroll |  | 0 | 0 | 102
+4211 | Common Glass Bottle |  | 0 | 0 | 103
+4212 | Advanced Glass Bottle |  | 0 | 0 | 104
+4213 | Advanced Hemp Paper |  | 0 | 0 | 105
+4214 | Unavailable |  | 0 | 0 | 106
+4221 | Unavailable |  | 0 | 0 | 107
+4222 | Unavailable |  | 0 | 0 | 108
+4223 | Unavailable |  | 0 | 0 | 109
+4224 | Unavailable |  | 0 | 0 | 110
+4231 | Unavailable |  | 0 | 0 | 111
+4232 | Unavailable |  | 0 | 0 | 112
+4233 | Unavailable |  | 0 | 0 | 113
+4234 | Unavailable |  | 0 | 0 | 114
+4241 | LV1 Stardust |  | 0 | 0 | 115
+4242 | LV2 Stardust |  | 0 | 0 | 116
+4243 | LV3 Stardust |  | 0 | 0 | 117
+4244 | LV4 Stardust |  | 0 | 0 | 118
+4245 | LV5 Stardust |  | 0 | 0 | 119
+4441 | Strength Seed |  | 0 | 0 | 120
+4442 | Fruit of Strength |  | 0 | 0 | 121
+4443 | Strength Essence |  | 0 | 0 | 122
+4451 | Seed of Conjury |  | 0 | 0 | 123
+4452 | Fruit of Conjury |  | 0 | 0 | 124
+4453 | Conjury Essence |  | 0 | 0 | 125
+4461 | Seed of Firmness |  | 0 | 0 | 126
+4462 | Fruit of Firmness |  | 0 | 0 | 127
+4463 | Firmness Essence |  | 0 | 0 | 128
+4471 | Seed of Resistance |  | 0 | 0 | 129
+4472 | Fruit of Resistance |  | 0 | 0 | 130
+4473 | Resistance Essence |  | 0 | 0 | 131
+4481 | Seed of Life |  | 0 | 0 | 132
+4482 | Fruit of Life |  | 0 | 0 | 133
+4483 | Life Essence |  | 0 | 0 | 134
+4491 | Seed of Magic |  | 0 | 0 | 135
+4492 | Fruit of Magic |  | 0 | 0 | 136
+4493 | Magic Essence |  | 0 | 0 | 137
+4501 | Seed of Precision |  | 0 | 0 | 138
+4502 | Fruit of Precision |  | 0 | 0 | 139
+4503 | Precision Essence |  | 0 | 0 | 140
+4511 | Seed of Agility |  | 0 | 0 | 141
+4512 | Fruit of Agility |  | 0 | 0 | 142
+4513 | Agility Essence |  | 0 | 0 | 143
+4521 | Seed of Rage |  | 0 | 0 | 144
+4522 | Fruit of Rage |  | 0 | 0 | 145
+4523 | Rage Essence |  | 0 | 0 | 146
+4531 | Seed of Luck |  | 0 | 0 | 147
+4532 | Fruit of Luck |  | 0 | 0 | 148
+4533 | Luck Essence |  | 0 | 0 | 149
+4534 | Crystal of Friendship |  | 0 | 0 | 150
+4535 | Polished Crystal |  | 0 | 0 | 151
+4601 | Mutant Seed of Strength |  | 0 | 0 | 152
+4602 | Mutant Fruit of Strength |  | 0 | 0 | 153
+4603 | Mutant Strength Essence |  | 0 | 0 | 154
+4606 | Mutant Seed of Conjury |  | 0 | 0 | 155
+4607 | Mutant Fruit of Conjury |  | 0 | 0 | 156
+4608 | Mutant Conjury Essence |  | 0 | 0 | 157
+4611 | Mutant Seed of Firmness |  | 0 | 0 | 158
+4612 | Mutant Fruit of Firmness |  | 0 | 0 | 159
+4613 | Mutant Firmness Essence |  | 0 | 0 | 160
+4616 | Mutant Seed of Resistance |  | 0 | 0 | 161
+4617 | Mutant Fruit of Resistance |  | 0 | 0 | 162
+4618 | Mutant Resistance Essence |  | 0 | 0 | 163
+4621 | Mutant Seed of Life |  | 0 | 0 | 164
+4622 | Mutant Fruit of Life |  | 0 | 0 | 165
+4623 | Mutant Life Essence |  | 0 | 0 | 166
+4626 | Mutant Seed of Magic |  | 0 | 0 | 167
+4627 | Mutant Fruit of Magic |  | 0 | 0 | 168
+4628 | Mutant Magic Essence |  | 0 | 0 | 169
+4631 | Mutant Seed of Precision |  | 0 | 0 | 170
+4632 | Mutant Fruit of Precision |  | 0 | 0 | 171
+4633 | Mutant Precision Essence |  | 0 | 0 | 172
+4636 | Mutant Seed of Agility |  | 0 | 0 | 173
+4637 | Mutant Fruit of Agility |  | 0 | 0 | 174
+4638 | Mutant Agility Essence |  | 0 | 0 | 175
+4641 | Mutant Seed of Luck |  | 0 | 0 | 176
+4642 | Mutant Fruit of Luck |  | 0 | 0 | 177
+4643 | Mutant Luck Essence |  | 0 | 0 | 178
+4646 | Mutant Seed of Rage |  | 0 | 0 | 179
+4647 | Mutant Fruit of Rage |  | 0 | 0 | 180
+4648 | Mutant Rage Essence |  | 0 | 0 | 181
+4651 | Ruby |  | 0 | 0 | 182
+4652 | Lazulli |  | 0 | 0 | 183
+4653 | Iris Pearl |  | 0 | 0 | 184
+4654 | Flower Seed |  | 0 | 0 | 185
+4655 | Morning Dew |  | 0 | 0 | 186
+4656 | Dew Drop |  | 0 | 0 | 187
+4657 | Celestial Crystal |  | 0 | 0 | 188
+4658 | Green Flame |  | 0 | 0 | 189
+4659 | Ocean Heart |  | 0 | 0 | 190
+4660 | Energy Crystal |  | 0 | 0 | 191
+4661 | LV1 Starsoul Stone |  | 0 | 0 | 192
+4662 | LV2 Starsoul Stone |  | 0 | 0 | 193
+4663 | LV3 Starsoul Stone |  | 0 | 0 | 194
+4664 | LV4 Starsoul Stone |  | 0 | 0 | 195
+4665 | LV5 Starsoul Stone |  | 0 | 0 | 196
+4666 | LV6 Starsoul Stone |  | 0 | 0 | 197
+4681 | Creator's Light |  | 0 | 0 | 198
+4682 | Sacred Golden Feather |  | 0 | 0 | 199

@@ -1,0 +1,394 @@
+﻿МАУНТЫ — ID
+
+Источник: C:\Users\admin\Desktop\BOI-SERVER-MY\BOI_Odin_4th_Anniversary_Win\GameServer\Slk\Rider.slk
+Область идентификатора: Rider.ID
+Записей: 383; разных ID внутри этой таблицы: 383.
+Внутренний ID маунта, не ID предмета. Длительность 0 означает постоянного маунта согласно заголовку таблицы.
+Пропущены строки без ID. Повторяющиеся числовые ID сохранены.
+Поиск в Блокноте / Notepad++: Ctrl+F.
+
+ID | Название в сервере | Ранг | Серия | Тип | Длительность — минуты | Следующий ранг ID | ID эффекта | Строка SLK
+--------------------------------------------------------------------------------------------------------------
+1 | Charger | 0 | 1 | taxi | 0 | 2 | 11606 | 3
+2 | Trained Charger | 1 | 1 | taxi | 0 | 3 | 11606 | 4
+3 | Armored Charger | 2 | 1 | taxi | 0 | 4 | 11606 | 5
+4 | Royal Charger | 3 | 1 | taxi | 0 | 5 | 11606 | 6
+5 | Hoof of Glory | 4 | 1 | taxi | 0 | 0 | 11606 | 7
+6 | Direwolf | 0 | 2 | taxi | 0 | 7 | 11608 | 8
+7 | Trained Direwolf | 1 | 2 | taxi | 0 | 8 | 11608 | 9
+8 | Wild Direwolf | 2 | 2 | taxi | 0 | 9 | 11608 | 10
+9 | Bloodlust Direwolf | 3 | 2 | taxi | 0 | 10 | 11608 | 11
+10 | Chief Direwolf | 4 | 2 | taxi | 0 | 0 | 11608 | 12
+11 | Dark Charger | 0 | 3 | taxi | 0 | 12 | 11610 | 13
+12 | Trained Dark Charger | 1 | 3 | taxi | 0 | 13 | 11610 | 14
+13 | Horn of Evil | 2 | 3 | taxi | 0 | 14 | 11610 | 15
+14 | Demon Horn | 3 | 3 | taxi | 0 | 15 | 11610 | 16
+15 | Horn of Inferno | 4 | 3 | taxi | 0 | 0 | 11610 | 17
+16 | Griffin | 0 | 4 | taxi | 0 | 17 | 11646 | 18
+17 | Trained Griffin | 1 | 4 | taxi | 0 | 18 | 11646 | 19
+18 | Ether Griffin | 2 | 4 | taxi | 0 | 19 | 11646 | 20
+19 | Storm Griffin | 3 | 4 | taxi | 0 | 20 | 11646 | 21
+20 | Meteor Griffin | 4 | 4 | taxi | 0 | 0 | 11646 | 22
+21 | Ostrich | 0 | 5 | taxi | 0 | 22 | 11614 | 23
+22 | Raptor Ostrich | 1 | 5 | taxi | 0 | 23 | 11614 | 24
+23 | Agile Ostrich | 2 | 5 | taxi | 0 | 24 | 11614 | 25
+24 | Hurtling Ostrich | 3 | 5 | taxi | 0 | 25 | 11614 | 26
+25 | Gale Ostrich | 4 | 5 | taxi | 0 | 0 | 11614 | 27
+26 | Ostrich | 0 | 6 | taxi | 0 | 27 | 11616 | 28
+27 | Brutal Ostrich | 1 | 6 | taxi | 0 | 28 | 11616 | 29
+28 | Thunder Dinosaur | 2 | 6 | taxi | 0 | 29 | 11616 | 30
+29 | Ancient Dinosaur | 3 | 6 | taxi | 0 | 30 | 11616 | 31
+30 | Sharp Clawed Dinosaur | 4 | 6 | taxi | 0 | 0 | 11616 | 32
+31 | Snow Bear | 0 | 7 | taxi | 0 | 32 | 11612 | 33
+32 | Armed Snow Bear | 1 | 7 | taxi | 0 | 33 | 11612 | 34
+33 | Iceberg Snow Bear | 2 | 7 | taxi | 0 | 34 | 11612 | 35
+34 | Legendary Snow Bear | 3 | 7 | taxi | 0 | 35 | 11612 | 36
+35 | King Snow Bear | 4 | 7 | taxi | 0 | 0 | 11612 | 37
+36 | Mechabeast 1 | 0 | 8 | taxi | 0 | 37 | 11628 | 38
+37 | Mechabeast 2 | 1 | 8 | taxi | 0 | 38 | 11628 | 39
+38 | Mechabeast 3 | 2 | 8 | taxi | 0 | 39 | 11628 | 40
+39 | Mechabeast 4 | 3 | 8 | taxi | 0 | 40 | 11628 | 41
+40 | Mechabeast 4 EX | 4 | 8 | taxi | 0 | 0 | 11628 | 42
+41 | Kirin | 0 | 9 | taxi | 0 | 42 | 11622 | 43
+42 | Trained Kirin | 1 | 9 | taxi | 0 | 43 | 11622 | 44
+43 | Lightning Kirin | 2 | 9 | taxi | 0 | 44 | 11622 | 45
+44 | Historic Kirin | 3 | 9 | taxi | 0 | 45 | 11622 | 46
+45 | Eternal Kirin | 4 | 9 | taxi | 0 | 0 | 11622 | 47
+46 | Rhino | 0 | 10 | taxi | 0 | 47 | 11620 | 48
+47 | Trained Rhino | 1 | 10 | taxi | 0 | 48 | 11620 | 49
+48 | Rapid Rhino | 2 | 10 | taxi | 0 | 49 | 11620 | 50
+49 | Shadow Rhino | 3 | 10 | taxi | 0 | 50 | 11620 | 51
+50 | Restless Rhino | 4 | 10 | taxi | 0 | 0 | 11620 | 52
+51 | Bone Oryx | 0 | 11 | taxi | 0 | 52 | 11618 | 53
+52 | Trained Bone Oryx | 1 | 11 | taxi | 0 | 53 | 11618 | 54
+53 | Enchanted Bone Oryx | 2 | 11 | taxi | 0 | 54 | 11618 | 55
+54 | Possessed Bone Oryx | 3 | 11 | taxi | 0 | 55 | 11618 | 56
+55 | Original Bone Oryx | 4 | 11 | taxi | 0 | 0 | 11618 | 57
+56 | Mammoth | 0 | 12 | taxi | 0 | 57 | 11632 | 58
+57 | Trained Mammoth | 1 | 12 | taxi | 0 | 58 | 11632 | 59
+58 | Ferocious Mammoth | 2 | 12 | taxi | 0 | 59 | 11632 | 60
+59 | Extinct Mammoth | 3 | 12 | taxi | 0 | 60 | 11632 | 61
+60 | Ice Lion | 4 | 12 | taxi | 0 | 0 | 11632 | 62
+61 | Bone Dragon | 0 | 13 | taxi | 0 | 62 | 11630 | 63
+62 | Furious Bone Dragon | 1 | 13 | taxi | 0 | 63 | 11630 | 64
+63 | Dreadful Bone Dragon | 2 | 13 | taxi | 0 | 64 | 11630 | 65
+64 | Cruel Bone Dragon | 3 | 13 | taxi | 0 | 65 | 11630 | 66
+65 | Death Bone Dragon | 4 | 13 | taxi | 0 | 0 | 11630 | 67
+66 | Speed Bike | 0 | 14 | taxi | 0 | 67 | 11636 | 68
+67 | Flame Speed Bike | 1 | 14 | taxi | 0 | 68 | 11636 | 69
+68 | Doomed Speed Bike | 2 | 14 | taxi | 0 | 69 | 11636 | 70
+69 | Death Speed Bike | 3 | 14 | taxi | 0 | 70 | 11636 | 71
+70 | Ghostride Speed Bike | 4 | 14 | taxi | 0 | 0 | 11636 | 72
+71 | Wind Rider | 0 | 15 | taxi | 0 | 72 | 11638 | 73
+72 | Elven Friend | 1 | 15 | taxi | 0 | 73 | 11638 | 74
+73 | Sacred Walker | 2 | 15 | taxi | 0 | 74 | 11638 | 75
+74 | Ultimate Pegasus | 3 | 15 | taxi | 0 | 75 | 11638 | 76
+75 | Sleipnir | 4 | 15 | taxi | 0 | 0 | 11638 | 77
+76 | Behemoth Chariot | 0 | 16 | taxi | 0 | 77 | 11640 | 78
+77 | Tribal Chariot | 1 | 16 | taxi | 0 | 78 | 11640 | 79
+78 | Rampaging Chariot | 2 | 16 | taxi | 0 | 79 | 11640 | 80
+79 | War Smoke Chariot | 3 | 16 | taxi | 0 | 80 | 11640 | 81
+80 | Soul of War | 4 | 16 | taxi | 0 | 0 | 11640 | 82
+81 | Arcane Relic | 0 | 17 | taxi | 0 | 82 | 11667 | 83
+82 | Crystal Relic | 1 | 17 | taxi | 0 | 83 | 11667 | 84
+83 | Rune Relic | 2 | 17 | taxi | 0 | 84 | 11667 | 85
+84 | Divine Relic | 3 | 17 | taxi | 0 | 85 | 11667 | 86
+85 | Abysmal Relic | 4 | 17 | taxi | 0 | 0 | 11667 | 87
+86 | Classic Kart | 0 | 18 | taxi | 0 | 87 | 11669 | 88
+87 | Comfortable Kart | 1 | 18 | taxi | 0 | 88 | 11669 | 89
+88 | Fashionable Kart | 2 | 18 | taxi | 0 | 89 | 11669 | 90
+89 | Supreme Kart | 3 | 18 | taxi | 0 | 90 | 11669 | 91
+90 | BOI Kart | 4 | 18 | taxi | 0 | 0 | 11669 | 92
+91 | Cute Rabbit | 0 | 19 | taxi | 0 | 92 | 11826 | 93
+92 | Clever Rabbit | 1 | 19 | taxi | 0 | 93 | 11826 | 94
+93 | Princess Rabbit | 2 | 19 | taxi | 0 | 94 | 11826 | 95
+94 | Noble Rabbit | 3 | 19 | taxi | 0 | 95 | 11826 | 96
+95 | Royal Rabbit | 4 | 19 | taxi | 0 | 0 | 11826 | 97
+96 | Terror Wheel | 0 | 20 | taxi | 0 | 97 | 11673 | 98
+97 | Monster Wheel | 1 | 20 | taxi | 0 | 98 | 11673 | 99
+98 | Fury Wheel | 2 | 20 | taxi | 0 | 99 | 11673 | 100
+99 | Steampunk Wheel | 3 | 20 | taxi | 0 | 100 | 11673 | 101
+100 | Wheel of Death | 4 | 20 | taxi | 0 | 0 | 11673 | 102
+101 | Dragonfish | 0 | 21 | taxi | 0 | 102 | 11675 | 103
+102 | Gold Dragonfish | 1 | 21 | taxi | 0 | 103 | 11675 | 104
+103 | Heavenly Dragonfish | 2 | 21 | taxi | 0 | 104 | 11675 | 105
+104 | Fortunate Dragonfish | 3 | 21 | taxi | 0 | 105 | 11675 | 106
+105 | Starry Dragonfish | 4 | 21 | taxi | 0 | 0 | 11675 | 107
+106 | Flying Elephant | 0 | 22 | taxi | 0 | 107 | 11679 | 108
+107 | Buddha Elephant | 1 | 22 | taxi | 0 | 108 | 11679 | 109
+108 | Karma Elephant | 2 | 22 | taxi | 0 | 109 | 11679 | 110
+109 | Magic Elephant | 3 | 22 | taxi | 0 | 110 | 11679 | 111
+110 | Emirate Elephant | 4 | 22 | taxi | 0 | 0 | 11679 | 112
+111 | Phoenix | 0 | 24 | taxi | 0 | 112 | 11683 | 113
+112 | Divined Phoenix | 1 | 24 | taxi | 0 | 113 | 11683 | 114
+113 | Glory Phoenix | 2 | 24 | taxi | 0 | 114 | 11683 | 115
+114 | Reborn Phoenix | 3 | 24 | taxi | 0 | 115 | 11683 | 116
+115 | Wings of Nirvana | 4 | 24 | taxi | 0 | 0 | 11683 | 117
+116 | Harp of Love | 0 | 25 | taxi | 0 | 117 | 11685 | 118
+117 | Whispers in the Forest | 1 | 25 | taxi | 0 | 118 | 11685 | 119
+118 | Wish of Life | 2 | 25 | taxi | 0 | 119 | 11685 | 120
+119 | Lucky Star | 3 | 25 | taxi | 0 | 120 | 11685 | 121
+120 | Orpheus's Aria | 4 | 25 | taxi | 0 | 0 | 11685 | 122
+201 | Angelic Armor | 0 | 23 | taxi | 0 | 202 | 11681 | 123
+202 | Effulgent Armor | 1 | 23 | taxi | 0 | 203 | 11681 | 124
+203 | Scarlet Armor | 2 | 23 | taxi | 0 | 204 | 11681 | 125
+204 | Fallen Armor | 3 | 23 | taxi | 0 | 205 | 11681 | 126
+205 | Feathers of Heaven | 4 | 23 | taxi | 0 | 0 | 11681 | 127
+206 | Wings of Night | 0 | 26 | taxi | 0 | 207 | 7909 | 128
+207 | Wings of Twilight | 1 | 26 | taxi | 0 | 208 | 7909 | 129
+208 | Wings of Void | 2 | 26 | taxi | 0 | 209 | 7909 | 130
+209 | Wings of Cloud | 3 | 26 | taxi | 0 | 210 | 7909 | 131
+210 | Wings of Soulreaper | 4 | 26 | taxi | 0 | 0 | 7909 | 132
+211 | Giant Lizard | 0 | 27 | taxi | 0 | 212 | 11610 | 133
+212 | Marsh Lizard | 1 | 27 | taxi | 0 | 213 | 11610 | 134
+213 | Primitive Lizard | 2 | 27 | taxi | 0 | 214 | 11610 | 135
+214 | Enraged Lizard | 3 | 27 | taxi | 0 | 215 | 11610 | 136
+215 | Steel Teeth | 4 | 27 | taxi | 0 | 0 | 11610 | 137
+216 | Steel Teeth | 4 | 27 | taxi | 0 | 0 | 11610 | 138
+1001 | Black Dragon | 0 | 50 | taxi | 0 | 1002 | 11634 | 139
+1002 | Darkness Dragon | 1 | 50 | taxi | 0 | 1003 | 11634 | 140
+1003 | Abyss Dragon | 2 | 50 | taxi | 0 | 1004 | 11634 | 141
+1004 | Purgatory Dragon | 3 | 50 | taxi | 0 | 1005 | 11634 | 142
+1005 | Cataclysm | 4 | 50 | taxi | 0 | 0 | 11634 | 143
+1006 | Leo | 0 | 51 | taxi | 0 | 1007 | 11626 | 144
+1007 | Trained Lion | 1 | 51 | taxi | 0 | 1008 | 11626 | 145
+1008 | Grassland Preyer | 2 | 51 | taxi | 0 | 1009 | 11626 | 146
+1009 | Grassland Roarer | 3 | 51 | taxi | 0 | 1010 | 11626 | 147
+1010 | King of the Grassland | 4 | 51 | taxi | 0 | 0 | 11626 | 148
+1011 | Griffin | 0 | 52 | taxi | 0 | 1012 | 11624 | 149
+1012 | Trained Griffin | 1 | 52 | taxi | 0 | 1013 | 11624 | 150
+1013 | Ether Griffin | 2 | 52 | taxi | 0 | 1014 | 11624 | 151
+1014 | Storm Griffin | 3 | 52 | taxi | 0 | 1015 | 11624 | 152
+1015 | Meteor Griffin | 4 | 52 | taxi | 0 | 0 | 11624 | 153
+1016 | Magic Carpet | 0 | 53 | taxi | 0 | 1017 | 11642 | 154
+1017 | Magic Carpet | 1 | 53 | taxi | 0 | 1018 | 11642 | 155
+1018 | Magic Carpet | 2 | 53 | taxi | 0 | 1019 | 11642 | 156
+1019 | Magic Carpet | 3 | 53 | taxi | 0 | 1020 | 11642 | 157
+1020 | Magic Carpet | 4 | 53 | taxi | 0 | 0 | 11642 | 158
+1021 | Leo | 0 | 54 | taxi | 0 | 1022 | 11626 | 159
+1022 | Trained Lion | 1 | 54 | taxi | 0 | 1023 | 11626 | 160
+1023 | Grassland Preyer | 2 | 54 | taxi | 0 | 1024 | 11626 | 161
+1024 | Grassland Roarer | 3 | 54 | taxi | 0 | 1025 | 11626 | 162
+1025 | King of the Grassland | 4 | 54 | taxi | 0 | 0 | 11626 | 163
+1026 | Ghost Tiger | 0 | 55 | taxi | 0 | 1027 | 11677 | 164
+1027 | Specter Tiger | 1 | 55 | taxi | 0 | 1028 | 11677 | 165
+1028 | Wraith Tiger | 2 | 55 | taxi | 0 | 1029 | 11677 | 166
+1029 | Vampire Tiger | 3 | 55 | taxi | 0 | 1030 | 11677 | 167
+1030 | Illusion of Death | 4 | 55 | taxi | 0 | 0 | 11677 | 168
+1031 | Hoof of Glory | 4 | 56 | taxi | 0 | 0 | 11606 | 169
+1032 | Chief Direwolf | 4 | 57 | taxi | 0 | 0 | 11608 | 170
+1033 | Horn of Inferno | 4 | 58 | taxi | 0 | 0 | 11610 | 171
+1034 | Gale Ostrich | 4 | 59 | taxi | 0 | 0 | 11614 | 172
+1035 | Sharp Clawed Dinosaur | 4 | 60 | taxi | 0 | 0 | 11616 | 173
+1036 | Reindeer | 0 | 61 | taxi | 0 | 1037 | 11687 | 174
+1037 | Swift Reindeer | 1 | 61 | taxi | 0 | 1038 | 11687 | 175
+1038 | Colorful Reindeer | 2 | 61 | taxi | 0 | 1039 | 11687 | 176
+1039 | Rainbow Reindeer | 3 | 61 | taxi | 0 | 1040 | 11687 | 177
+1040 | Happy Word | 4 | 61 | taxi | 0 | 0 | 11687 | 178
+1041 | Energized Spider | 0 | 62 | taxi | 0 | 1042 | 11640 | 179
+1042 | Berserk Spider | 1 | 62 | taxi | 0 | 1043 | 11640 | 180
+1043 | Bloodthirsty Spider | 2 | 62 | taxi | 0 | 1044 | 11640 | 181
+1044 | Hadesbolt Spider | 3 | 62 | taxi | 0 | 1045 | 11640 | 182
+1045 | Soul Reaper | 4 | 62 | taxi | 0 | 0 | 11640 | 183
+1046 | Polar Dog Sled | 0 | 63 | taxi | 0 | 1047 | 11606 | 184
+1047 | Reinforced Polar Dog Sled | 1 | 63 | taxi | 0 | 1048 | 11606 | 185
+1048 | Swift Polar Dog Sled | 2 | 63 | taxi | 0 | 1049 | 11606 | 186
+1049 | Flying Arctic Sled | 3 | 63 | taxi | 0 | 1050 | 11606 | 187
+1050 | Polar Ranger | 4 | 63 | taxi | 0 | 0 | 11606 | 188
+1051 | Christmas Sled | 0 | 64 | taxi | 0 | 1052 | 11671 | 189
+1052 | Lucky Christmas Sled | 1 | 64 | taxi | 0 | 1053 | 11671 | 190
+1053 | Luxurious Christmas Sled | 2 | 64 | taxi | 0 | 1054 | 11671 | 191
+1054 | Royal Christmas Sled | 3 | 64 | taxi | 0 | 1055 | 11671 | 192
+1055 | Fleeting Light | 4 | 64 | taxi | 0 | 0 | 11671 | 193
+1056 | Ghost Horse | 0 | 65 | taxi | 0 | 1057 | 11630 | 194
+1057 | Flame Horse | 1 | 65 | taxi | 0 | 1058 | 11630 | 195
+1058 | Terror Horse | 2 | 65 | taxi | 0 | 1059 | 11630 | 196
+1059 | Hell Horse | 3 | 65 | taxi | 0 | 1060 | 11630 | 197
+1060 | Death Messenger | 4 | 65 | taxi | 0 | 0 | 11630 | 198
+1061 | Eastern Lion | 0 | 66 | taxi | 0 | 1062 | 11689 | 199
+1062 | Fortified Eastern Lion | 1 | 66 | taxi | 0 | 1063 | 11689 | 200
+1063 | Antique Eastern Lion | 2 | 66 | taxi | 0 | 1064 | 11689 | 201
+1064 | Royal Eastern Lion | 3 | 66 | taxi | 0 | 1065 | 11689 | 202
+1065 | Prime Eastern Lion | 4 | 66 | taxi | 0 | 0 | 11689 | 203
+1066 | Night's Romance | 0 | 67 | taxi | 0 | 1067 | 11691 | 204
+1067 | Night's Romance | 1 | 67 | taxi | 0 | 1068 | 11691 | 205
+1068 | Night's Romance | 2 | 67 | taxi | 0 | 1069 | 11691 | 206
+1069 | Night's Romance | 3 | 67 | taxi | 0 | 1070 | 11691 | 207
+1070 | Night's Romance | 4 | 67 | taxi | 0 | 0 | 11691 | 208
+1071 | Shadow Dragon | 0 | 68 | taxi | 0 | 1072 | 11697 | 209
+1072 | Advanced Shadow Dragon | 1 | 68 | taxi | 0 | 1073 | 11697 | 210
+1073 | Armored Shadow Dragon | 2 | 68 | taxi | 0 | 1074 | 11697 | 211
+1074 | Lord Shadow Dragon | 3 | 68 | taxi | 0 | 1075 | 11697 | 212
+1075 | Supreme Shadow Dragon | 4 | 68 | taxi | 0 | 0 | 11697 | 213
+1076 | Cerberus | 0 | 69 | taxi | 0 | 1077 | 11699 | 214
+1077 | Cerberus | 1 | 69 | taxi | 0 | 1078 | 11699 | 215
+1078 | Cerberus | 2 | 69 | taxi | 0 | 1079 | 11699 | 216
+1079 | Cerberus | 3 | 69 | taxi | 0 | 1080 | 11699 | 217
+1080 | Cerberus | 4 | 69 | taxi | 0 | 0 | 11699 | 218
+1081 | Spacecraft | 0 | 70 | taxi | 0 | 1082 | 7901 | 219
+1082 | Spacecraft | 1 | 70 | taxi | 0 | 1083 | 7901 | 220
+1083 | Spacecraft | 2 | 70 | taxi | 0 | 1084 | 7901 | 221
+1084 | Spacecraft | 3 | 70 | taxi | 0 | 1085 | 7901 | 222
+1085 | Spacecraft | 4 | 70 | taxi | 0 | 0 | 7901 | 223
+1086 | Dragonhawk | 0 | 71 | taxi | 0 | 1087 | 7903 | 224
+1087 | Dragonhawk | 1 | 71 | taxi | 0 | 1088 | 7903 | 225
+1088 | Dragonhawk | 2 | 71 | taxi | 0 | 1089 | 7903 | 226
+1089 | Dragonhawk | 3 | 71 | taxi | 0 | 1090 | 7903 | 227
+1090 | Dragonhawk | 4 | 71 | taxi | 0 | 0 | 7903 | 228
+1091 | Man of Iron | 0 | 72 | taxi | 0 | 1092 | 7905 | 229
+1092 | Man of Iron II | 1 | 72 | taxi | 0 | 1093 | 7905 | 230
+1093 | Man of Iron III | 2 | 72 | taxi | 0 | 1094 | 7905 | 231
+1094 | Man of Iron IV | 3 | 72 | taxi | 0 | 1095 | 7905 | 232
+1095 | Man of Iron V | 4 | 72 | taxi | 0 | 0 | 7905 | 233
+1096 | Motorboat | 0 | 73 | taxi | 0 | 1097 | 7907 | 234
+1097 | High Speed Motorboat | 1 | 73 | taxi | 0 | 1098 | 7907 | 235
+1098 | Luxurious Motorboat | 2 | 73 | taxi | 0 | 1099 | 7907 | 236
+1099 | Noble Motorboat | 3 | 73 | taxi | 0 | 1100 | 7907 | 237
+1100 | Breaking Waves | 4 | 73 | taxi | 0 | 0 | 7907 | 238
+1116 | Red Venom | 0 | 77 | taxi | 0 | 1117 | 7917 | 239
+1117 | Red Venom | 1 | 77 | taxi | 0 | 1118 | 7917 | 240
+1118 | Red Venom | 2 | 77 | taxi | 0 | 1119 | 7917 | 241
+1119 | Red Venom | 3 | 77 | taxi | 0 | 1120 | 7917 | 242
+1120 | Red Venom | 4 | 77 | taxi | 0 | 0 | 7917 | 243
+1121 | Abyssal Steed | 0 | 78 | taxi | 0 | 1122 | 11667 | 244
+1122 | Abyssal Steed | 1 | 78 | taxi | 0 | 1123 | 11667 | 245
+1123 | Abyssal Steed | 2 | 78 | taxi | 0 | 1124 | 11667 | 246
+1124 | Abyssal Steed | 3 | 78 | taxi | 0 | 1125 | 11667 | 247
+1125 | Abyssal Steed | 4 | 78 | taxi | 0 | 0 | 11667 | 248
+1126 | New Year's Beast | 0 | 79 | taxi | 0 | 1127 | 7913 | 249
+1127 | Tamed Kirin | 1 | 79 | taxi | 0 | 1128 | 7913 | 250
+1128 | Friendly Kirin | 2 | 79 | taxi | 0 | 1129 | 7913 | 251
+1129 | Dedicated Kirin | 3 | 79 | taxi | 0 | 1130 | 7913 | 252
+1130 | Faithful Kirin | 4 | 79 | taxi | 0 | 0 | 7913 | 253
+1131 | Cyclops Kugor  | 0 | 80 | taxi | 0 | 1132 | 7911 | 254
+1132 | Cyclops Grunt | 1 | 80 | taxi | 0 | 1133 | 7911 | 255
+1133 | Cyclops Soldier | 2 | 80 | taxi | 0 | 1134 | 7911 | 256
+1134 | Cyclops Knight | 3 | 80 | taxi | 0 | 1135 | 7911 | 257
+1135 | Cyclops General | 4 | 80 | taxi | 0 | 0 | 7911 | 258
+1136 | Stoneskin Shark | 0 | 81 | taxi | 0 | 1137 | 7919 | 259
+1137 | Plated Shark | 1 | 81 | taxi | 0 | 1138 | 7919 | 260
+1138 | Tiger Shark | 2 | 81 | taxi | 0 | 1139 | 7919 | 261
+1139 | Ancient Shark | 3 | 81 | taxi | 0 | 1140 | 7919 | 262
+1140 | Brilliant Shark | 4 | 81 | taxi | 0 | 0 | 7919 | 263
+1141 | N/A17173???? | 0 | 82 | taxi | 0 | 1142 | 7921 | 264
+1142 | N/A??17173???? | 1 | 82 | taxi | 0 | 1143 | 7921 | 265
+1143 | N/A??17173???? | 2 | 82 | taxi | 0 | 1144 | 7921 | 266
+1144 | N/A??17173???? | 3 | 82 | taxi | 0 | 1145 | 7921 | 267
+1145 | N/A??17173???? | 4 | 82 | taxi | 0 | 0 | 7921 | 268
+1146 | Demonlord | 0 | 83 | taxi | 0 | 1147 | 7923 | 269
+1147 | Strong Demonlord | 1 | 83 | taxi | 0 | 1148 | 7923 | 270
+1148 | Armored Demonlord | 2 | 83 | taxi | 0 | 1149 | 7923 | 271
+1149 | Imperial Demonlord | 3 | 83 | taxi | 0 | 1150 | 7923 | 272
+1150 | Supreme Demonlord | 4 | 83 | taxi | 0 | 0 | 7923 | 273
+1151 | Chimera Spider | 0 | 84 | taxi | 0 | 1152 | 7923 | 274
+1152 | Chimera Spider | 1 | 84 | taxi | 0 | 1153 | 7923 | 275
+1153 | Chimera Spider | 2 | 84 | taxi | 0 | 1154 | 7923 | 276
+1154 | Chimera Spider | 3 | 84 | taxi | 0 | 1155 | 7923 | 277
+1155 | Chimera Spider | 4 | 84 | taxi | 0 | 0 | 7923 | 278
+1156 | Charming Fox | 0 | 85 | taxi | 0 | 1157 | 7921 | 279
+1157 | Charming Fox | 1 | 85 | taxi | 0 | 1158 | 7921 | 280
+1158 | Charming Fox | 2 | 85 | taxi | 0 | 1159 | 7921 | 281
+1159 | Charming Fox | 3 | 85 | taxi | 0 | 1160 | 7921 | 282
+1160 | Iris Fox | 4 | 85 | taxi | 0 | 0 | 7921 | 283
+1161 | Queen Spider | 0 | 86 | taxi | 0 | 1162 | 7911 | 284
+1162 | Queen Spider | 1 | 86 | taxi | 0 | 1163 | 7911 | 285
+1163 | Queen Spider | 2 | 86 | taxi | 0 | 1164 | 7911 | 286
+1164 | Queen Spider | 3 | 86 | taxi | 0 | 1165 | 7911 | 287
+1165 | Ultimate Spider Queen | 4 | 86 | taxi | 0 | 0 | 7911 | 288
+1166 | Temporal Drake | 0 | 87 | taxi | 0 | 1167 | 7925 | 289
+1167 | Ethereal Drake | 1 | 87 | taxi | 0 | 1168 | 7925 | 290
+1168 | Astral Drake | 2 | 87 | taxi | 0 | 1169 | 7925 | 291
+1169 | Corporeal Drake | 3 | 87 | taxi | 0 | 1170 | 7925 | 292
+1170 | Chrono Drake | 4 | 87 | taxi | 0 | 0 | 7925 | 293
+1171 | Skydragon | 0 | 88 | taxi | 0 | 1172 | 7927 | 294
+1172 | Lifeblood Skydragon | 1 | 88 | taxi | 0 | 1173 | 7927 | 295
+1173 | Sunbloom Skydragon | 2 | 88 | taxi | 0 | 1174 | 7927 | 296
+1174 | Flamelicked Skydragon | 3 | 88 | taxi | 0 | 1175 | 7927 | 297
+1175 | Frostlit Skydragon | 4 | 88 | taxi | 0 | 0 | 7927 | 298
+1176 | Obsidian Turtle | 0 | 89 | taxi | 0 | 1177 | 7929 | 299
+1177 | Obsidian Turtle of Fortune | 1 | 89 | taxi | 0 | 1178 | 7929 | 300
+1178 | Obsidian Turtle of Immortality | 2 | 89 | taxi | 0 | 1179 | 7929 | 301
+1179 | Obsidian Turtle of Damnation | 3 | 89 | taxi | 0 | 1180 | 7929 | 302
+1180 | Obsidian Turtle of Supremacy | 4 | 89 | taxi | 0 | 0 | 7929 | 303
+1181 | Star of Luck | 0 | 90 | taxi | 0 | 1182 | 7931 | 304
+1182 | Star of Luck | 1 | 90 | taxi | 0 | 1183 | 7931 | 305
+1183 | Star of Luck | 2 | 90 | taxi | 0 | 1184 | 7931 | 306
+1184 | Star of Luck | 3 | 90 | taxi | 0 | 1185 | 7931 | 307
+1185 | Star of Luck | 4 | 90 | taxi | 0 | 0 | 7931 | 308
+1186 | Waxing Moon Jaden Rabbit | 0 | 91 | taxi | 0 | 1187 | 7933 | 309
+1187 | Waning Moon Jaden Rabbit | 1 | 91 | taxi | 0 | 1188 | 7933 | 310
+1188 | Quarter Moon Jaden Rabbit | 2 | 91 | taxi | 0 | 1189 | 7933 | 311
+1189 | New Moon Jaden Rabbit | 3 | 91 | taxi | 0 | 1190 | 7933 | 312
+1190 | Palace of the Moon | 4 | 91 | taxi | 0 | 0 | 7933 | 313
+1191 | Bragi's Wheel | 0 | 92 | taxi | 0 | 1192 | 7935 | 314
+1192 | Bragi's Wheel | 1 | 92 | taxi | 0 | 1193 | 7935 | 315
+1193 | Bragi's Wheel | 2 | 92 | taxi | 0 | 1194 | 7935 | 316
+1194 | Bragi's Wheel | 3 | 92 | taxi | 0 | 1195 | 7935 | 317
+1195 | Bragi's Wheel | 4 | 92 | taxi | 0 | 0 | 7935 | 318
+1196 | Hel's Fury | 0 | 93 | taxi | 0 | 1197 | 7938 | 319
+1197 | Hel's Fury | 1 | 93 | taxi | 0 | 1198 | 7938 | 320
+1198 | Hel's Fury | 2 | 93 | taxi | 0 | 1199 | 7938 | 321
+1199 | Hel's Fury | 3 | 93 | taxi | 0 | 1200 | 7938 | 322
+1200 | Hel's Fury | 4 | 93 | taxi | 0 | 0 | 7938 | 323
+1201 | Frigga's Light | 0 | 94 | taxi | 0 | 1202 | 7946 | 324
+1202 | Frigga's Light | 1 | 94 | taxi | 0 | 1203 | 7946 | 325
+1203 | Frigga's Light | 2 | 94 | taxi | 0 | 1204 | 7946 | 326
+1204 | Frigga's Light | 3 | 94 | taxi | 0 | 1205 | 7946 | 327
+1205 | Frigga's Light | 4 | 94 | taxi | 0 | 0 | 7946 | 328
+1206 | Odin's Wings | 0 | 95 | taxi | 0 | 1207 | 7947 | 329
+1207 | Odin's Wings | 1 | 95 | taxi | 0 | 1208 | 7947 | 330
+1208 | Odin's Wings | 2 | 95 | taxi | 0 | 1209 | 7947 | 331
+1209 | Odin's Wings | 3 | 95 | taxi | 0 | 1210 | 7947 | 332
+1210 | Odin's Wings | 4 | 95 | taxi | 0 | 0 | 7947 | 333
+1211 | Phoenixplume Dragon | 4 | 96 | taxi | 0 | 0 | 7936 | 334
+1212 | Nether Dragon | 0 | 97 | taxi | 0 | 1213 | 7939 | 335
+1213 | Fallen Nether Dragon | 1 | 97 | taxi | 0 | 1214 | 7939 | 336
+1214 | Fiendish Nether Dragon | 2 | 97 | taxi | 0 | 1215 | 7939 | 337
+1215 | Fiendish Nether Dragonlord | 3 | 97 | taxi | 0 | 1216 | 7939 | 338
+1216 | Devastator - Saxton | 4 | 97 | taxi | 0 | 0 | 7939 | 339
+1217 | Christmas Sled | 0 | 98 | taxi | 0 | 1218 | 7941 | 340
+1218 | Christmas Sled | 1 | 98 | taxi | 0 | 1219 | 7941 | 341
+1219 | Christmas Sled | 2 | 98 | taxi | 0 | 1220 | 7941 | 342
+1220 | Christmas Sled | 3 | 98 | taxi | 0 | 1221 | 7941 | 343
+1221 | Christmas Sled | 4 | 98 | taxi | 0 | 0 | 7941 | 344
+1222 | Wings of Swiftness | 0 | 99 | taxi | 0 | 1223 | 7943 | 345
+1223 | Wings of Swiftness | 1 | 99 | taxi | 0 | 1224 | 7943 | 346
+1224 | Wings of Swiftness | 2 | 99 | taxi | 0 | 1225 | 7943 | 347
+1225 | Wings of Swiftness | 3 | 99 | taxi | 0 | 1226 | 7943 | 348
+1226 | Wings of Swiftness | 4 | 99 | taxi | 0 | 0 | 7943 | 349
+1227 | Love Boat | 0 | 100 | taxi | 0 | 1228 | 7944 | 350
+1228 | Love Boat | 1 | 100 | taxi | 0 | 1229 | 7944 | 351
+1229 | Love Boat | 2 | 100 | taxi | 0 | 1230 | 7944 | 352
+1230 | Love Boat | 3 | 100 | taxi | 0 | 1231 | 7944 | 353
+1231 | Love Boat | 4 | 100 | taxi | 0 | 0 | 7944 | 354
+1232 | Pandal | 4 | 101 | taxi | 0 | 0 | 7948 | 355
+1233 | Whispers of Spring | 0 | 102 | taxi | 0 | 1234 | 7950 | 357
+1234 | Whispers of Spring | 1 | 102 | taxi | 0 | 1235 | 7950 | 358
+1235 | Whispers of Spring | 2 | 102 | taxi | 0 | 1236 | 7950 | 359
+1236 | Whispers of Spring | 3 | 102 | taxi | 0 | 1237 | 7950 | 360
+1237 | Whispers of Spring | 4 | 102 | taxi | 0 | 0 | 7950 | 361
+1238 | Conqueror | 0 | 103 | taxi | 0 | 1239 | 7952 | 362
+1239 | Conqueror | 1 | 103 | taxi | 0 | 1240 | 7952 | 363
+1240 | Conqueror | 2 | 103 | taxi | 0 | 1241 | 7952 | 364
+1241 | Conqueror | 3 | 103 | taxi | 0 | 1242 | 7952 | 365
+1242 | Conqueror | 4 | 103 | taxi | 0 | 0 | 7952 | 366
+1243 | Burning Sky | 0 | 104 | taxi | 0 | 1244 | 7954 | 367
+1244 | Burning Sky | 1 | 104 | taxi | 0 | 1245 | 7954 | 368
+1245 | Burning Sky | 2 | 104 | taxi | 0 | 1246 | 7954 | 369
+1246 | Burning Sky | 3 | 104 | taxi | 0 | 1247 | 7954 | 370
+1247 | Burning Sky | 4 | 104 | taxi | 0 | 0 | 7954 | 371
+1248 | Crystal Maid | 0 | 105 | taxi | 0 | 1249 | 7956 | 372
+1249 | Crystal Maid | 1 | 105 | taxi | 0 | 1250 | 7956 | 373
+1250 | Crystal Maid | 2 | 105 | taxi | 0 | 1251 | 7956 | 374
+1251 | Crystal Maid | 3 | 105 | taxi | 0 | 1252 | 7956 | 375
+1252 | Crystal Maid | 4 | 105 | taxi | 0 | 0 | 7956 | 376
+1253 | Cancer | 0 | 106 | taxi | 0 | 1254 | 7958 | 377
+1254 | Cancer | 1 | 106 | taxi | 0 | 1255 | 7958 | 378
+1255 | Cancer | 2 | 106 | taxi | 0 | 1256 | 7958 | 379
+1256 | Cancer | 3 | 106 | taxi | 0 | 1257 | 7958 | 380
+1257 | Cancer | 4 | 106 | taxi | 0 | 0 | 7958 | 381
+2000 | Starry Dragonfish | 4 | 201 | taxi | 10080 | 0 | 11675 | 384
+2001 | Abysmal Relic | 4 | 202 | taxi | 10080 | 0 | 11667 | 385
+2002 | BOI Kart | 4 | 203 | taxi | 10080 | 0 | 11669 | 386
+2003 | Spacecraft | 4 | 204 | taxi | 0 | 0 | 7901 | 387
+2004 | Sleipnir | 4 | 205 | taxi | 43200 | 0 | 11638 | 388
